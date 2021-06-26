@@ -4,11 +4,15 @@ $base-color-orange: #FFA31A;
 $Nunito: 'Nunito', sans-serif;
 $Inter: 'Inter', sans-serif;
 .HomeC-c1{
+    margin-bottom: 24px;
     .home-banner{
         border-radius: 16px;
         background-color: $base-color-blue-dark;
         .home-banner-left{
             padding: 105px 50px 135px 100px;
+            @media only screen and (min-width: 1400px) {
+                padding-right: 150px;
+            }
             h3{
                 font-family: $Nunito;
                 font-style: normal;
@@ -55,10 +59,51 @@ $Inter: 'Inter', sans-serif;
                 border-radius: 8px;
                 padding: 14px 30px;
                 text-decoration: none;
-                transition: all ease-in 0.2s;
+                transition: all  ease-in 0.2s;
+                border: 1px solid white;
                 &:hover{
                     background-color: white;
                     color: $base-color-orange;
+                }
+            }
+        }
+        .home-banner-right{
+            position: relative;
+            img{
+                &:nth-child(1){
+                    width: 331px;
+                    height: 509px;
+                    position: absolute;
+                    right: 90px;
+                    top: 8px;
+                }
+                &:nth-child(2){
+                    position: absolute;
+                    width: 145px;
+                    height: 46px;
+                    top: 30px;
+                    right: 270px;
+                }
+                &:nth-child(3){
+                    position: absolute;
+                    width: 105px;
+                    height: 46px;
+                    top: 100px;
+                    right: 370px;
+                }
+                &:nth-child(4){
+                    position: absolute;
+                    width: 114px;
+                    height: 46px;
+                    top: 170px;
+                    right: 100px;
+                }
+                &:nth-child(5){
+                    position: absolute;
+                    width: 114px;
+                    height: 46px;
+                    top: 236px;
+                    right: 85px;
                 }
             }
         }
