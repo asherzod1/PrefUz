@@ -4,15 +4,14 @@ $base-color-orange: #FFA31A;
 $Nunito: 'Nunito', sans-serif;
 $Inter: 'Inter', sans-serif;
 .HomeC-c1{
+    overflow: hidden;
     margin-bottom: 24px;
     .home-banner{
         border-radius: 16px;
         background-color: $base-color-blue-dark;
         .home-banner-left{
             padding: 105px 50px 135px 100px;
-            @media only screen and (min-width: 1400px) {
-                padding-right: 150px;
-            }
+
             h3{
                 font-family: $Nunito;
                 font-style: normal;
@@ -104,6 +103,137 @@ $Inter: 'Inter', sans-serif;
                     height: 46px;
                     top: 236px;
                     right: 85px;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 575px) {
+        .home-banner-r{
+            display: none;
+        }
+        .home-banner{
+            .home-banner-left{
+                padding: 50px 10px 70px 10px;
+                h3{
+                    font-size: 28px;
+                    line-height: 36px;
+                }
+                p{
+                    font-size: 14px;
+                    line-height: 20px;
+                    font-weight: 400;
+                }
+                .home-banner-buttons{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    @media only screen and (min-width: 576px) and (max-width:767px){
+        .home-banner{
+            .home-banner-left{
+                padding: 70px 20px 95px 30px;
+                h3{
+                    font-size: 40px;
+                    line-height: 48px;
+                }
+                p{
+                    font-size: 17px;
+                    line-height: 23px;
+                }
+            }
+        }
+        .home-banner-r{
+            display: none;
+        }
+    }
+    @media only screen and (min-width: 768px) and (max-width:991px){
+        .home-banner{
+            .home-banner-left{
+                padding: 100px 80px 110px 30px;
+                h3{
+                    font-size: 30px;
+                    line-height: 38px;
+                }
+            }
+            .home-banner-right{
+                img{
+                    &:nth-child(1){
+                        width: 300px;
+                        height: 480px;
+                        right: 0px;
+                        top: 10px;
+                    }
+                    &:nth-child(2){
+                        right: 160px;
+                        top: 30px;
+                    }
+                    &:nth-child(3){
+                        right: 240px;
+                        top: 100px;
+                    }
+                    &:nth-child(4){
+                        right: 0px;
+                        top: 170px;
+                    }
+                    &:nth-child(5){
+                        right: 0px;
+                        top: 240px;
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+        .home-banner{
+            .home-banner-left{
+                padding: 105px 50px 135px 70px;
+                h3{
+                    font-size: 36px;
+                    line-height: 46px;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 22px;
+                }
+            }
+            .home-banner-right{
+                img{
+                    &:nth-child(1){
+                        width: 331px;
+                        height: 509px;
+                        position: absolute;
+                        right: 50px;
+                        top: 8px;
+                    }
+                    &:nth-child(2){
+                        position: absolute;
+                        width: 145px;
+                        height: 46px;
+                        top: 30px;
+                        right: 230px;
+                    }
+                    &:nth-child(3){
+                        position: absolute;
+                        width: 105px;
+                        height: 46px;
+                        top: 100px;
+                        right: 330px;
+                    }
+                    &:nth-child(4){
+                        position: absolute;
+                        width: 114px;
+                        height: 46px;
+                        top: 170px;
+                        right: 60px;
+                    }
+                    &:nth-child(5){
+                        position: absolute;
+                        width: 114px;
+                        height: 46px;
+                        top: 236px;
+                        right: 45px;
+                    }
                 }
             }
         }
