@@ -1,13 +1,22 @@
 import './App.css';
-import LayOut from './comps/LayOut';
-import Home from './pages/Home';
+import HomeP from './pages/HomeP';
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 function App() {
+
+  const routes = [
+    {
+      path: '/', component: HomeP,
+    }
+  ]
   return (
     <div className="App">
-      Hello Sherzod
-        Helllooooo
-      Gap yoq
-      <Home />
+      <BrowserRouter>
+        <Switch>
+          {routes.map(item =>
+            <Route exact path={item.path} component={item.component} />
+            )}
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

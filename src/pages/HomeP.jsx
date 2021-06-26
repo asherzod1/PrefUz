@@ -1,11 +1,12 @@
 import React from 'react'
+import HomeC from '../comps/HomeC'
 import LayOut from '../comps/LayOut'
 
 const Home = () => {
     return (
         <div>
             <LayOut>
-                Salommm
+                <HomeC />
             </LayOut>
         </div>
     )

@@ -1,0 +1,56 @@
+$base-color-blue-dark: #00BBC7;
+$base-color-orange: #FFA31A;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito:wght@800&display=swap');
+$Nunito: 'Nunito', sans-serif;
+$Inter: 'Inter', sans-serif;
+.HomeC-c1{
+    .home-banner{
+        border-radius: 16px;
+        background-color: $base-color-blue-dark;
+        .home-banner-left{
+            padding: 105px 50px 135px 100px;
+            h3{
+                font-family: $Nunito;
+                font-style: normal;
+                font-size: 42px;
+                line-height: 50px;
+                letter-spacing: -0.8px;
+                color: #FFFFFF;
+                margin-bottom: 15px;
+            }
+            p{
+                font-family: $Inter;
+                font-size: 18px;
+                line-height: 24px;
+                letter-spacing: -0.1px;
+                color: #FFFFFF;
+                margin-bottom: 40px;
+            }
+            .home-banner-btn1{
+                background-color: $base-color-orange;
+                font-family: $Inter;
+                font-style: normal;
+                line-height: 26px;
+                text-align: center;
+                color: white;
+                letter-spacing: -0.2px;
+                border-radius: 8px;
+                padding: 14px 30px;
+                text-decoration: none;
+                margin-right: 7px;
+            }
+            .home-banner-btn2{
+                background-color: white;
+                font-family: $Inter;
+                font-style: normal;
+                line-height: 26px;
+                text-align: center;
+                color: $base-color-blue-dark;
+                letter-spacing: -0.2px;
+                border-radius: 8px;
+                padding: 14px 30px;
+                text-decoration: none;
+            }
+        }
+    }
+}
