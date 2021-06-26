@@ -1,12 +1,12 @@
 import React from 'react'
-import HomeC from '../comps/HomeC'
 import LayOut from '../comps/LayOut'
-
+import HomeC from "../comps/HomeC";
 const Home = () => {
     return (
         <div>
             <LayOut>
                 <HomeC />
+
             </LayOut>
         </div>
     )

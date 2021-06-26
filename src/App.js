@@ -1,6 +1,7 @@
 import './App.css';
 import HomeP from './pages/HomeP';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import './styles/style.scss'
 function App() {
 
   const routes = [

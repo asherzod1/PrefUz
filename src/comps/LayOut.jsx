@@ -1,11 +1,12 @@
 import React from 'react'
 import Footerr from './smallComps/Footerr'
-import Navbarr from './smallComps/Navbarr'
+import NavbarPref from "./smallComps/NavbarPref";
+
 
 const LayOut = (props) => {
     return (
         <div>
-            <Navbarr />
+            <NavbarPref/>
                 {props.children}
             <Footerr />
         </div>
