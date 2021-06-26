@@ -18,6 +18,16 @@ const HomeC = () => {
                                         <Link className='home-banner-btn2'>Kalkulyator</Link>
                                     </div>
                                 </div>
+                                <div className="col-md-5 col-lg-5 col-sm-12">
+                                    <div className="home-banner-right">
+                                        <img src="/images/Home/image.png" alt="" />
+                                        <img src="/images/Home/word.png" alt="" />
+                                        <img src="/images/Home/word4.png" alt="" />
+                                        <img src="/images/Home/word3.png" alt="" />
+                                        <img src="/images/Home/word2.png" alt="" />
+
+                                    </div>
+                                    </div>
                             </div>
                         </div>
                     </div>
