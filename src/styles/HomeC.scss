@@ -38,6 +38,11 @@ $Inter: 'Inter', sans-serif;
                 padding: 14px 30px;
                 text-decoration: none;
                 margin-right: 7px;
+                transition: all ease-in 0.2s;
+                &:hover{
+                    background-color: white;
+                    color: $base-color-orange;
+                }
             }
             .home-banner-btn2{
                 background-color: white;
@@ -50,6 +55,11 @@ $Inter: 'Inter', sans-serif;
                 border-radius: 8px;
                 padding: 14px 30px;
                 text-decoration: none;
+                transition: all ease-in 0.2s;
+                &:hover{
+                    background-color: white;
+                    color: $base-color-orange;
+                }
             }
         }
     }
