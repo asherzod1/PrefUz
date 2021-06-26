@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div>
             <LayOut>
-                Salommm
+                Salommmgit
             </LayOut>
         </div>
     )
