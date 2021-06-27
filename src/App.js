@@ -2,6 +2,7 @@ import './App.css';
 import HomeP from './pages/HomeP';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import './styles/style.scss'
+import './styles/FooterPref.scss'
 function App() {
 
   const routes = [
@@ -18,6 +19,7 @@ function App() {
             )}
         </Switch>
       </BrowserRouter>
+
     </div>
   );
 }

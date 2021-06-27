@@ -6,12 +6,11 @@ import {
     NavbarBrand,
     Nav,
     NavItem,
-
     UncontrolledDropdown,
     DropdownToggle,
     DropdownMenu,
     DropdownItem,
-    NavbarText
+
 } from 'reactstrap';
 import Link from "react-router-dom/Link";
 import {NavLink} from 'react-router-dom'
@@ -22,7 +21,7 @@ import {NavLink} from 'react-router-dom'
     return (
         <div>
 
-               <Navbar color="light" light expand="md">
+               <Navbar  light expand="lg">
                  <div className="container">
                      <Link>
                          <NavbarBrand className='d-flex align-items-center' href="/">
@@ -34,7 +33,23 @@ import {NavLink} from 'react-router-dom'
                              </div>
                          </NavbarBrand>
                      </Link>
+                       <div className="til">
+                           <UncontrolledDropdown nav inNavbar>
+                               <DropdownToggle nav caret>
+                                   Uzb
+                               </DropdownToggle>
+                               <DropdownMenu right>
+                                   <DropdownItem>
+                                       Uzb
+                                   </DropdownItem>
+                                   <DropdownItem>
+                                       Rus
+                                   </DropdownItem>
+                                   <DropdownItem  />
 
+                               </DropdownMenu>
+                           </UncontrolledDropdown>
+                       </div>
                        <div className="box">
 
                            <UncontrolledDropdown nav inNavbar>
