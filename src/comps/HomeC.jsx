@@ -75,7 +75,7 @@ const HomeC = () => {
                             
                         </div>
                     </div>
-                    <div className="row cards">
+                    <div className="row home-cards">
                         <div className="cards-top-cards col-lg-3 col-md-6 col-sm-12">
                             <div className="cards-top-card">
                                 <div className="cards-header">
