@@ -275,7 +275,7 @@ $Inter: 'Inter', sans-serif;
 
 .HomeC-c4{
     margin-top: 70px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     h1{
         font-family: $Nunito;
         font-style: normal;
@@ -308,7 +308,7 @@ $Inter: 'Inter', sans-serif;
     }
     .c1{
         .c1-text{
-            padding: 0 80px;
+            padding: 0 200px;
         }
         .c1-img-content{
             position: relative;
@@ -370,7 +370,76 @@ $Inter: 'Inter', sans-serif;
         }
         
     }
-    
+    .c2{
+        margin-top: 40px;
+        p{
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 15px;
+            text-align: right;
+            color: #1C1C1C;
+        }
+        .c2-left{
+            background: #FFEDD8;
+            border-radius: 16px;
+            padding: 22px 42px 38px 42px;
+            h3{
+                margin-bottom: 36px;
+            }
+            p{
+                text-align: left;
+                margin-bottom: 0px;
+            }
+            .rating-row{
+                margin-bottom: 10px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+            
+                .c2-progress{
+                    height: 8px;
+                    width: 100%;
+                    margin-top: 9px;
+                }
+                .rating{
+                    padding: 5px 8px;
+                    background: #EC5147;
+                    color: white;
+                    display: inline-block;
+                    border-radius: 6px;
+                }
+                
+            
+        }
+        .c2-right{
+            background: #FFEDD8;
+            border-radius: 16px;
+            padding: 22px 16px 27px 30px;
+            h3{
+                margin-bottom: 340px;
+            }
+        }
+    }
+    .c3{
+        margin-top: 20px;
+        background: linear-gradient(180deg, #F0F0F0 0%, rgba(255, 255, 255, 0) 100%);
+        border-radius: 16px;
+        padding-top: 22px;
+        h3{
+           margin-bottom: 5px;
+        }
+        .c3-footer-img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 90%;
+            }
+        }
+    }
 }
 
 
@@ -501,6 +570,9 @@ $Inter: 'Inter', sans-serif;
                 }
             }
         }
+        .c2-left{
+            margin-bottom: 20px;
+        }
     }
 }
 @media only screen and (min-width: 576px) and (max-width:767px){
@@ -575,6 +647,9 @@ $Inter: 'Inter', sans-serif;
                     line-height: 40px;
                 }
             }
+        }
+        .c2-left{
+            margin-bottom: 20px;
         }
     }
 }
@@ -674,6 +749,9 @@ $Inter: 'Inter', sans-serif;
                     line-height: 40px;
                 }
             }
+        }
+        .c2-left{
+            margin-bottom: 20px;
         }
     }
 }

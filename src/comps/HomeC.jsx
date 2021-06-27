@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/HomeC.scss'
 import { Link } from 'react-router-dom';
+import { Progress } from 'reactstrap';
 const HomeC = () => {
     return (
         <div className='HomeC'>
@@ -120,7 +121,7 @@ const HomeC = () => {
                 </div>
                 <div className="HomeC-c4">
                     <div className="row">
-                        <div className="col-lg-8 col-md-8 col-sm-12 offset-lg-2 offset-md-2 offset-sm-0">
+                        <div className="col-lg-10 col-md-10 col-sm-12 offset-lg-1 offset-md-1 offset-sm-0">
                             <div className="c1 text-center">
                                 <div className="c1-text">
                                     <h1 className='text-center'>Qanday qilib aniqlaymiz?</h1>
@@ -152,6 +153,80 @@ const HomeC = () => {
                                         </div>
                                     </div>
                                     <div className='border'></div>
+                                </div>
+                            </div>
+                            <div className="c2">
+                                <div className="row">
+                                    <div className="col-sm-12 col-md-12 col-lg-6">
+                                        <div className="c2-left">
+                                            <h3>Sizdagi qiziqishlar</h3>
+                                            <div className="row rating-row">
+                                                    <p>Texnika va texnologiya</p>
+                                                <div className="col-10 align-items-center justify-content-center">
+                                                    <Progress className='c2-progress' color='warning' value={77}/>
+                                                </div>
+                                                <div className="col-2 ">
+                                                    <p className='rating'>8.7</p>
+                                                </div>
+                                            </div>
+                                            <div className="row rating-row">
+                                                    <p>Rasm chizish</p>
+                                                <div className="col-10 align-items-center justify-content-center">
+                                                    <Progress className='c2-progress' color='warning' value={77}/>
+                                                </div>
+                                                <div className="col-2 ">
+                                                    <p className='rating'>8.7</p>
+                                                </div>
+                                            </div>
+                                            <div className="row rating-row">
+                                                    <p>Musiqa va san'at</p>
+                                                <div className="col-10 align-items-center justify-content-center">
+                                                    <Progress className='c2-progress' color='warning' value={77}/>
+                                                </div>
+                                                <div className="col-2 ">
+                                                    <p className='rating'>8.7</p>
+                                                </div>
+                                            </div>
+                                            <div className="row rating-row">
+                                                    <p>Insonlar bilan muloqot</p>
+                                                <div className="col-10 align-items-center justify-content-center">
+                                                    <Progress className='c2-progress' color='warning' value={77}/>
+                                                </div>
+                                                <div className="col-2 ">
+                                                    <p className='rating'>8.7</p>
+                                                </div>
+                                            </div>
+                                            <div className="row rating-row">
+                                                    <p>Texnika va texnologiya</p>
+                                                <div className="col-10 align-items-center justify-content-center">
+                                                    <Progress className='c2-progress' color='warning' value={77}/>
+                                                </div>
+                                                <div className="col-2 ">
+                                                    <p className='rating'>8.7</p>
+                                                </div>
+                                            </div>
+                                            <div className="row rating-row">
+                                                    <p>Texnika va texnologiya</p>
+                                                <div className="col-10 align-items-center justify-content-center">
+                                                    <Progress className='c2-progress' color='warning' value={77}/>
+                                                </div>
+                                                <div className="col-2 ">
+                                                    <p className='rating'>8.7</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-sm-12 col-md-12 col-lg-6">
+                                        <div className="c2-right">
+                                            <h3>Sizdagi qobilyatlar</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="c3">
+                                <h3>Sizga mos kasplarni aniqlaymiz</h3>
+                                <div className="c3-footer-img">
+                                    <img src="/images/Home/home-footer.png" alt="" />
                                 </div>
                             </div>
                         </div>
