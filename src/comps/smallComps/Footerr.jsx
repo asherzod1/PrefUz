@@ -1,10 +1,8 @@
-<<<<<<< HEAD
+
 import React,{useState} from 'react'
 import {NavbarBrand} from "reactstrap";
 import { Collapse, Button, CardBody, Card } from 'reactstrap';
-=======
-import React from 'react'
->>>>>>> f914225621eb7785150788c02d6e0a077ee288f9
+
 const Footer = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [isOpen1, setIsOpen1] = useState(false);
