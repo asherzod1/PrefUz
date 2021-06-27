@@ -95,13 +95,17 @@ import {NavLink} from 'react-router-dom'
                          <Nav className="mr-auto" navbar>
 
                              <NavItem>
-                                         <NavLink to='/'>Kasp tanlash</NavLink>
+                                         <NavLink to='/doc'>Kasp tanlash</NavLink>
 
                              </NavItem>
                              <NavItem>
-                                 <NavLink to='/'>Rezume yarat</NavLink>
+                                 <NavLink to='/'>
 
-                             </NavItem>
+                                     Rezume yarat
+
+                                 </NavLink>
+                         </NavItem>
+
                              <NavItem>
                                  <NavLink to='/'>Treninglar</NavLink>
 
