@@ -433,8 +433,9 @@
   }
 }
 
-.itemProf{
+.itemProf {
   height: 847px;
+
   .Prof-item {
     margin-top: 60px;
     width: 100%;
@@ -508,7 +509,8 @@
 
       }
     }
-    .item-videoname{
+
+    .item-videoname {
       margin-top: 5px;
 
       display: flex;
@@ -524,6 +526,254 @@
       border-radius: 8px;
     }
 
+
+  }
+}
+
+.spetP {
+  .spetP-title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #1C1C1C;
+    display: flex;
+    justify-content: center;
+    margin-top: 63px;
+  }
+
+  .spetP-card {
+    height: 300px;
+    margin-top: 25px;
+
+    .cardP {
+
+      background: #FFFFFF;
+      border: 1px solid #E7E7E7;
+      box-sizing: border-box;
+      width: 280px;
+      height: 220px;
+      box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
+      border-radius: 10px;
+
+      .cardfooter {
+        width: 280px;
+        height: 80px;
+        background: #48CCD5;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        position: relative;
+
+        img {
+          position: absolute;
+          top: 41px;
+          left: 20px;
+        }
+      }
+
+      .cardbody {
+        .cardp-text {
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 22px;
+          /* identical to box height, or 137% */
+
+          letter-spacing: -0.1px;
+          margin-left: 20px;
+          margin-top: 48px;
+          color: #000000;
+        }
+
+        .card-page {
+          margin-top: 16px;
+          padding-left: 80px;
+          margin-right: 13px;
+
+          .card-empl {
+            background: #B9B9B9;
+            width: 17px;
+            height: 17px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 10px;
+            border-radius: 5px;
+          }
+        }
+
+      }
+
+      .card-sec-text {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+
+        /* base-color/gray-500 */
+        margin-left: 20px;
+        margin-top: 3px;
+        width: 220px;
+        color: #6E7381;
+      }
+    }
+  }
+}
+
+.carusel {
+  width: 100%;
+  height: 468px;
+  margin-bottom: 60px;
+  background: #00BBC7;
+ display: flex;
+  justify-content: center;
+  .carusel-title {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    padding-top: 60px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+  }
+
+  .carusel-slick {
+    margin-top: 40px;
+    .slick-prev {
+
+      width: 48px;
+      height: 48px;
+    border-radius: 50%;
+      background: #48CCD5;
+
+        left: -62px;
+      box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
+
+      &:before {
+        content: url("../back-img/22.png");
+
+
+      }
+    }
+    .slick-prev:hover{
+     width: 55px;
+      height: 55px;
+    }
+    .slick-next {
+
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: #48CCD5;
+
+      right: -62px;
+      box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
+
+      &:before {
+        content: url("../back-img/11.png");
+
+
+      }
+    }
+    .slick-next:hover{
+      width: 55px;
+      height: 55px;
+    }
+    .slick-slider{
+
+
+
+    }
+
+    .slickcard {
+      background: #FFFFFF;
+      border-radius: 10px;
+      width:96%;
+      margin-left: 4%;
+      height: 170px;
+
+      .slickimg {
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+      }
+
+      .slicktext {
+        .slick-title {
+          font-family: Nunito;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 22px;
+          letter-spacing: -0.1px;
+          margin-top: 17px;
+          margin-left: 19px;
+          color: #000000;
+        }
+
+        .slick-text {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 15px;
+          /* identical to box height */
+          margin-top: 6px;
+          margin-left: 19px;
+
+          /* base-color/gray-500 */
+
+          color: #6E7381;
+        }
+        .slick-button{
+          width: 100px;
+          height: 40px;
+          color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 17px;
+          margin-left: 19px;
+          border-radius: 6px;
+          cursor: pointer;
+          background: #FFA31A;
+          border-radius: 6px;
+        }
+        .slick-button:hover{
+          border: 2px solid #FFA31A;
+          color:#FFA31A ;
+          background-color: white;
+        }
+      }
+    }
+  }
+  .caruselbutton{
+    background: #FFFFFF;
+   width: 180px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    margin-left: 43%;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 26px;
+    cursor: pointer;
+    text-align: center;
+    color: #48CCD5;
+    box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
+    border-radius: 8px;
+  }
+  .caruselbutton:hover{
+    border: 2px solid  white;
+    background-color:  #48CCD5;
+    color: white;
 
   }
 }
@@ -843,8 +1093,9 @@
       }
     }
   }
-  .itemProf{
+  .itemProf {
     height: 847px;
+
     .Prof-item {
       margin-top: 60px;
       width: 100%;
@@ -878,13 +1129,13 @@
         letter-spacing: -0.1px;
         display: flex;
         justify-content: center;
-       width: 94%;
+        width: 94%;
         margin-left: 3%;
         color: #1C1C1C;
       }
 
       .cardItem {
-      display: flex;
+        display: flex;
         justify-content: center;
         margin-top: 30px;
 
@@ -909,12 +1160,13 @@
 
       .item-video {
         img {
-        display: none;
+          display: none;
 
 
         }
       }
-      .item-videoname{
+
+      .item-videoname {
         margin-top: 5px;
 
         display: flex;
@@ -931,6 +1183,248 @@
       }
 
 
+    }
+  }
+  .spetP {
+    .spetP-title {
+      font-style: normal;
+      font-weight: 800;
+      width: 90%;
+      margin-left: 2%;
+      font-size: 32px;
+      line-height: 44px;
+      text-align: center;
+      letter-spacing: -0.4px;
+      color: #1C1C1C;
+      display: flex;
+      justify-content: center;
+      margin-top: 63px;
+    }
+
+    .spetP-card {
+      height: 1000px;
+      margin-top: 25px;
+      margin-left: 16px;
+
+
+      .cardP {
+        margin-top: 12px;
+        background: #FFFFFF;
+        border: 1px solid #E7E7E7;
+        box-sizing: border-box;
+        width: 96%;
+        margin-left: 2%;
+        height: 220px;
+        box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
+        border-radius: 10px;
+
+        .cardfooter {
+          width: 100%;
+          height: 80px;
+          background: #48CCD5;
+          border-top-left-radius: 8px;
+          border-top-right-radius: 8px;
+          position: relative;
+
+          img {
+            position: absolute;
+            top: 41px;
+            left: 20px;
+          }
+        }
+
+        .cardbody {
+          .cardp-text {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 22px;
+            /* identical to box height, or 137% */
+
+            letter-spacing: -0.1px;
+            margin-left: 20px;
+            margin-top: 48px;
+            color: #000000;
+          }
+
+          .card-page {
+            margin-top: 16px;
+            padding-left: 80px;
+            margin-right: 13px;
+
+            .card-empl {
+              background: #B9B9B9;
+              width: 17px;
+              height: 17px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-left: 10px;
+              border-radius: 5px;
+            }
+          }
+
+        }
+
+        .card-sec-text {
+          font-family: Inter;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 15px;
+
+          /* base-color/gray-500 */
+          margin-left: 20px;
+          margin-top: 3px;
+          width: 92%;
+          color: #6E7381;
+        }
+      }
+    }
+  }
+  .carusel {
+    width: 100%;
+    height: 468px;
+    margin-bottom: 60px;
+    background: #00BBC7;
+    display: flex;
+    justify-content: center;
+    .carusel-title {
+      font-family: Nunito;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 32px;
+      line-height: 44px;
+      padding-top: 30px;
+      padding-bottom: 20px;
+      text-align: center;
+      letter-spacing: -0.4px;
+      display: flex;
+      justify-content: center;
+      color: #FFFFFF;
+    }
+
+    .carusel-slick {
+      margin-top: 40px;
+      .slick-prev {
+        width: 28px;
+        height: 28px;
+        border-radius: 5px;
+        background: #48CCD5;
+  left: 4%;
+        top: -30px;
+        box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
+
+        &:before {
+          content: url("../back-img/22.png");
+
+
+        }
+      }
+      .slick-prev:hover{
+        width: 32px;
+        height: 32px;
+      }
+      .slick-next {
+
+        width: 28px;
+        height: 28px;
+        border-radius: 5px;
+        background: #48CCD5;
+         top: -30px;
+        right:4%;
+        box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
+
+        &:before {
+          content: url("../back-img/11.png");
+
+
+        }
+      }
+      .slick-next:hover{
+      width: 32px;
+        height: 32px;
+      }
+      .slick-slider{
+
+
+
+      }
+
+      .slickcard {
+        background: #FFFFFF;
+        border-radius: 10px;
+        width:96%;
+        margin-left: 4%;
+        height: 170px;
+
+        .slickimg {
+          display: flex;
+          align-items: center;
+          margin-left: 15px;
+        }
+
+        .slicktext {
+          .slick-title {
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: -0.1px;
+            margin-top: 17px;
+            margin-left: 19px;
+            color: #000000;
+          }
+
+          .slick-text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 15px;
+            /* identical to box height */
+            margin-top: 6px;
+            margin-left: 19px;
+
+            /* base-color/gray-500 */
+
+            color: #6E7381;
+          }
+          .slick-button{
+            width:100%;
+            height: 40px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 17px;
+            margin-left: 19px;
+            border-radius: 6px;
+            cursor: pointer;
+            background: #FFA31A;
+            border-radius: 6px;
+          }
+          .slick-button:hover{
+            border: 2px solid #FFA31A;
+            color:#FFA31A ;
+            background-color: white;
+          }
+        }
+      }
+    }
+    .caruselbutton{
+      background: #FFFFFF;
+      width:56%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 54px;
+      margin-top: 40px;
+      font-size: 20px;
+      cursor: pointer;
+      color: #48CCD5;
+      box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
+      border-radius: 8px;
     }
   }
 }
@@ -1035,7 +1529,7 @@
   .profesion {
     margin-top: 60px;
     width: 100%;
-    height: 700px;
+    height: 600px !important;
     background: #E0F8FF;
     border-radius: 16px;
 
@@ -1113,8 +1607,9 @@
       }
     }
   }
-  .itemProf{
+  .itemProf {
     height: 847px;
+
     .Prof-item {
       margin-top: 60px;
       width: 100%;
@@ -1184,7 +1679,8 @@
 
         }
       }
-      .item-videoname{
+
+      .item-videoname {
         margin-top: 5px;
 
         display: flex;
@@ -1201,6 +1697,103 @@
       }
 
 
+    }
+  }
+  .spetP {
+    .spetP-title {
+      font-style: normal;
+      font-weight: 800;
+      width: 90%;
+      margin-left: 2%;
+      font-size: 32px;
+      line-height: 44px;
+      text-align: center;
+      letter-spacing: -0.4px;
+      color: #1C1C1C;
+      display: flex;
+      justify-content: center;
+      margin-top: 63px;
+    }
+
+    .spetP-card {
+      height: 1000px;
+      margin-top: 25px;
+      margin-left: 16px;
+
+
+      .cardP {
+        margin-top: 12px;
+        background: #FFFFFF;
+        border: 1px solid #E7E7E7;
+        box-sizing: border-box;
+        width: 96%;
+        margin-left: 2%;
+        height: 220px;
+        box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
+        border-radius: 10px;
+
+        .cardfooter {
+          width: 100%;
+          height: 80px;
+          background: #48CCD5;
+          border-top-left-radius: 8px;
+          border-top-right-radius: 8px;
+          position: relative;
+
+          img {
+            position: absolute;
+            top: 41px;
+            left: 20px;
+          }
+        }
+
+        .cardbody {
+          .cardp-text {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 22px;
+            /* identical to box height, or 137% */
+
+            letter-spacing: -0.1px;
+            margin-left: 20px;
+            margin-top: 48px;
+            color: #000000;
+          }
+
+          .card-page {
+            margin-top: 16px;
+            padding-left: 80px;
+            margin-right: 13px;
+
+            .card-empl {
+              background: #B9B9B9;
+              width: 17px;
+              height: 17px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-left: 10px;
+              border-radius: 5px;
+            }
+          }
+
+        }
+
+        .card-sec-text {
+          font-family: Inter;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 15px;
+
+          /* base-color/gray-500 */
+          margin-left: 20px;
+          margin-top: 3px;
+          width: 92%;
+          color: #6E7381;
+        }
+      }
     }
   }
 }

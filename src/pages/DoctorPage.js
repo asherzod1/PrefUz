@@ -6,7 +6,8 @@ import Doctorbody3 from "../comps/doctorpage/Doctorbody3";
 import DocSection4 from "../comps/doctorpage/DocSection4";
 import KaBiyfaoliyat5 from "../comps/doctorpage/KaBiyfaoliyat5";
 import DocProfSection6 from "../comps/doctorpage/DocProfSection6";
-
+import SpetsaliPage7 from '../comps/doctorpage/SpetsaliPage7'
+import DoctorCarusel from "../comps/doctorpage/DoctorCarusel";
 function DoctorPage(props) {
     return (
         <LayOut>
@@ -16,6 +17,8 @@ function DoctorPage(props) {
             <DocSection4/>
             <KaBiyfaoliyat5/>
             <DocProfSection6/>
+            <SpetsaliPage7/>
+            <DoctorCarusel/>
         </LayOut>
     );
 }
