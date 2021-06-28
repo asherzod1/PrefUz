@@ -27,7 +27,7 @@ function DoctorCarusel(props) {
         <div>
             <div className="carusel">
 
-                <div className="container">
+                <div className="container p-0">
                   <div className="carusel-title">
                       O’xshash kasplar
                   </div>

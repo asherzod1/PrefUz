@@ -6,7 +6,7 @@ function KaBiyfaoliyat5(props) {
             <div className="container">
                 <div className="profesion">
                  <div className="row">
-                     <div className="col-md-6">
+                     <div className="col-md-6 p-0">
                          <div className="prof-header">
                              <div className="prof-img">
                                  <img src="/image/denci.png" alt=""/>
@@ -20,7 +20,7 @@ function KaBiyfaoliyat5(props) {
 
                          </div>
                      </div>
-                     <div className="col-md-6">
+                     <div className="col-md-6 p-0">
                          <div className="spetsalis">
                              <div className="spet-name">
                                  Yuqori malakali mutahasis
