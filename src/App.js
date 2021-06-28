@@ -5,6 +5,7 @@ import './styles/style.scss'
 import './styles/FooterPref.scss'
 import './styles/doctorpage.scss'
 import DoctorPage from "./pages/DoctorPage";
+import AllJobsPage from './pages/AllJobsPage';
 
 function App() {
 
@@ -12,6 +13,9 @@ function App() {
         {
             path: '/', component: HomeP,
 
+        },
+        {
+          path:'/alljobs', component: AllJobsPage,
         }
     ]
     return (
