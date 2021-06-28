@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'react-router-dom/Link'
-import {Row, Col} from 'antd'
 import '../../styles/AllJobs.scss'
 const AllJobsCards = () => {
     return (
