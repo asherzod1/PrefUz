@@ -8,8 +8,8 @@ function DoctorPageSection2(props) {
                         <div className="doc-title">
                             Shifokor turlari
                         </div>
-                            <div className="row p-0 m-0">
-                                <div className="col-md-2  col-sm-4 col-12">
+                            <div className="row m-0">
+                                <div className="col-md-2  col-sm-4 col-12 ">
                                     <div className="doc-card">
                                         <div className="card-img">
                                             <img src="/image/stamat.png" alt=""/>
@@ -35,7 +35,7 @@ function DoctorPageSection2(props) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-2 col-sm-4">
+                                <div className="col-md-2 col-sm-4 col-12">
                                     <div className="doc-card">
                                         <div className="card-img">
                                             <img src="/image/akusher.png" alt=""/>
@@ -48,7 +48,7 @@ function DoctorPageSection2(props) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-2 col-sm-4 ">
+                                <div className="col-md-2 col-sm-4">
                                     <div className="doc-card">
                                         <div className="card-img">
                                             <img src="/image/trav.png" alt=""/>

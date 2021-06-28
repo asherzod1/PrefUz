@@ -12,8 +12,8 @@ function DocSection4(props) {
                     Har bir kaspning ijobiy va salbiy tomonlari mavjud bo’ladi. Ammo shuni unutmangkisalbiy jihat sizni
                     bu yo’ldan qaytarishi kerak emas.
                 </div>
-                <div className="row">
-                    <div className="col-md-4 offset-2 p-0">
+                <div className="row ">
+                    <div className="col-md-4  p-0">
                         <div className="cards">
                             <div className="card-smile">
                                 <img src="/image/smile-y.png" alt=""/>
