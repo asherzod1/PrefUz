@@ -34,7 +34,7 @@ const HomeC = () => {
                             </div>
                     </div>
                 </div>
-                    
+
                 <div className="HomeC-c2">
                         <div className="row">
                             <div className="col-md-5 col-lg-5 col-sm-12 home-c2-left">
@@ -73,7 +73,7 @@ const HomeC = () => {
                     <div className="row">
                         <div className="col-12 HomeC-cards-top">
                             <h3>Kelajakni hozirdan quring</h3>
-                            
+
                         </div>
                     </div>
                     <div className="row home-cards">

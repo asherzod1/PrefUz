@@ -6,13 +6,11 @@ import './styles/FooterPref.scss'
 import './styles/doctorpage.scss'
 import './styles/HomeC.scss'
 import DoctorPage from "./pages/DoctorPage";
-<<<<<<< HEAD
+import AllJobsPage from './pages/AllJobsPage';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-=======
-import AllJobsPage from './pages/AllJobsPage';
-
->>>>>>> 1a87d462559fe1f8fd592f1d6193050363586047
+import PrefTests from "./pages/PrefTests";
+import TestsNew from "./pages/TestsNew";
 function App() {
 
     const routes = [
@@ -22,6 +20,19 @@ function App() {
         },
         {
           path:'/alljobs', component: AllJobsPage,
+        },
+        {
+            path:'/doc', component:DoctorPage,
+        }
+        ,
+
+        {
+            path:'/test', component:PrefTests,
+        }
+        ,
+
+        {
+            path:'/tests', component:TestsNew,
         }
     ]
     return (
@@ -32,7 +43,7 @@ function App() {
                         <Route exact path={item.path} component={item.component}/>
 
                     )}
-                    <Route exact path='/doc' component={DoctorPage}/>
+
                 </Switch>
             </BrowserRouter>
 

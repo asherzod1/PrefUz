@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './styles/doctorpage.scss'
+import './styles/preftests.scss'
 import App from './App';
 
 ReactDOM.render(
