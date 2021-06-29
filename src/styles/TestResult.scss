@@ -1,0 +1,275 @@
+$base-color-blue-dark: #00BBC7;
+$base-color-orange: #FFA31A;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600family=Inter:wght@500&family=Nunito:wght@800&display=swap');
+$Nunito: 'Nunito', sans-serif;
+$Inter: 'Inter', sans-serif;
+
+.testResult{
+
+    .testRes-header{
+        background-color: $base-color-blue-dark;
+        margin-bottom: 40px;
+        .testRes-header-content{
+            padding: 18px 0; 
+            display: flex;
+            align-items: center;
+            
+        }
+        p{
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.1px;
+            color: #FFFFFF;
+            opacity: 0.7;
+        }
+    }
+
+    .testRes-content{
+
+        .testRes-c1{
+            margin-bottom: 28px;
+            h1{
+                font-family: Nunito;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 32px;
+                line-height: 44px;
+                letter-spacing: -0.4px;
+                color: #1C1C1C;
+                margin-bottom: 3px;
+            }
+            p{
+                font-family: Inter;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: -0.1px;
+                color: #6E7381;
+            }
+            .testRes-c1-buttons{
+                background: #F2F2F2;
+                border-radius: 6px;
+                padding: 9px 12px;
+                font-family: $Inter;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: -0.1px;
+                color: #6E7381;
+                &:nth-child(1){
+                    margin-right: 8px;
+                }
+                img{
+                    margin-left: 13.75px;
+                }
+            }
+        }
+        .c2{
+            margin-bottom: 40px;
+            p{
+                font-family: Inter;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 15px;
+                text-align: right;
+                color: #1C1C1C;
+            }
+            .c2-left{
+                background: #F2F2F2;
+                border-radius: 16px;
+                padding: 22px 42px 38px 42px;
+                h3{
+                    margin-bottom: 36px;
+                }
+                p{
+                    text-align: left;
+                    margin-bottom: 0px;
+                }
+                .rating-row{
+                    margin-bottom: 10px;
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                }
+    
+                    .c2-progress{
+                        height: 8px;
+                        width: 100%;
+                        margin-top: 9px;
+                    }
+                    .rating{
+                        padding: 5px 8px;
+                        background: #EC5147;
+                        color: white;
+                        display: inline-block;
+                        border-radius: 6px;
+                    }
+    
+    
+            }
+            .c2-right{
+                background: #F2F2F2;
+                border-radius: 16px;
+                padding: 22px 16px 27px 30px;
+                h3{
+                    margin-bottom: 340px;
+                }
+            }
+        }
+        .testRes-c3{
+            h1{
+                font-family: Nunito;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 32px;
+                line-height: 44px;
+                letter-spacing: -0.4px;
+                color: #1C1C1C;
+                margin-bottom: 3px;
+            }
+            .allJobs-card{
+                margin-bottom: 20px;
+                background: #F7F7F7;
+                border: 1px solid #E7E7E7;
+                border-radius: 10px;
+                .card-imgg{
+                    padding: 7px 0 7px 5px;
+                    display: flex;
+                    justify-content: flex-start;
+                    img{
+                        opacity: 0.8;
+                        border-radius: 10px;
+                        border: 5px solid #E7E7E7;
+                        width: 110%;
+                        
+                    }
+                }
+                .card-textt{
+                    padding: 17px 0px 0px 0px;
+                    h3{
+                        font-family: Nunito;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 16px;
+                        line-height: 22px;
+                        letter-spacing: -0.1px;
+                        color: #000000;
+                    }
+                    p{
+                        font-family: Inter;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 12px;
+                        line-height: 15px;
+                        color: #6E7381;
+                        margin-bottom: 2px;
+                    }
+                    h4{
+                        font-family: Inter;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 12px;
+                        line-height: 15px;
+                        color: #6E7381;
+                        margin-bottom: 17px;
+                    }
+                }
+                .allJobs-card-button{
+                    background-color: $base-color-orange;
+                    padding: 9px 21px;
+                    color: white;
+                    border-radius: 6px;
+                    transition: all 0.15s ease-in;
+                    &:hover{
+                        background-color: white;
+                        color: $base-color-orange;
+                    }
+                }
+            }
+            .testRes-c3-Button-div{
+                margin-top: 40px;
+                margin-bottom: 170px;
+            }
+            .testRes-c3-Button{
+                background: #48CCD5;
+                border: 1px solid #48CCD5;
+                box-sizing: border-box;
+                box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
+                border-radius: 8px;
+                padding: 14px 30px;
+                font-family: $Inter;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 26px;
+                text-align: center;
+                letter-spacing: -0.2px;
+                color: #FFFFFF;
+            }
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and(max-width:575px) {
+    .testRes-content{
+
+        .c2{
+            .c2-left{
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+@media only screen and(min-width:576px) and (max-width: 767px) {
+    .testResult{
+        .testRes-content{
+
+            .c2{
+                .c2-left{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+@media only screen and(min-width:768px) and (max-width: 991px) {
+    .testResult{
+        .testRes-content{
+
+            .c2{
+                .c2-left{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+@media only screen and(min-width:992px) and (max-width: 1200px) {
+    .allJobs-content{
+        .select{
+            .dropdown-menu{
+
+            }
+        }
+    }
+}

@@ -107,7 +107,7 @@ $Inter: 'Inter', sans-serif;
             }
         }
     }
-    
+
 }
 
 .HomeC-c2{
@@ -224,12 +224,12 @@ $Inter: 'Inter', sans-serif;
             letter-spacing: -0.4px;
             color: white;
         }
-        
+
     }
     .home-cards{
         margin-top: -196px;
     }
-    
+
     .cards-top-card{
         display: flex;
         flex-direction: column;
@@ -332,17 +332,17 @@ $Inter: 'Inter', sans-serif;
                 &:nth-child(2){
                     .c1-img-icon::before{
                         content: '2';
-                        
+
                     }
                 }
                 &:nth-child(3){
                     .c1-img-icon::before{
                         content: '3';
-                        
+
                     }
                 }
-                
-                
+
+
             }
             .c1-img-icon{
                 position: relative;
@@ -353,7 +353,7 @@ $Inter: 'Inter', sans-serif;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                
+
             }
             .c1-img-text{
                 width: 160px;
@@ -368,7 +368,7 @@ $Inter: 'Inter', sans-serif;
             z-index: -1;
             position: absolute;
         }
-        
+
     }
     .c2{
         margin-top: 40px;
@@ -398,7 +398,7 @@ $Inter: 'Inter', sans-serif;
                     margin-bottom: 0;
                 }
             }
-            
+
                 .c2-progress{
                     height: 8px;
                     width: 100%;
@@ -411,8 +411,8 @@ $Inter: 'Inter', sans-serif;
                     display: inline-block;
                     border-radius: 6px;
                 }
-                
-            
+
+
         }
         .c2-right{
             background: #FFEDD8;

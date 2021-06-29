@@ -99,7 +99,7 @@ import {NavLink} from 'react-router-dom'
 
                              </NavItem>
                              <NavItem>
-                                 <NavLink to='/'>
+                                 <NavLink to='/tests'>
 
                                      Rezume yarat
 
@@ -107,7 +107,7 @@ import {NavLink} from 'react-router-dom'
                          </NavItem>
 
                              <NavItem>
-                                 <NavLink to='/'>Treninglar</NavLink>
+                                 <NavLink to='/test'>Treninglar</NavLink>
 
                              </NavItem>
                              <NavItem>

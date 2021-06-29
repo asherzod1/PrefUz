@@ -9,7 +9,7 @@ const AllJobsCards = () => {
                     <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="allJobs-card">
                             <div className="row">
-                                <div className="col-4">
+                                   <div className="col-4">
                                     <div className="card-imgg">
                                         <img src="/images/AllJobs/card1.png" alt="rasm" />
                                     </div>
