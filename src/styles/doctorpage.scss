@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
@@ -289,6 +289,7 @@
   box-sizing: border-box;
   border-radius: 10px;
   margin-left: 40%;
+
   .card-smile {
     display: flex;
     justify-content: center;
@@ -319,7 +320,7 @@
   height: 285px;
   left: 337px;
   top: 1934px;
- margin-left: 50%;
+  margin-left: 50%;
   background: #FFFFFF;
   border: 3px solid #74D272;
   box-sizing: border-box;
@@ -447,7 +448,7 @@
     height: 506px;
     background: #E0F8FF;
     border-radius: 16px;
-    
+
 
     .item-text {
       font-family: Nunito;
@@ -631,8 +632,9 @@
   height: 468px;
   margin-bottom: 60px;
   background: #00BBC7;
- display: flex;
+  display: flex;
   justify-content: center;
+
   .carusel-title {
     font-family: Nunito;
     font-style: normal;
@@ -649,14 +651,15 @@
 
   .carusel-slick {
     margin-top: 40px;
+
     .slick-prev {
 
       width: 48px;
       height: 48px;
-    border-radius: 50%;
+      border-radius: 50%;
       background: #48CCD5;
 
-        left: -62px;
+      left: -62px;
       box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
 
       &:before {
@@ -665,10 +668,12 @@
 
       }
     }
-    .slick-prev:hover{
-     width: 55px;
+
+    .slick-prev:hover {
+      width: 55px;
       height: 55px;
     }
+
     .slick-next {
 
       width: 48px;
@@ -685,12 +690,13 @@
 
       }
     }
-    .slick-next:hover{
+
+    .slick-next:hover {
       width: 55px;
       height: 55px;
     }
-    .slick-slider{
 
+    .slick-slider {
 
 
     }
@@ -698,7 +704,7 @@
     .slickcard {
       background: #FFFFFF;
       border-radius: 10px;
-      width:96%;
+      width: 96%;
       margin-left: 4%;
       height: 170px;
 
@@ -734,7 +740,8 @@
 
           color: #6E7381;
         }
-        .slick-button{
+
+        .slick-button {
           width: 100px;
           height: 40px;
           color: white;
@@ -748,17 +755,19 @@
           background: #FFA31A;
           border-radius: 6px;
         }
-        .slick-button:hover{
+
+        .slick-button:hover {
           border: 2px solid #FFA31A;
-          color:#FFA31A ;
+          color: #FFA31A;
           background-color: white;
         }
       }
     }
   }
-  .caruselbutton{
+
+  .caruselbutton {
     background: #FFFFFF;
-   width: 180px;
+    width: 180px;
     height: 54px;
     display: flex;
     justify-content: center;
@@ -773,9 +782,10 @@
     box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
     border-radius: 8px;
   }
-  .caruselbutton:hover{
-    border: 2px solid  white;
-    background-color:  #48CCD5;
+
+  .caruselbutton:hover {
+    border: 2px solid white;
+    background-color: #48CCD5;
     color: white;
 
   }
@@ -809,6 +819,80 @@
 }
 
 @media screen and (max-width: 576px) {
+  .doc-SectionC {
+    margin-top: 80px;
+    .doc-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      margin-left: 100px;
+      width: 151px;
+      height: 32px;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #FFA31A;
+      background: #FFEDD8;
+      border-radius: 33px;
+    }
+    .doc-check {
+      margin-top: 15px;
+      display: flex;
+
+      .checkp {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-left: 20px;
+        background: #CFFFCE;
+        img{
+          width: 30px;
+          height: 30px;
+          transform: scale(0.7);
+        }
+      }
+
+      .check-text {
+
+        margin-top: 3px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: -0.1px;
+        margin-left: 13px;
+        color: #1C1C1C;
+      }
+    }
+    .doc-name {
+      font-style: normal;
+      font-weight: 800;
+      font-size: 22px;
+      margin-top: 20px;
+      margin-left: 16%;
+      color: #1C1C1C;
+    }
+
+    .doc-name-text {
+      font-family: Inter;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      margin: 0 auto!important;
+      color: #6E7381;
+      margin-top: 20px!important;
+      width: 80%;
+    }
+
+  }
   .doc-SectionC img {
     width: 100%;
   }
@@ -845,23 +929,21 @@
 
     .docP-search {
       margin-top: -1px;
-      width: 98%;
-      left: 2%;
-      height: 500px;
-      background: #FFFFFF;
+      width: 100%;
+      height: 440px;
       border: 1px solid #E7E7E7;
       box-shadow: 0px 2px 10px rgba(75, 90, 104, 0.1);
       border-radius: 16px;
 
       .docP-img-footer {
         display: flex;
-
+        width: 100%;
         .docP-img-footerS {
           display: flex;
           justify-content: center;
           align-items: center;
           margin-top: 40px;
-          margin-left: 20px;
+          margin-left: 10px;
           width: 60px;
           height: 60px;
           border-radius: 50%;
@@ -894,7 +976,7 @@
             line-height: 24px;
             margin-top: 4px;
             color: #6E7381;
-            width: 80%;
+            width: 100%;
           }
         }
       }
@@ -902,19 +984,76 @@
     }
   }
   .doc-section {
-    height: 800px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ height: 1550px;
+    width: 100%;
+    background: #FFA31A;
+    border-radius: 16px;
+    margin-top: 20px;
+
+    .doc-title {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 44px;
+      margin-top: 1px;
+      margin-left: 30px;
+      padding-top: 34px;
+      letter-spacing: -0.4px;
+      color: #FFFFFF;
+    }
 
     .col-md-2 {
-      margin: 0 auto;
-    }
+    width: 100%;
+     margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      padding-right: 0;
+      padding-left: 0;
 
-    .col-md-2:nth-child(3) {
-      margin: 0 auto;
+      .doc-card {
+        padding-left: 0;
+        padding-right: 0;
+        z-index: 1;
+        width: 300px!important;
+        margin-top: 14px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 10px rgba(75, 90, 104, 0.1);
+        border-radius: 10px;
 
-    }
+        .card-title {
+          font-family: Nunito;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 22px;
+          /* identical to box height, or 137% */
+          margin-top: 12px;
+          margin-left: 14px;
+          letter-spacing: -0.1px;
 
-    .col-md-2:nth-child(5) {
-      margin: 0 auto
+          color: #000000;
+        }
+
+        .card-text {
+          font-family: Inter;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          color: #6E7381;
+          margin-top: 3px;
+          margin-left: 16px;
+          padding-bottom: 18px;
+        }
+
+        .card-img img {
+          width: 100%;
+          height: 140px;
+        }
+      }
     }
   }
   .sectiontext {
@@ -943,9 +1082,9 @@
     color: #1C1C1C;
   }
   .cards {
-    margin-left: 0;
     margin-top: 34px;
-    width: 100%;
+    width: 96%;
+    margin-left: 2%;
     height: 285px;
     background: #FFFFFF;
     border: 3px solid #FFA31A;
@@ -980,10 +1119,9 @@
     margin: 0;
 
     .cards1 {
-      margin-top: 34px;
-      width: 100%;
+      width:96%;
       height: 285px;
-      margin-left: 0;
+      margin: 0 auto;
 
       background: #FFFFFF;
       border: 3px solid #74D272;
@@ -1034,7 +1172,7 @@
 
       .prof-text {
         margin-top: 10px;
-        margin-left: 20px;
+        margin-left: 10%;
         font-family: Nunito;
         font-style: normal;
         font-size: 20px;
@@ -1100,13 +1238,11 @@
 
     .Prof-item {
       margin-top: 60px;
-      width: 100%;
-      height: 906px;
-      left: 120px;
-      top: 2619px;
+      width: 96%;
+      margin-left: 2%;
+      height: 976px;
       background: #E0F8FF;
       border-radius: 16px;
-
       .item-text {
         font-family: Nunito;
         font-style: normal;
@@ -1146,7 +1282,7 @@
           justify-content: center;
           align-items: center;
           width: 320px !important;
-          margin: 0 auto;
+          margin-top: 20px;
           height: 90px;
           background: #FFFFFF;
           border: 3px solid #D3DDFA;
@@ -1190,19 +1326,18 @@
     .spetP-title {
       font-style: normal;
       font-weight: 800;
-     width: 100%;
+      width: 100%;
       font-size: 32px;
       text-align: center;
       color: #1C1C1C;
       display: flex;
       justify-content: center;
-      margin-top: 63px;
+      margin-top: 163px;
     }
 
     .spetP-card {
       height: 1000px;
       margin-top: 25px;
-      margin-left: 16px;
 
 
       .cardP {
@@ -1210,7 +1345,8 @@
         background: #FFFFFF;
         border: 1px solid #E7E7E7;
         box-sizing: border-box;
-        width: 100%;
+        width:96%;
+        margin-left: 2%;
         height: 220px;
         box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
         border-radius: 10px;
@@ -1286,6 +1422,7 @@
     background: #00BBC7;
     display: flex;
     justify-content: center;
+
     .carusel-title {
       font-family: Nunito;
       font-style: normal;
@@ -1303,12 +1440,13 @@
 
     .carusel-slick {
       margin-top: 40px;
+
       .slick-prev {
         width: 28px;
         height: 28px;
         border-radius: 5px;
         background: #48CCD5;
-  left: 4%;
+        left: 4%;
         top: -30px;
         box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
 
@@ -1318,18 +1456,20 @@
 
         }
       }
-      .slick-prev:hover{
+
+      .slick-prev:hover {
         width: 32px;
         height: 32px;
       }
+
       .slick-next {
 
         width: 28px;
         height: 28px;
         border-radius: 5px;
         background: #48CCD5;
-         top: -30px;
-        right:4%;
+        top: -30px;
+        right: 4%;
         box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
 
         &:before {
@@ -1338,12 +1478,13 @@
 
         }
       }
-      .slick-next:hover{
-      width: 32px;
+
+      .slick-next:hover {
+        width: 32px;
         height: 32px;
       }
-      .slick-slider{
 
+      .slick-slider {
 
 
       }
@@ -1351,7 +1492,7 @@
       .slickcard {
         background: #FFFFFF;
         border-radius: 10px;
-        width:96%;
+        width: 96%;
         margin-left: 2%;
         height: 170px;
 
@@ -1387,7 +1528,8 @@
 
             color: #6E7381;
           }
-          .slick-button{
+
+          .slick-button {
             height: 40px;
             color: white;
             display: flex;
@@ -1400,17 +1542,19 @@
             background: #FFA31A;
             border-radius: 6px;
           }
-          .slick-button:hover{
+
+          .slick-button:hover {
             border: 2px solid #FFA31A;
-            color:#FFA31A ;
+            color: #FFA31A;
             background-color: white;
           }
         }
       }
     }
-    .caruselbutton{
+
+    .caruselbutton {
       background: #FFFFFF;
-      width:96%;
+      width: 96%;
       margin-left: 2%;
       height: 54px;
       margin-top: 40px;
@@ -1432,6 +1576,7 @@
     background: #00BBC7;
     display: flex;
     justify-content: center;
+
     .carusel-title {
       font-family: Nunito;
       font-style: normal;
@@ -1449,6 +1594,7 @@
 
     .carusel-slick {
       margin-top: 40px;
+
       .slick-prev {
         width: 28px;
         height: 28px;
@@ -1464,10 +1610,12 @@
 
         }
       }
-      .slick-prev:hover{
+
+      .slick-prev:hover {
         width: 32px;
         height: 32px;
       }
+
       .slick-next {
 
         width: 28px;
@@ -1475,7 +1623,7 @@
         border-radius: 5px;
         background: #48CCD5;
         top: -30px;
-        right:4%;
+        right: 4%;
         box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
 
         &:before {
@@ -1484,12 +1632,13 @@
 
         }
       }
-      .slick-next:hover{
+
+      .slick-next:hover {
         width: 32px;
         height: 32px;
       }
-      .slick-slider{
 
+      .slick-slider {
 
 
       }
@@ -1497,7 +1646,7 @@
       .slickcard {
         background: #FFFFFF;
         border-radius: 10px;
-        width:96%;
+        width: 96%;
         margin-left: 2%;
         height: 170px;
 
@@ -1533,7 +1682,8 @@
 
             color: #6E7381;
           }
-          .slick-button{
+
+          .slick-button {
             height: 40px;
             color: white;
             display: flex;
@@ -1546,17 +1696,19 @@
             background: #FFA31A;
             border-radius: 6px;
           }
-          .slick-button:hover{
+
+          .slick-button:hover {
             border: 2px solid #FFA31A;
-            color:#FFA31A ;
+            color: #FFA31A;
             background-color: white;
           }
         }
       }
     }
-    .caruselbutton{
+
+    .caruselbutton {
       background: #FFFFFF;
-      width:96%;
+      width: 96%;
       margin-left: 2%;
       height: 54px;
       margin-top: 40px;
@@ -1660,10 +1812,12 @@
   .doc-section {
     height: 600px;
     width: 100%;
-    .col-md-2:nth-child(1){
+
+    .col-md-2:nth-child(1) {
       margin-left: 5px;
     }
-    .doc-card{
+
+    .doc-card {
       margin: 0;
     }
   }
@@ -1750,6 +1904,7 @@
   }
   .itemProf {
     height: 847px;
+
     .Prof-item {
       margin-top: 60px;
       width: 100%;
@@ -1799,7 +1954,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          width:120%;
+          width: 120%;
           margin: 0 auto;
           height: 90px;
           background: #FFFFFF;
@@ -1815,7 +1970,7 @@
 
       .item-video {
         img {
-       display: none;
+          display: none;
 
 
         }
@@ -1946,16 +2101,18 @@
     justify-content: center;
     width: 80%;
     margin-top: 5px;
-  margin: 0 auto;
+    margin: 0 auto;
     color: #1C1C1C;
   }
   .col-md-4 {
     offset: none;
     margin: 0;
- width: 100%;
-    .offset-2{
+    width: 100%;
+
+    .offset-2 {
       display: none;
     }
+
     .cards1 {
       margin-top: 34px;
       width: 100%;
@@ -2027,7 +2184,8 @@
     }
   }
 }
-@media (min-width: 776px) and (max-width: 1200px){
+
+@media (min-width: 776px) and (max-width: 1200px) {
   .carusel {
     width: 100%;
     height: 468px;
@@ -2035,6 +2193,7 @@
     background: #00BBC7;
     display: flex;
     justify-content: center;
+
     .carusel-title {
       font-family: Nunito;
       font-style: normal;
@@ -2052,6 +2211,7 @@
 
     .carusel-slick {
       margin-top: 40px;
+
       .slick-prev {
         width: 28px;
         height: 28px;
@@ -2067,10 +2227,12 @@
 
         }
       }
-      .slick-prev:hover{
+
+      .slick-prev:hover {
         width: 32px;
         height: 32px;
       }
+
       .slick-next {
 
         width: 28px;
@@ -2078,7 +2240,7 @@
         border-radius: 5px;
         background: #48CCD5;
         top: -30px;
-        right:4%;
+        right: 4%;
         box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
 
         &:before {
@@ -2087,12 +2249,13 @@
 
         }
       }
-      .slick-next:hover{
+
+      .slick-next:hover {
         width: 32px;
         height: 32px;
       }
-      .slick-slider{
 
+      .slick-slider {
 
 
       }
@@ -2100,7 +2263,7 @@
       .slickcard {
         background: #FFFFFF;
         border-radius: 10px;
-        width:96%;
+        width: 96%;
         margin-left: 2%;
         height: 170px;
 
@@ -2136,7 +2299,8 @@
 
             color: #6E7381;
           }
-          .slick-button{
+
+          .slick-button {
             height: 40px;
             color: white;
             display: flex;
@@ -2149,17 +2313,19 @@
             background: #FFA31A;
             border-radius: 6px;
           }
-          .slick-button:hover{
+
+          .slick-button:hover {
             border: 2px solid #FFA31A;
-            color:#FFA31A ;
+            color: #FFA31A;
             background-color: white;
           }
         }
       }
     }
-    .caruselbutton{
+
+    .caruselbutton {
       background: #FFFFFF;
-      width:96%;
+      width: 96%;
       margin-left: 2%;
       height: 54px;
       margin-top: 40px;
@@ -2263,10 +2429,12 @@
   .doc-section {
     height: 600px;
     width: 100%;
-    .col-md-2:nth-child(1){
+
+    .col-md-2:nth-child(1) {
       margin-left: 5px;
     }
-    .doc-card{
+
+    .doc-card {
       margin: 0;
     }
   }
@@ -2402,7 +2570,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          width: 150%!important;
+          width: 150% !important;
           margin: 0 auto;
           height: 90px;
           background: #FFFFFF;
@@ -2507,7 +2675,7 @@
 
           .card-page {
             margin-top: 16px;
-            padding-left:10%;
+            padding-left: 10%;
             margin-right: 13px;
 
             .card-empl {
@@ -2556,9 +2724,11 @@
     offset: none;
     margin: 0;
     width: 100%;
-    .offset-2{
+
+    .offset-2 {
       display: none;
     }
+
     .cards1 {
       margin-top: 34px;
       width: 100%;

@@ -27,7 +27,7 @@ function PrefTests(props) {
 
                             <form action="">
                                 <div className="row d-flex">
-                                    <div className="col-md-3 col-6">
+                                    <div className="col-md-3 col-12">
                                         <div className="test-input d-flex">
                                             <input type="radio" name='ss'/>
                                             <div className="test-item">
@@ -35,7 +35,7 @@ function PrefTests(props) {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 col-6">
+                                    <div className="col-md-3 col-12">
                                         <div className="test-input d-flex">
                                             <input type="radio" name='ss'/>
                                             <div className="test-item">
@@ -43,7 +43,7 @@ function PrefTests(props) {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 col-6">
+                                    <div className="col-md-3 col-12">
                                         <div className="test-input d-flex">
                                             <input type="radio" name='ss'/>
                                             <div className="test-item">
@@ -51,7 +51,7 @@ function PrefTests(props) {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 col-6">
+                                    <div className="col-md-3 col-12">
                                         <div className="test-input d-flex">
                                             <input type="radio" name='ss'/>
                                             <div className="test-item">
@@ -173,50 +173,50 @@ function PrefTests(props) {
 
                             <form action="">
                                 <div className="row p-0">
-                                    <div className="col-md-3 mt-2 col-6">
+                                    <div className="col-md-3 mt-2 col-6 p-0">
                                         <img src="/image/baby-1.png" alt=""/>
                                         <div className="input-chekbox">
                                             <input type="checkbox"/>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2 col-6">
+                                    <div className="col-md-3 mt-2 col-6 p-0">
 
                                         <img src="/image/baby-1.png" alt=""/>
                                         <div className="input-chekbox">
                                             <input type="checkbox"/>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 col-6 mt-2">
+                                    <div className="col-md-3 col-6 mt-2 p-0">
                                         <img src="/image/baby-1.png" alt=""/>
                                         <div className="input-chekbox">
                                             <input type="checkbox"/>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2 col-6">
+                                    <div className="col-md-3 mt-2 col-6 p-0">
                                         <img src="/image/baby-1.png" alt=""/>
                                         <div className="input-chekbox">
                                             <input type="checkbox"/>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2 col-6">
+                                    <div className="col-md-3 mt-2 col-6 p-0">
                                         <img src="/image/baby-1.png" alt=""/>
                                         <div className="input-chekbox">
                                             <input type="checkbox"/>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 col-6 mt-2">
+                                    <div className="col-md-3 col-6 mt-2 p-0">
                                         <img src="/image/baby-1.png" alt=""/>
                                         <div className="input-chekbox">
                                             <input type="checkbox"/>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 col-6 mt-2">
+                                    <div className="col-md-3 col-6 mt-2 p-0">
                                         <img src="/image/baby-1.png" alt=""/>
                                         <div className="input-chekbox">
                                             <input type="checkbox"/>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 col-6 mt-2">
+                                    <div className="col-md-3 col-6 mt-2 p-0">
                                         <img src="/image/baby-1.png" alt=""/>
                                         <div className="input-chekbox">
                                             <input type="checkbox"/>
