@@ -199,7 +199,7 @@ const TestResultC = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-lg-4 col-md-4 col-sm-0">
+                                        <div className="col-lg-4 col-md-4 col-sm-0 footer">
                                             <img className='w-100' src="/images/TestResult/c3-image.png" alt="rasm" />
                                         </div>
                                     </div>
