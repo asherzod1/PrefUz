@@ -1,0 +1,438 @@
+.train-He {
+  background: #00BBC7;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .train-He-title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+  }
+}
+
+.train-Body {
+  width: 100%;
+  padding-bottom: 261px;
+  padding-top: 30px;
+  .train-card {
+    background: #E0F8FF;
+    position: relative;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 10px;
+    border: 1px solid #E0F8FF;
+    box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+    border-radius: 10px;
+    .train-card-hover {
+      width: 0;
+      height: 0;
+      background-color: rgba(97, 255, 255, 0.2);
+      top: 50%;
+      left: 50%;
+      right: 50%;
+      bottom: 50%;
+      position: absolute;
+      border-radius: 10px;
+      transition: 2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .train-card-hoverP{
+        width: 0;
+        height: 0;
+        border-radius: 50%;
+        background: #FFA945;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+    }
+
+  }
+  .train-card:hover {
+    .train-card-hover {
+      width: 100%;
+      position: absolute;
+      background-color: rgba(97, 255, 255, 0.2);
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 100%;
+      transition: 2s;
+
+    }
+    .train-card-hoverP{
+      width: 66px;
+      height: 66px;
+      border-radius: 50%;
+      background: #FFA945;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 2s;
+
+    }
+
+  }
+  .train-card-img {
+    width: 100%;
+  }
+
+  .train-card-title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 18px;
+    padding-left: 20px;
+    color: #000000;
+  }
+
+  .train-card-footer {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 9px;
+
+    .train-card-data {
+      display: flex;
+
+      .train-card-data-number {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        color: #6E7381;
+        margin-left: 5px;
+        margin-top: 5px;
+      }
+    }
+
+    .train-card-sec {
+      margin-left: 14px;
+      display: flex;
+
+      .train-card-sec-number {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        margin-left: 6px;
+        color: #6E7381;
+        margin-top: 5px;
+      }
+    }
+  }
+}
+.train-Header {
+  margin-top: 40px;
+  display: flex;
+  margin-left: 24.8%;
+  input{
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 400px;
+    height: 40px;
+  }
+  .train-drop{
+    .train-filtr{
+      background: #FFFFFF;
+      border: 1px solid #E4E4E4;
+      box-sizing: border-box;
+      border-radius: 6px;
+      width: 120px;
+      height: 40px;
+      color: #1C1C1C;
+      opacity: 0.8;
+    }
+    .dropdown-menu{
+      width: 200px!important;
+      margin-top: 20px;
+      padding-right: 20px!important;
+      border-radius: 5px;
+    }
+  }
+
+}
+@media screen and (max-width: 576px){
+  .train-He {
+    background: #00BBC7;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .train-He-title {
+      font-weight: 800;
+      font-size: 22px;
+      line-height: 44px;
+      text-align: center;
+      letter-spacing: -0.4px;
+      color: #FFFFFF;
+    }
+  }
+  .train-Body {
+    width: 100%;
+    padding-bottom: 261px;
+    padding-top: 30px;
+    .train-card {
+      background: #E0F8FF;
+      position: relative;
+      padding-top: 2px;
+      padding-left: 2px;
+      padding-right: 2px;
+      padding-bottom: 10px;
+      border: 1px solid #E0F8FF;
+      box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+      border-radius: 10px;
+      .train-card-hover {
+        width: 0;
+        height: 0;
+        background-color: rgba(97, 255, 255, 0.2);
+        top: 50%;
+        left: 50%;
+        right: 50%;
+        bottom: 50%;
+        position: absolute;
+        border-radius: 10px;
+        transition: 2s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .train-card-hoverP{
+          width: 0;
+          height: 0;
+          border-radius: 50%;
+          background: #FFA945;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+        }
+      }
+
+    }
+    .train-card:hover {
+      .train-card-hover {
+        width: 100%;
+        position: absolute;
+        background-color: rgba(97, 255, 255, 0.2);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        transition: 2s;
+
+      }
+      .train-card-hoverP{
+        width: 66px;
+        height: 66px;
+        border-radius: 50%;
+        background: #FFA945;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 2s;
+
+      }
+
+    }
+    .train-card-img  {
+      img{
+        width: 100% !important;
+      }
+      width: 100% !important;
+    }
+
+    .train-card-title {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 22px;
+      padding-top: 18px;
+      padding-left: 20px;
+      color: #000000;
+    }
+
+    .train-card-footer {
+      display: flex;
+      margin-left: 20px;
+      margin-top: 9px;
+
+      .train-card-data {
+        display: flex;
+
+        .train-card-data-number {
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 15px;
+          color: #6E7381;
+          margin-left: 5px;
+          margin-top: 5px;
+        }
+      }
+
+      .train-card-sec {
+        margin-left: 14px;
+        display: flex;
+
+        .train-card-sec-number {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 15px;
+          margin-left: 6px;
+          color: #6E7381;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 576px) and (max-width: 1200px){
+  .train-He {
+    background: #00BBC7;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .train-He-title {
+      font-weight: 800;
+      font-size: 22px;
+      line-height: 44px;
+      text-align: center;
+      letter-spacing: -0.4px;
+      color: #FFFFFF;
+    }
+  }
+  .train-Body {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 261px;
+    padding-top: 30px;
+    .train-card {
+      background: #E0F8FF;
+      position: relative;
+      padding-top: 2px;
+      padding-left: 2px;
+      padding-right: 2px;
+      padding-bottom: 10px;
+      border: 1px solid #E0F8FF;
+      box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+      border-radius: 10px;
+      .train-card-hover {
+        width: 0;
+        height: 0;
+        background-color: rgba(97, 255, 255, 0.2);
+        top: 50%;
+        left: 50%;
+        right: 50%;
+        bottom: 50%;
+        position: absolute;
+        border-radius: 10px;
+        transition: 2s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .train-card-hoverP{
+          width: 0;
+          height: 0;
+          border-radius: 50%;
+          background: #FFA945;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+        }
+      }
+
+    }
+    .train-card:hover {
+      .train-card-hover {
+        width: 100%;
+        position: absolute;
+        background-color: rgba(97, 255, 255, 0.2);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        transition: 2s;
+
+      }
+      .train-card-hoverP{
+        width: 66px;
+        height: 66px;
+        border-radius: 50%;
+        background: #FFA945;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 2s;
+
+      }
+
+    }
+    .train-card-img  {
+      img{
+        width: 100% !important;
+      }
+      width: 100% !important;
+    }
+
+    .train-card-title {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 22px;
+      padding-top: 18px;
+      padding-left: 20px;
+      color: #000000;
+    }
+
+    .train-card-footer {
+      display: flex;
+      margin-left: 20px;
+      margin-top: 9px;
+
+      .train-card-data {
+        display: flex;
+
+        .train-card-data-number {
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 15px;
+          color: #6E7381;
+          margin-left: 5px;
+          margin-top: 5px;
+        }
+      }
+
+      .train-card-sec {
+        margin-left: 14px;
+        display: flex;
+
+        .train-card-sec-number {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 15px;
+          margin-left: 6px;
+          color: #6E7381;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}

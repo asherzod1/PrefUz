@@ -11,7 +11,7 @@ const TestResultC = () => {
                     <div className="container">
                         <div className="testRes-header-content">
                             <p>
-                                Asosiy / Kasplar / Test natijasi
+                                Asosiy / Kasplar / Test natijasi aaaaa
                             </p>
                         </div>
                     </div>
