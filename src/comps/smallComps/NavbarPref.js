@@ -15,156 +15,156 @@ import {
 import Link from "react-router-dom/Link";
 import {NavLink} from 'react-router-dom'
 
- function NavbarPref(props) {
-     const [isOpen, setIsOpen] = useState(false);
-     const toggle = () => setIsOpen(!isOpen);
+function NavbarPref(props) {
+    const [isOpen, setIsOpen] = useState(false);
+    const toggle = () => setIsOpen(!isOpen);
     return (
         <div>
 
-               <Navbar  light expand="lg">
-                 <div className="container">
-                     <Link>
-                         <NavbarBrand className='d-flex align-items-center' href="/">
-                             <div className="brand-nav d-flex ">
-                                 <img src="/image/Prof.png" alt=""/>
-                             </div>
-                             <div className="brand-body mt-1">
-                                 <img src="/image/logo.png" alt=""/>
-                             </div>
-                         </NavbarBrand>
-                     </Link>
-                       <div className="til">
-                           <UncontrolledDropdown nav inNavbar>
-                               <DropdownToggle nav caret>
-                                   Uzb
-                               </DropdownToggle>
-                               <DropdownMenu right>
-                                   <DropdownItem>
-                                       Uzb
-                                   </DropdownItem>
-                                   <DropdownItem>
-                                       Rus
-                                   </DropdownItem>
-                                   <DropdownItem  />
+            <Navbar  light expand="lg">
+                <div className="container">
+                    <Link>
+                        <NavbarBrand className='d-flex align-items-center' href="/">
+                            <div className="brand-nav d-flex ">
+                                <img src="/image/Prof.png" alt=""/>
+                            </div>
+                            <div className="brand-body mt-1">
+                                <img src="/image/logo.png" alt=""/>
+                            </div>
+                        </NavbarBrand>
+                    </Link>
+                    <div className="til">
+                        <UncontrolledDropdown nav inNavbar>
+                            <DropdownToggle nav caret>
+                                Uzb
+                            </DropdownToggle>
+                            <DropdownMenu right>
+                                <DropdownItem>
+                                    Uzb
+                                </DropdownItem>
+                                <DropdownItem>
+                                    Rus
+                                </DropdownItem>
+                                <DropdownItem  />
 
-                               </DropdownMenu>
-                           </UncontrolledDropdown>
-                       </div>
-                       <div className="box">
+                            </DropdownMenu>
+                        </UncontrolledDropdown>
+                    </div>
+                    <div className="box">
 
-                           <UncontrolledDropdown nav inNavbar>
-                               <div className="navbar-end">
-                                   <img src="/image/user.png" alt=""/>
-                               </div>
-                               <DropdownToggle nav caret>
-                                   Kirish
-                               </DropdownToggle>
-                               <DropdownMenu right>
-                                   <DropdownItem>
-                                       <div className="drop-item1">
-                                           Vasya Pushkin
-                                       </div>
-                                       <div className="drop-item2">
-                                           pushkin12@gmail.com
-                                       </div>
-                                   </DropdownItem>
-                                   <DropdownItem divider />
-                                   <DropdownItem>
-                                       Natijalar
-                                   </DropdownItem>
-                                   <DropdownItem>
-                                       Sozlamalar
-                                   </DropdownItem>
-                                   <DropdownItem>
-                                       Chiqish
-                                   </DropdownItem>
-                               </DropdownMenu>
-                           </UncontrolledDropdown>
-                       </div>
-                     <NavbarToggler onClick={toggle} >
-                         {
-                             isOpen?
-                                 <img src="/image/cancel-vector-icon.jpg" alt=""/>:
-                                 <img src="/image/bars.png" alt=""/>
+                        <UncontrolledDropdown nav inNavbar>
+                            <div className="navbar-end">
+                                <img src="/image/user.png" alt=""/>
+                            </div>
+                            <DropdownToggle nav caret>
+                                Kirish
+                            </DropdownToggle>
+                            <DropdownMenu right>
+                                <DropdownItem>
+                                    <div className="drop-item1">
+                                        Vasya Pushkin
+                                    </div>
+                                    <div className="drop-item2">
+                                        pushkin12@gmail.com
+                                    </div>
+                                </DropdownItem>
+                                <DropdownItem divider />
+                                <DropdownItem>
+                                    Natijalar
+                                </DropdownItem>
+                                <DropdownItem>
+                                    Sozlamalar
+                                </DropdownItem>
+                                <DropdownItem>
+                                    Chiqish
+                                </DropdownItem>
+                            </DropdownMenu>
+                        </UncontrolledDropdown>
+                    </div>
+                    <NavbarToggler onClick={toggle} >
+                        {
+                            isOpen?
+                                <img src="/image/cancel-vector-icon.jpg" alt=""/>:
+                                <img src="/image/bars.png" alt=""/>
 
-                         }
-                     </NavbarToggler>
-                     <Collapse isOpen={isOpen} navbar>
+                        }
+                    </NavbarToggler>
+                    <Collapse isOpen={isOpen} navbar>
 
 
-                         <Nav className="mr-auto" navbar>
+                        <Nav className="mr-auto" navbar>
 
-                             <NavItem>
-                                         <NavLink to='/doc'>Kasp tanlash</NavLink>
+                            <NavItem>
+                                <NavLink to='/doc'>Kasp tanlash</NavLink>
 
-                             </NavItem>
-                             <NavItem>
-                                 <NavLink to='/tests'>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink to='/'>
 
-                                     Rezume yarat
+                                    Rezume yarat
 
-                                 </NavLink>
-                         </NavItem>
+                                </NavLink>
+                            </NavItem>
 
-                             <NavItem>
-                                 <NavLink to='/test'>Treninglar</NavLink>
+                            <NavItem>
+                                <NavLink to='/training'>Treninglar</NavLink>
 
-                             </NavItem>
-                             <NavItem>
-                                 <NavLink to='/'>Broshyura</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink to='/alljobs'>Broshyura</NavLink>
 
-                             </NavItem>
-                             <NavItem>
-                                 <NavLink to='/'>Biz haqimizda</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink to='/test'>Biz haqimizda</NavLink>
 
-                             </NavItem>
-                             <UncontrolledDropdown nav inNavbar>
-                                 <DropdownToggle nav caret>
-                                 Uzb
-                                 </DropdownToggle>
-                                 <DropdownMenu right>
-                                     <DropdownItem>
-                                       Uzb
-                                     </DropdownItem>
-                                     <DropdownItem>
+                            </NavItem>
+                            <UncontrolledDropdown nav inNavbar>
+                                <DropdownToggle nav caret>
+                                    Uzb
+                                </DropdownToggle>
+                                <DropdownMenu right>
+                                    <DropdownItem>
+                                        Uzb
+                                    </DropdownItem>
+                                    <DropdownItem>
                                         Rus
-                                     </DropdownItem>
-                                     <DropdownItem  />
+                                    </DropdownItem>
+                                    <DropdownItem  />
 
-                                 </DropdownMenu>
-                             </UncontrolledDropdown>
-                             <UncontrolledDropdown nav inNavbar>
-                                 <div className="navbar-end">
-                                     <img src="/image/user.png" alt=""/>
-                                 </div>
-                                 <DropdownToggle nav caret>
-                                     Kirish
-                                 </DropdownToggle>
-                                 <DropdownMenu right>
-                                     <DropdownItem>
-                                       <div className="drop-item1">
-                                           Vasya Pushkin
-                                       </div>
-                                         <div className="drop-item2">
-                                             pushkin12@gmail.com
-                                         </div>
-                                     </DropdownItem>
-                                     <DropdownItem divider />
-                                     <DropdownItem>
-                                         Natijalar
-                                     </DropdownItem>
-                                     <DropdownItem>
-                                         Sozlamalar
-                                     </DropdownItem>
-                                     <DropdownItem>
-                                         Chiqish
-                                     </DropdownItem>
-                                 </DropdownMenu>
-                             </UncontrolledDropdown>
-                         </Nav>
-                     </Collapse>
-                 </div>
-               </Navbar>
+                                </DropdownMenu>
+                            </UncontrolledDropdown>
+                            <UncontrolledDropdown nav inNavbar>
+                                <div className="navbar-end">
+                                    <img src="/image/user.png" alt=""/>
+                                </div>
+                                <DropdownToggle nav caret>
+                                    Kirish
+                                </DropdownToggle>
+                                <DropdownMenu right>
+                                    <DropdownItem>
+                                        <div className="drop-item1">
+                                            Vasya Pushkin
+                                        </div>
+                                        <div className="drop-item2">
+                                            pushkin12@gmail.com
+                                        </div>
+                                    </DropdownItem>
+                                    <DropdownItem divider />
+                                    <DropdownItem>
+                                        Natijalar
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        Sozlamalar
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        Chiqish
+                                    </DropdownItem>
+                                </DropdownMenu>
+                            </UncontrolledDropdown>
+                        </Nav>
+                    </Collapse>
+                </div>
+            </Navbar>
 
         </div>
     );
