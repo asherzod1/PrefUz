@@ -17,6 +17,7 @@ $Inter: 'Inter', sans-serif;
 .trainingVideo-content1{
     margin-top: 40px;
     width: 90%;
+    padding-bottom: 150px;
     margin-left: 5%;
     .c1-left{
         p{
@@ -32,6 +33,24 @@ $Inter: 'Inter', sans-serif;
             margin-top: 30px;
             margin-bottom: 27px;
             border: 1px solid #D1D4D8;
+        }
+        .c1-left-btn{
+            
+            display: inline-block;
+            padding: 14px 16px;
+            background: #FFA31A;
+            box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
+            border-radius: 8px;
+            font-family: $Inter;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 26px;
+            letter-spacing: -0.2px;
+            color: #FFFFFF;
+            img{
+                margin-left: 30px;
+            }
         }
     }
     .c1-right{
@@ -86,6 +105,7 @@ $Inter: 'Inter', sans-serif;
                     font-weight: 400;
                 }
             }
+            
         }
         .comments{
             height: 400px;
@@ -102,6 +122,75 @@ $Inter: 'Inter', sans-serif;
             letter-spacing: -0.2px;
             color: #1C1C1C;
             margin-bottom: 20px;
+        }
+        .comment-input{
+            margin-bottom: 12px;
+        }
+        .comment-btn{
+            margin-top: 15px;
+            padding: 6px 10px;
+            background-color: $base-color-blue-dark;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 18px;
+            color: #FFFFFF;
+            border: 1px solid #48CCD5;
+            border-radius: 6px;
+            img{
+                width: 16px;
+                height: 14px;
+                margin-left: 15px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and(max-width:575px) {
+    .trainingVideo-content1{
+        .c1-right-col{
+            margin-top: 30px;
+        }
+    }
+
+}
+@media only screen and(min-width:576px) and (max-width: 767px) {
+    .trainingVideo-content1{
+        .c1-right-col{
+            margin-top: 30px;
+        }
+    }
+}
+@media only screen and(min-width:768px) and (max-width: 991px) {
+    .trainingVideo-content1{
+        
+        .c1-right-col{
+            margin-top: 30px;
+        }
+    }
+}
+@media only screen and(min-width:992px) and (max-width: 1199px) {
+    .trainingVideo-content1{
+        .c1-left-col{
+            width: 100%;
+        }
+        .c1-right-col{
+            margin-top: 30px;
         }
     }
 }
