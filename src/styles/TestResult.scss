@@ -239,6 +239,9 @@ $Inter: 'Inter', sans-serif;
             }
         }
     }
+    .testRes-img-footer{
+        display: none;
+    }
 }
 @media only screen and(min-width:576px) and (max-width: 767px) {
     .testResult{
@@ -249,6 +252,9 @@ $Inter: 'Inter', sans-serif;
                     margin-bottom: 20px;
                 }
             }
+        }
+        .testRes-img-footer{
+            display: none;
         }
     }
 }
@@ -262,14 +268,18 @@ $Inter: 'Inter', sans-serif;
                 }
             }
         }
+        .testRes-cards{
+            width: 100%;
+        }
+        .testRes-img-footer{
+            display: none;
+        }
     }
 }
 @media only screen and(min-width:992px) and (max-width: 1200px) {
-    .allJobs-content{
-        .select{
-            .dropdown-menu{
-
-            }
+    .testRes-img-footer{
+        img{
+            width: 100%
         }
     }
 }

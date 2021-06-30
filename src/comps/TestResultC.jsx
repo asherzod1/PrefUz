@@ -115,7 +115,7 @@ const TestResultC = () => {
                                 <h1>Sizga mos kasblar</h1>
                                 <div className="testRes-cards">
                                     <div className="row">
-                                        <div className="col-lg-8 col-md-12 col-sm-12">
+                                        <div className="col-lg-8 col-md-8 col-sm-12 testRes-cards">
                                             <div className="row">
                                                 <div className="col-sm-12 col-md-6 col-lg-6">
                                                     <div className="allJobs-card">
@@ -199,8 +199,10 @@ const TestResultC = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-lg-4 col-md-4 col-sm-0 footer">
-                                            <img className='w-100' src="/images/TestResult/c3-image.png" alt="rasm" />
+                                        <div className="col-lg-4 col-md-3 col-sm-0 testRes-img-footer">
+                                            <div className=''>
+                                            <img className='' src="/images/TestResult/c3-image.png" alt="rasm" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

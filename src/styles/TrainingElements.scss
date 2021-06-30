@@ -1,0 +1,107 @@
+$base-color-blue-dark: #00BBC7;
+$base-color-orange: #FFA31A;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Nunito:wght@800&display=swap');
+$Nunito: 'Nunito', sans-serif;
+$Inter: 'Inter', sans-serif;
+
+.trainingVideo-content{
+    padding: 30px 0;
+    background: #242424;
+}
+.video{
+    margin-left: 5%;    
+    width:90%;
+    height: 80%;
+    border-radius: 10px;
+}
+.trainingVideo-content1{
+    margin-top: 40px;
+    width: 90%;
+    margin-left: 5%;
+    .c1-left{
+        p{
+            font-family: $Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.1px;
+            color: #1C1C1C;
+        }
+        .c1-left-border{
+            margin-top: 30px;
+            margin-bottom: 27px;
+            border: 1px solid #D1D4D8;
+        }
+    }
+    .c1-right{
+        padding: 18px 20px;
+        background: #F2F2F2;
+        border-radius: 10px;
+        h2{
+            font-family: $Nunito;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: -0.1px;
+            color: #A7AAAE;
+        }
+        .comment{
+            margin-bottom: 20px;
+            display: flex;
+            .comment-img{
+                width: 48px;
+                height: 48px;
+                margin-right: 15px;
+            }
+            .comment-content{
+                h1{
+                    font-family: $Nunito;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 22px;
+                    letter-spacing: -0.1px;
+                    color: #1C1C1C;
+                }
+                h4{
+                    font-family: $Inter;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 15px;
+                    color: #A7AAAE;
+                    margin-top: -8px;
+                    margin-bottom: 0px;
+                }
+                p{
+                    font-family: $Inter;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: -0.1px;
+                    color: #545454;
+                    font-weight: 400;
+                }
+            }
+        }
+        .comments{
+            height: 400px;
+            overflow-y: scroll;
+        }
+        .comments-border{
+            border: 1px solid #D1D4D8;
+            margin-top: 15px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: -0.2px;
+            color: #1C1C1C;
+            margin-bottom: 20px;
+        }
+    }
+}

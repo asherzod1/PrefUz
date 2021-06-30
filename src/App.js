@@ -11,9 +11,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import PrefTests from "./pages/PrefTests";
 import TestsNew from "./pages/TestsNew";
-import TrainingPage from "./comps/trainingpage/TrainingPage";
 import TrainingP from "./pages/TrainingP";
+<<<<<<< HEAD
 import RezumeCreatPage from "./pages/RezumeCreatPage";
+=======
+import TestResultP from './pages/TestResultP';
+import TrainingElementsP from './pages/TrainingElementsP';
+>>>>>>> 2065d7d5bebe202afa976219358177d1c4679fc1
 function App() {
 
     const routes = [
@@ -39,6 +43,12 @@ function App() {
         },
         {
             path:'/training', component:TrainingP,
+        },
+        {
+            path:'/testresult', component:TestResultP
+        },
+        {
+            path:'/trainingelement', component:TrainingElementsP
         }
         ,
         {
