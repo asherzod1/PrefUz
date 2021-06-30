@@ -23,7 +23,7 @@ function NavbarPref(props) {
 
             <Navbar  light expand="lg">
                 <div className="container">
-                    <Link>
+                    <Link to='/'>
                         <NavbarBrand className='d-flex align-items-center' href="/">
                             <div className="brand-nav d-flex ">
                                 <img src="/image/Prof.png" alt=""/>
@@ -99,7 +99,7 @@ function NavbarPref(props) {
 
                             </NavItem>
                             <NavItem>
-                                <NavLink to='/'>
+                                <NavLink to='/rezume'>
 
                                     Rezume yarat
 

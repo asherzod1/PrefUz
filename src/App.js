@@ -13,6 +13,7 @@ import PrefTests from "./pages/PrefTests";
 import TestsNew from "./pages/TestsNew";
 import TrainingPage from "./comps/trainingpage/TrainingPage";
 import TrainingP from "./pages/TrainingP";
+import RezumeCreatPage from "./pages/RezumeCreatPage";
 function App() {
 
     const routes = [
@@ -38,6 +39,10 @@ function App() {
         },
         {
             path:'/training', component:TrainingP,
+        }
+        ,
+        {
+            path:'/rezume', component:RezumeCreatPage,
         }
     ]
     return (
