@@ -1,6 +1,7 @@
-import LayOut from '../comps/LayOut'
+
 import React from 'react'
 import TestResultC from '../comps/TestResultC'
+import LayOut from '../comps/LayOut'
 
 const TestResultP = () => {
     return (

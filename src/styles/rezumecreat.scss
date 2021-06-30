@@ -255,8 +255,10 @@
           }
         }
       }
-      .rezumecr-H-Img {
-       display: none;
+      .resumecr-H-Img {
+ img{
+   display: none;
+ }
 
       }
     }
@@ -455,7 +457,7 @@
           }
         }
       }
-      .rezumecr-H-Img {
+      .resumecr-H-Img {
         display: none;
 
       }
@@ -655,9 +657,14 @@
           }
         }
       }
-      .rezumecr-H-Img {
-        margin-right: 0;
+      .resumecr-H-Img {
+        padding-right: 0px;
         margin-top: 40px;
+        margin-left: -10px!important;
+        img{
+          margin-right: 0px!important;
+          width: 96% !important;
+        }
       }
     }
   }
