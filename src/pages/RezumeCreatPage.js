@@ -4,6 +4,7 @@ import "../styles/rezumecreat.scss"
 import LayOut from "../comps/LayOut";
 import RezumCrbody from "../comps/RezumeCreatPage/RezumCrbody";
 import RezumeCreatFooter from "../comps/RezumeCreatPage/RezumeCreatFooter";
+
 function RezumeCreatPage(props) {
     return (
         <div>

@@ -15,6 +15,7 @@ import TrainingP from "./pages/TrainingP";
 import RezumeCreatPage from "./pages/RezumeCreatPage";
 import TestResultP from "./pages/TestResultP";
 import TrainingElementsP from "./pages/TrainingElementsP";
+import TappageForm from "./pages/TappageForm";
 function App() {
 
     const routes = [
@@ -50,6 +51,9 @@ function App() {
         ,
         {
             path:'/rezume', component:RezumeCreatPage,
+        } ,
+        {
+            path:'/tabrezum', component:TappageForm,
         }
     ]
     return (
