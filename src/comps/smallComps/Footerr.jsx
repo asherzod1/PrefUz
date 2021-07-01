@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="container">
                 <div className="footerPref">
                     <div className="row">
-                        <div className="col-md-4 col-sm-12">
+                        <div className="col-md-7 col-lg-4 col-sm-12">
 
                             <div className="footer-logo">
                                 <div className="brand-nav d-flex  ">
@@ -30,7 +30,7 @@ const Footer = () => {
                                 Xalq Ta’limi Vazirligi <br/> Copyright 2021 (c) Multimedia markazi email: prof@itsm.uz
                             </div>
                         </div>
-                        <div className=" col-sm-12 col-md-2">
+                        <div className=" col-sm-12 col-md-5 col-lg-2">
                             <div className="collapse-footer">
                                 <button className='button-coll' onClick={toggle}>Biz haqimizda
                                     {
@@ -72,7 +72,7 @@ const Footer = () => {
                                 Bog'lanish
                             </div>
                         </div>
-                        <div className="col-sm-12 col-md-2">
+                        <div className="col-sm-12 col-md-5 col-lg-2">
                             <div className="collapse-footer">
                                 <button className='button-coll' onClick={toggle1}>Ro'yxatdan o'tish
                                     {
@@ -114,7 +114,7 @@ const Footer = () => {
                                 Treninglar
                             </div>
                         </div>
-                        <div className="col-sm-12 col-md-2">
+                        <div className="col-sm-12 col-md-3 col-lg-2">
                             <div className="collapse-footer">
                                 <button className='button-coll' onClick={toggle2}>Internetdagi saytlarimiz
                                     {
@@ -172,7 +172,7 @@ const Footer = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="col-sm-12 col-md-2">
+                        <div className="col-sm-12 col-md-3 col-lg-2">
                             <div className="collapse-footer">
                                 <button className='button-coll' onClick={toggle3}>Internetdagi saytlarimiz
                                     {

@@ -15,6 +15,7 @@ import TrainingP from "./pages/TrainingP";
 import RezumeCreatPage from "./pages/RezumeCreatPage";
 import CalcJobsP from './pages/CalcJobsP';
 import TestResultP from "./pages/TestResultP";
+import TappageForm from "./pages/TappageForm";
 import TrainingElementsP from "./pages/TrainingElementsP";
 import MyResumeP from './pages/MyResumeP';
 function App() {
@@ -52,6 +53,10 @@ function App() {
         ,
         {
             path:'/rezume', component:RezumeCreatPage,
+
+        } ,
+        {
+            path:'/tabrezum', component:TappageForm,
         },
         {
             path:'/calcjobs', component:CalcJobsP

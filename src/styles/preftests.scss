@@ -199,13 +199,12 @@
 
   .testP {
     margin-top: 24px;
-    margin-left: 24.8%;
     padding-bottom: 20px;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-right: 24.8%;
-
+  margin-left: 23%;
+    margin-right: 23%;
     background: #FFFFFF;
     border: 1px solid #BCCDFF;
     box-sizing: border-box;
@@ -290,7 +289,7 @@
         display: flex;
         justify-content: center;
         margin-bottom: 20px;
-        align-items:end;
+        align-items: end;
 
         .button-item-1 {
           display: flex;
@@ -325,6 +324,7 @@
     .test-page {
       padding-bottom: 40px;
       height: 600px;
+
       .test-title {
         font-style: normal;
         font-weight: 800;
@@ -410,7 +410,7 @@
       .testp-button:hover {
         background-color: white;
         color: #FFA31A;
-        border-radius: 2px solid #FFA31A;
+        border: 2px solid #FFA31A;
       }
     }
 
@@ -419,9 +419,10 @@
       padding-left: 0;
       margin-left: 0;
       position: relative;
-      img{
+
+      img {
         margin-left: 0;
-        width: 100%!important;
+        width: 100% !important;
 
       }
 
@@ -493,6 +494,7 @@
       .P-test {
         display: flex;
         justify-content: center;
+
         img {
           margin-right: 5px;
           transform: scale(0.8);
@@ -574,6 +576,7 @@
     .test-page {
       padding-bottom: 40px;
       height: 600px;
+
       .test-title {
         font-style: normal;
         font-weight: 800;
@@ -659,7 +662,7 @@
       .testp-button:hover {
         background-color: white;
         color: #FFA31A;
-        border-radius: 2px solid #FFA31A;
+        border: 2px solid #FFA31A;
       }
     }
 
@@ -668,9 +671,10 @@
       padding-left: 0;
       margin-left: 0;
       position: relative;
-      img{
+
+      img {
         margin-left: 0;
-        width: 100%!important;
+        width: 100% !important;
 
       }
 
@@ -742,6 +746,7 @@
       .P-test {
         display: flex;
         justify-content: center;
+
         img {
           margin-left: 18%;
           transform: scale(0.8);
