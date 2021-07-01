@@ -3,7 +3,7 @@ import React from 'react';
 function DocProfSection6(props) {
     return (
         <div>
-            <div className="container m-0 p-0">
+            <div className="container">
                 <div className="itemProf">
                     <div className="Prof-item">
                         <div className="item-text">
@@ -17,33 +17,33 @@ function DocProfSection6(props) {
 
                         </div>
                         <div className="cardItem">
-                            <div className="row  m-0">
-                                <div className="col-md-2 col-sm-6 ">
+                            <div className="row">
+                                <div className="col-md-6 col-lg-2 col-sm-6 ">
                                     <div className="itemcard">
                                         <img src="/image/gerb.png" alt=""/>
                                     </div>
                                 </div>
-                                <div className="col-md-2 col-sm-6 ">
+                                <div className="col-md-6 col-lg-2 col-sm-6 ">
                                     <div className="itemcard">
                                         <img src="/image/city.png" alt=""/>
                                     </div>
                                 </div>
-                                <div className="col-md-2 col-sm-6">
+                                <div className="col-md-6 col-lg-2 col-sm-6">
                                     <div className="itemcard">
                                         <img src="/image/akfa.png" alt=""/>
                                     </div>
                                 </div>
-                                <div className="col-md-2 col-sm-6">
+                                <div className="col-md-6 col-lg-2 col-sm-6">
                                     <div className="itemcard">
                                         <img src="/image/nocommet.png" alt=""/>
                                     </div>
                                 </div>
-                                <div className="col-md-2 col-sm-6">
+                                <div className="col-md-6 col-lg-2 col-sm-6">
                                     <div className="itemcard">
                                         <img src="/image/hayat.png" alt=""/>
                                     </div>
                                 </div>
-                                <div className="col-md-2 col-sm-6">
+                                <div className="col-md-6 col-lg-2 col-sm-6">
                                     <div className="itemcard">
                                         <img src="/image/salus.png" alt=""/>
                                     </div>

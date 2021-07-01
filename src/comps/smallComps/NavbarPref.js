@@ -81,12 +81,11 @@ function NavbarPref(props) {
                             </DropdownMenu>
                         </UncontrolledDropdown>
                     </div>
-                    <NavbarToggler onClick={toggle} >
+                    <NavbarToggler style={{border:"none"}} onClick={toggle} >
                         {
                             isOpen?
-                                <img src="/image/cancel-vector-icon.jpg" alt=""/>:
-                                <img src="/image/bars.png" alt=""/>
-
+                                <img  src="/image/menu-3.png" alt=""/>:
+                                <img src="/image/menu-2.png" alt=""/>
                         }
                     </NavbarToggler>
                     <Collapse isOpen={isOpen} navbar>

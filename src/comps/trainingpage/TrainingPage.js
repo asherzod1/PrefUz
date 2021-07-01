@@ -18,10 +18,10 @@ function TrainingPage(props) {
                 <div className="container">
                     <div className="row">
 
-                        <div className="col-md-6 col-12 col-sm-12">
+                        <div className="col-md-12 col-lg-7 col-12 col-sm-12">
                             <input type="text" className='form-control' placeholder=' Qidirish'/>
                         </div>
-                        <div className="col-md-4 col-12 col-sm-6 ">
+                        <div className="col-md-12 col-lg-4 col-12 col-sm-12 ">
                             <div className="train-drop">
                                 <Dropdown isOpen={dropdownOpen3} toggle={toggle3}>
                                     <DropdownToggle className='train-filtr form-control' caret>
@@ -42,7 +42,7 @@ function TrainingPage(props) {
             <div className="train-Body">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4 col-sm-6 col-12 mt-4 ">
+                        <div className="col-md-6 col-lg-4 col-sm-6 col-12 mt-4 ">
                             <div className="train-card">
                                 <div className="train-card-img">
                                     <img className='img-fluid' src="/image/train-img.png" alt=""/>
@@ -77,7 +77,7 @@ function TrainingPage(props) {
 
                             </div>
                         </div>
-                        <div className="col-md-4  col-sm-6 col-12 mt-4">
+                        <div className="col-md-6 col-lg-4 col-sm-6 col-12 mt-4 ">
                             <div className="train-card">
                                 <div className="train-card-img">
                                     <img className='img-fluid' src="/image/train-img.png" alt=""/>
@@ -112,7 +112,7 @@ function TrainingPage(props) {
 
                             </div>
                         </div>
-                        <div className="col-md-4 mt-4 col-sm-6 col-12">
+                        <div className="col-md-6 col-lg-4 col-sm-6 col-12 mt-4 ">
                             <div className="train-card">
                                 <div className="train-card-img">
                                     <img className='img-fluid' src="/image/train-img.png" alt=""/>
@@ -147,7 +147,7 @@ function TrainingPage(props) {
 
                             </div>
                         </div>
-                        <div className="col-md-4 mt-4 col-sm-6 col-12">
+                        <div className="col-md-6 col-lg-4 col-sm-6 col-12 mt-4 ">
                             <div className="train-card">
                                 <div className="train-card-img">
                                     <img className='img-fluid' src="/image/train-img.png" alt=""/>
@@ -182,7 +182,7 @@ function TrainingPage(props) {
 
                             </div>
                         </div>
-                        <div className="col-md-4 mt-4 col-sm-6 col-12">
+                        <div className="col-md-6 col-lg-4 col-sm-6 col-12 mt-4 ">
                             <div className="train-card">
                                 <div className="train-card-img">
                                     <img className='img-fluid' src="/image/train-img.png" alt=""/>
@@ -217,7 +217,7 @@ function TrainingPage(props) {
 
                             </div>
                         </div>
-                        <div className="col-md-4 mt-4 col-sm-6 col-12">
+                        <div className="col-md-6 col-lg-4 col-sm-6 col-12 mt-4 ">
                             <div className="train-card">
                                 <div className="train-card-img">
                                     <img className='img-fluid' src="/image/train-img.png" alt=""/>
@@ -252,7 +252,7 @@ function TrainingPage(props) {
 
                             </div>
                         </div>
-                        <div className="col-md-4 mt-4 col-sm-6 col-12">
+                        <div className="col-md-6 col-lg-4 col-sm-6 col-12 mt-4 ">
                             <div className="train-card">
                                 <div className="train-card-img">
                                     <img className='img-fluid' src="/image/train-img.png" alt=""/>
@@ -287,7 +287,7 @@ function TrainingPage(props) {
 
                             </div>
                         </div>
-                        <div className="col-md-4 mt-4 col-sm-6 col-12">
+                        <div className="col-md-6 col-lg-4 col-sm-6 col-12 mt-4 ">
                             <div className="train-card">
                                 <div className="train-card-img">
                                     <img className='img-fluid' src="/image/train-img.png" alt=""/>
@@ -322,7 +322,7 @@ function TrainingPage(props) {
 
                             </div>
                         </div>
-                        <div className="col-md-4 mt-4 col-sm-6 col-12">
+                        <div className="col-md-6 col-lg-4 col-sm-6 col-12 mt-4 ">
                             <div className="train-card">
                                 <div className="train-card-img">
                                     <img className='img-fluid' src="/image/train-img.png" alt=""/>

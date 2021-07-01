@@ -41,7 +41,7 @@
   .docPimg {
     width: 264px;
     height: 479px;
-    margin-top: 96px;
+    margin-top: 44px;
     margin-left: 150px;
   }
 
@@ -101,6 +101,8 @@
   width: 100%;
   height: 210px;
   background: #FFA31A;
+  padding-left: 30px;
+  padding-right: 30px;
   border-radius: 16px;
   margin-top: 40px;
 
@@ -116,15 +118,14 @@
     color: #FFFFFF;
   }
 
-  .col-md-2:nth-child(1) {
-    margin-left: 30px;
-  }
 
-  .col-md-2 {
+
+  .col-md-4 {
     width: 166px;
-    margin-left: 12px;
+    margin: 0 auto;
     padding-right: 0;
     padding-left: 0;
+
 
     .doc-card {
       padding-left: 0;
@@ -479,8 +480,8 @@
     }
 
     .cardItem {
-      padding-left: 100px;
-      padding-right: 100px;
+      padding-left: 90px;
+      padding-right: 90px;
       margin-top: 30px;
 
       .itemcard {
@@ -659,7 +660,7 @@
       border-radius: 50%;
       background: #48CCD5;
 
-      left: -62px;
+      left: -52px;
       box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
 
       &:before {
@@ -681,7 +682,7 @@
       border-radius: 50%;
       background: #48CCD5;
 
-      right: -62px;
+      right: -52px;
       box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
 
       &:before {
@@ -705,7 +706,7 @@
       background: #FFFFFF;
       border-radius: 10px;
       width: 96%;
-      margin-left: 4%;
+      margin-left: 2%;
       height: 170px;
 
       .slickimg {
@@ -821,6 +822,7 @@
 @media screen and (max-width: 576px) {
   .doc-SectionC {
     margin-top: 80px;
+
     .doc-button {
       display: flex;
       justify-content: center;
@@ -838,6 +840,7 @@
       background: #FFEDD8;
       border-radius: 33px;
     }
+
     .doc-check {
       margin-top: 15px;
       display: flex;
@@ -852,7 +855,8 @@
         border-radius: 50%;
         margin-left: 20px;
         background: #CFFFCE;
-        img{
+
+        img {
           width: 30px;
           height: 30px;
           transform: scale(0.7);
@@ -872,6 +876,7 @@
         color: #1C1C1C;
       }
     }
+
     .doc-name {
       font-style: normal;
       font-weight: 800;
@@ -886,9 +891,9 @@
       font-style: normal;
       font-weight: normal;
       font-size: 14px;
-      margin: 0 auto!important;
+      margin: 0 auto !important;
       color: #6E7381;
-      margin-top: 20px!important;
+      margin-top: 20px !important;
       width: 80%;
     }
 
@@ -930,7 +935,7 @@
     .docP-search {
       margin-top: -1px;
       width: 100%;
-      height: 440px;
+      height: 400px;
       border: 1px solid #E7E7E7;
       box-shadow: 0px 2px 10px rgba(75, 90, 104, 0.1);
       border-radius: 16px;
@@ -938,6 +943,7 @@
       .docP-img-footer {
         display: flex;
         width: 100%;
+
         .docP-img-footerS {
           display: flex;
           justify-content: center;
@@ -948,8 +954,10 @@
           height: 60px;
           border-radius: 50%;
           background: #FFA945;
+          margin-left: 20px;
 
           img {
+
             width: 30px;
             height: 30px;
           }
@@ -958,7 +966,8 @@
         .docP-search-title {
           padding: 0;
           margin: 0;
-          width: 200px;
+          width: 80%;
+          padding-right: 22px;
 
           .search-title {
             margin-top: 40px;
@@ -988,7 +997,7 @@
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
- height: 1550px;
+    height: 1550px;
     width: 100%;
     background: #FFA31A;
     border-radius: 16px;
@@ -1006,9 +1015,9 @@
       color: #FFFFFF;
     }
 
-    .col-md-2 {
-    width: 100%;
-     margin: 0 auto;
+    .col-md-4 {
+      width: 100%;
+      margin: 0 auto;
       display: flex;
       justify-content: center;
       padding-right: 0;
@@ -1018,7 +1027,7 @@
         padding-left: 0;
         padding-right: 0;
         z-index: 1;
-        width: 300px!important;
+        width: 96% !important;
         margin-top: 14px;
         background: #FFFFFF;
         box-shadow: 0px 2px 10px rgba(75, 90, 104, 0.1);
@@ -1052,6 +1061,7 @@
         .card-img img {
           width: 100%;
           height: 140px;
+          object-fit: cover;
         }
       }
     }
@@ -1119,7 +1129,7 @@
     margin: 0;
 
     .cards1 {
-      width:96%;
+      width: 96%;
       height: 285px;
       margin: 0 auto;
 
@@ -1234,15 +1244,16 @@
     }
   }
   .itemProf {
-    height: 847px;
+    height: 867px;
 
     .Prof-item {
       margin-top: 60px;
       width: 96%;
       margin-left: 2%;
-      height: 976px;
+      height: 996px;
       background: #E0F8FF;
       border-radius: 16px;
+
       .item-text {
         font-family: Nunito;
         font-style: normal;
@@ -1275,14 +1286,19 @@
         display: flex;
         justify-content: center;
         margin-top: 30px;
+        padding-left: 0;
+        padding-right: 0;
 
         .itemcard {
 
           display: flex;
           justify-content: center;
           align-items: center;
-          width: 320px !important;
+          width: 96% !important;
+          margin-left: 2% !important;
           margin-top: 20px;
+          padding-right: 0;
+          padding-left: 0;
           height: 90px;
           background: #FFFFFF;
           border: 3px solid #D3DDFA;
@@ -1345,7 +1361,7 @@
         background: #FFFFFF;
         border: 1px solid #E7E7E7;
         box-sizing: border-box;
-        width:96%;
+        width: 96%;
         margin-left: 2%;
         height: 220px;
         box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
@@ -1810,15 +1826,77 @@
     }
   }
   .doc-section {
-    height: 600px;
-    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 850px;
+    width: 100%!important;
+    background: #FFA31A;
+    border-radius: 16px;
+    margin-top: 20px;
 
-    .col-md-2:nth-child(1) {
-      margin-left: 5px;
+    .doc-title {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 44px;
+      margin-top: 1px;
+      margin-left: 30px;
+      padding-top: 34px;
+      letter-spacing: -0.4px;
+      color: #FFFFFF;
     }
 
-    .doc-card {
-      margin: 0;
+    .col-md-4 {
+      width: 48%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      padding-right: 0;
+      padding-left: 0;
+
+      .doc-card {
+        padding-left: 0;
+        padding-right: 0;
+        z-index: 1;
+        width: 100% !important;
+        margin-top: 14px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 10px rgba(75, 90, 104, 0.1);
+        border-radius: 10px;
+
+        .card-title {
+          font-family: Nunito;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 22px;
+          /* identical to box height, or 137% */
+          margin-top: 12px;
+          margin-left: 14px;
+          letter-spacing: -0.1px;
+
+          color: #000000;
+        }
+
+        .card-text {
+          font-family: Inter;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          color: #6E7381;
+          margin-top: 3px;
+          margin-left: 16px;
+          padding-bottom: 18px;
+        }
+
+        .card-img img {
+          width: 100%;
+          height: 140px;
+          object-fit: cover;
+        }
+      }
     }
   }
   .profesion {
@@ -1903,18 +1981,15 @@
     }
   }
   .itemProf {
-    height: 847px;
+    height: 867px;
 
     .Prof-item {
       margin-top: 60px;
-      width: 100%;
-      height: 666px;
-      left: 120px;
-      top: 2619px;
+      width: 96%;
+      margin-left: 2%;
+      height: 600px;
       background: #E0F8FF;
       border-radius: 16px;
-      margin-left: 10%;
-
 
       .item-text {
         font-family: Nunito;
@@ -1948,14 +2023,19 @@
         display: flex;
         justify-content: center;
         margin-top: 30px;
+        padding-left: 0;
+        padding-right: 0;
 
         .itemcard {
 
           display: flex;
           justify-content: center;
           align-items: center;
-          width: 120%;
-          margin: 0 auto;
+          width:96% !important;
+          margin-left: 2% !important;
+          margin-top: 20px;
+          padding-right: 0;
+          padding-left: 0;
           height: 90px;
           background: #FFFFFF;
           border: 3px solid #D3DDFA;
@@ -2012,7 +2092,7 @@
     }
 
     .spetP-card {
-      height: 1000px;
+      height: 800px;
       margin-top: 25px;
       margin-left: 16px;
 
@@ -2022,9 +2102,9 @@
         background: #FFFFFF;
         border: 1px solid #E7E7E7;
         box-sizing: border-box;
-        width: 96%;
-        margin-left: 2%;
-        height: 220px;
+        width: 98%;
+        margin-left: 1%;
+        height: 240px;
         box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
         border-radius: 10px;
 
@@ -2400,7 +2480,7 @@
 
         .docP-search-title {
           padding: 0;
-          margin-left: 15%;
+          margin-left: 5%;
           width: 60%;
 
           .search-title {
@@ -2427,15 +2507,77 @@
     }
   }
   .doc-section {
-    height: 600px;
-    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 650px;
+    width: 100%!important;
+    background: #FFA31A;
+    border-radius: 16px;
+    margin-top: 20px;
 
-    .col-md-2:nth-child(1) {
-      margin-left: 5px;
+    .doc-title {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 44px;
+      margin-top: 1px;
+      margin-left: 30px;
+      padding-top: 34px;
+      letter-spacing: -0.4px;
+      color: #FFFFFF;
     }
 
-    .doc-card {
-      margin: 0;
+    .col-md-4 {
+      width: 32%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      padding-right: 0;
+      padding-left: 0;
+
+      .doc-card {
+        padding-left: 0;
+        padding-right: 0;
+        z-index: 1;
+        width: 100% !important;
+        margin-top: 14px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 10px rgba(75, 90, 104, 0.1);
+        border-radius: 10px;
+
+        .card-title {
+          font-family: Nunito;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 22px;
+          /* identical to box height, or 137% */
+          margin-top: 12px;
+          margin-left: 14px;
+          letter-spacing: -0.1px;
+
+          color: #000000;
+        }
+
+        .card-text {
+          font-family: Inter;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          color: #6E7381;
+          margin-top: 3px;
+          margin-left: 16px;
+          padding-bottom: 18px;
+        }
+
+        .card-img img {
+          width: 100%;
+          height: 140px;
+          object-fit: cover;
+        }
+      }
     }
   }
   .profesion {
@@ -2526,8 +2668,6 @@
       margin-top: 60px;
       width: 100%;
       height: 506px;
-      left: 120px;
-      top: 2619px;
       background: #E0F8FF;
       border-radius: 16px;
 
@@ -2564,14 +2704,15 @@
         display: flex;
         justify-content: center;
         margin-top: 30px;
-
+  padding-right: 0!important;
+        padding-left: 0!important;
         .itemcard {
 
           display: flex;
           justify-content: center;
           align-items: center;
-          width: 150% !important;
-          margin: 0 auto;
+          width: 96% !important;
+          margin-left: 2%;
           height: 90px;
           background: #FFFFFF;
           border: 3px solid #D3DDFA;
@@ -2579,7 +2720,7 @@
           border-radius: 10px;
 
           img {
-            transform: scale(0.5);
+            transform: scale(1);
           }
         }
       }
@@ -2612,6 +2753,7 @@
     }
   }
   .spetP {
+    margin-top: -300px;
     .spetP-title {
       font-style: normal;
       font-weight: 800;
@@ -2628,7 +2770,7 @@
     }
 
     .spetP-card {
-      height: 1000px;
+      height: 600px;
       margin-top: 25px;
       margin-left: 16px;
 
@@ -2638,9 +2780,9 @@
         background: #FFFFFF;
         border: 1px solid #E7E7E7;
         box-sizing: border-box;
-        width: 100%;
-        flex-wrap: wrap;
-        height: 280px;
+        width: 98%;
+        margin-left: 1%;
+        height: 240px;
         box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
         border-radius: 10px;
 
@@ -2675,7 +2817,7 @@
 
           .card-page {
             margin-top: 16px;
-            padding-left: 10%;
+            padding-left: 80px;
             margin-right: 13px;
 
             .card-empl {
@@ -2798,6 +2940,56 @@
         }
       }
     }
+  }
+  .doc-SectionC {
+    margin-top: 130px;
+img{
+
+  margin-left: 0;
+}
+    .doc-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      margin-left: 100px;
+      width: 151px;
+      height: 32px;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #FFA31A;
+      background: #FFEDD8;
+      border-radius: 33px;
+    }
+
+    .doc-name {
+      font-style: normal;
+      font-weight: 800;
+      font-size: 26px;
+      margin-left: 100px;
+      margin-top: 12px;
+
+      color: #1C1C1C;
+    }
+
+    .doc-name-text {
+      font-family: Inter;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      margin-left: 100px;
+
+      letter-spacing: -0.1px;
+
+      margin-top: 15px;
+
+      color: #6E7381;
+    }
+
   }
 }
 

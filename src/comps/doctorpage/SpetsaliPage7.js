@@ -9,8 +9,8 @@ function SpetsaliPage7(props) {
                         Soha mutahasislardan bazilari
                     </div>
                     <div className="spetP-card">
-                        <div className="row m-0 p-0 ">
-                            <div className="col-md-3 col-sm-6 col-12 p-0 m-0">
+                        <div className="row  ">
+                            <div className="col-md-6 col-lg-3 col-sm-6 col-12 p-0 m-0">
                                 <div className="cardP">
                                     <div className="cardfooter">
                                         <img src="/image/docd.png" alt=""/>
@@ -34,7 +34,7 @@ function SpetsaliPage7(props) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-3 col-sm-6 col-12 m-0 p-0">
+                            <div className="col-md-6 col-sm-6 col-lg-3 col-12 m-0 p-0">
                                 <div className="cardP">
                                     <div className="cardfooter">
                                         <img src="/image/docd.png" alt=""/>
@@ -58,7 +58,7 @@ function SpetsaliPage7(props) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-3 m-0 col-sm-6 col-12 p-0">
+                            <div className="col-md-6 col-lg-3 m-0 col-sm-6 col-12 p-0">
                                 <div className="cardP">
                                     <div className="cardfooter">
                                         <img src="/image/docd.png" alt=""/>
@@ -82,7 +82,7 @@ function SpetsaliPage7(props) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-3  m-0 col-sm-6 col-12 p-0">
+                            <div className="col-md-6 col-lg-3  m-0 col-sm-6 col-12 p-0">
                                 <div className="cardP">
                                     <div className="cardfooter">
                                         <img src="/image/docd.png" alt=""/>
