@@ -94,65 +94,65 @@ $Inter: 'Inter', sans-serif;
         }
     }
 
-    .allJobs-cards{
-        margin-bottom: 250px;
-        .allJobs-card{
-            margin-bottom: 20px;
-            background: #F7F7F7;
-            border: 1px solid #E7E7E7;
-            border-radius: 10px;
-            .card-imgg{
-                padding: 7px 0 7px 5px;
-                display: flex;
-                justify-content: flex-start;
-                img{
-                    opacity: 0.8;
-                    border-radius: 10px;
-                    border: 5px solid #E7E7E7;
-                    width: 110%;
-                    
-                }
+}
+.allJobs-cards{
+    margin-bottom: 250px;
+    .allJobs-card{
+        margin-bottom: 20px;
+        background: #F7F7F7;
+        border: 1px solid #E7E7E7;
+        border-radius: 10px;
+        .card-imgg{
+            padding: 7px 0 7px 5px;
+            display: flex;
+            justify-content: flex-start;
+            img{
+                opacity: 0.8;
+                border-radius: 10px;
+                border: 5px solid #E7E7E7;
+                width: 110%;
+                
             }
-            .card-textt{
-                padding: 17px 0px 0px 0px;
-                h3{
-                    font-family: Nunito;
-                    font-style: normal;
-                    font-weight: bold;
-                    font-size: 16px;
-                    line-height: 22px;
-                    letter-spacing: -0.1px;
-                    color: #000000;
-                }
-                p{
-                    font-family: Inter;
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 12px;
-                    line-height: 15px;
-                    color: #6E7381;
-                    margin-bottom: 2px;
-                }
-                h4{
-                    font-family: Inter;
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 12px;
-                    line-height: 15px;
-                    color: #6E7381;
-                    margin-bottom: 17px;
-                }
+        }
+        .card-textt{
+            padding: 5px 0px 0px 0px;
+            h3{
+                font-family: Nunito;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: -0.1px;
+                color: #000000;
             }
-            .allJobs-card-button{
-                background-color: $base-color-orange;
-                padding: 9px 21px;
-                color: white;
-                border-radius: 6px;
-                transition: all 0.15s ease-in;
-                &:hover{
-                    background-color: white;
-                    color: $base-color-orange;
-                }
+            p{
+                font-family: Inter;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 15px;
+                color: #6E7381;
+                margin-bottom: 2px;
+            }
+            h4{
+                font-family: Inter;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 15px;
+                color: #6E7381;
+                margin-bottom: 17px;
+            }
+        }
+        .allJobs-card-button{
+            background-color: $base-color-orange;
+            padding: 9px 21px;
+            color: white;
+            border-radius: 6px;
+            transition: all 0.15s ease-in;
+            &:hover{
+                background-color: white;
+                color: $base-color-orange;
             }
         }
     }

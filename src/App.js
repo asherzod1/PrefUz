@@ -13,9 +13,18 @@ import PrefTests from "./pages/PrefTests";
 import TestsNew from "./pages/TestsNew";
 import TrainingP from "./pages/TrainingP";
 import RezumeCreatPage from "./pages/RezumeCreatPage";
+<<<<<<< HEAD
+import TestResultP from './pages/TestResultP';
+import TrainingElementsP from './pages/TrainingElementsP';
+import CalcJobsP from './pages/CalcJobsP';
+=======
 import TestResultP from "./pages/TestResultP";
 import TrainingElementsP from "./pages/TrainingElementsP";
+<<<<<<< HEAD
 import TappageForm from "./pages/TappageForm";
+=======
+>>>>>>> f00016b7e8d0e405d9b86134028598f334083e9f
+>>>>>>> e280eff09c65b29dd957b5e74e3daf205c6ef990
 function App() {
 
     const routes = [
@@ -51,9 +60,15 @@ function App() {
         ,
         {
             path:'/rezume', component:RezumeCreatPage,
+<<<<<<< HEAD
         } ,
         {
             path:'/tabrezum', component:TappageForm,
+=======
+        },
+        {
+            path:'/calcjobs', component:CalcJobsP
+>>>>>>> e280eff09c65b29dd957b5e74e3daf205c6ef990
         }
     ]
     return (
@@ -62,7 +77,6 @@ function App() {
                 <Switch>
                     {routes.map(item =>
                         <Route exact path={item.path} component={item.component}/>
-
                     )}
 
                 </Switch>

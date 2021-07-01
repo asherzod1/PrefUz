@@ -1,0 +1,126 @@
+$base-color-blue-dark: #00BBC7;
+$base-color-orange: #FFA31A;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@800;400;500;600;700&display=swap');
+$Nunito: 'Nunito', sans-serif;
+$Inter: 'Inter', sans-serif;
+
+.calcJobs{
+    .calcJobs-header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $base-color-blue-dark;
+        padding: 36px 0;
+        h1{
+            font-family: $Nunito;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 44px;
+            text-align: center;
+            letter-spacing: -0.4px;
+            color: #FFFFFF;
+        }
+    }
+    .calcJobs-c1{
+        background: #E0F8FF;
+        padding: 40px 0;
+        margin-bottom: 50px;
+        position: relative;
+        .c1-before{
+            content: '';
+            width:47px;
+            height: 47px;
+            border-radius: 50%;
+            bottom: -23.5px;
+            background-color: #E0F8FF;
+            display: block;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h5{
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 26px;
+            text-align: center;
+            letter-spacing: -0.2px;
+            color: #1C1C1C;
+            margin-bottom: 30px;
+        }
+        .jobs-checkbox{
+            padding: 16px 18px;
+            border: 2px solid #D1D4D8;
+            background: #F9F9F9;
+            box-sizing: border-box;
+            box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+            border-radius: 13px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+    .calcJobs-c2{
+        .select{
+            margin-bottom: 30px;
+        }
+        h6{
+            font-family:$Nunito;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 44px;
+            text-align: center;
+            letter-spacing: -0.4px;
+            color: #00BBC7;
+            text-align: center;
+            margin-bottom: 7px;
+        }
+        .jobs-dropdown{
+            background-color: white;
+            border: 2px solid #48CCD5;
+            box-sizing: border-box;
+            box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+            border-radius: 6px;
+            color: #8D8D8D;
+            width: 100%;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 22px;
+            letter-spacing: -0.2px;
+            color: #1C1C1C;
+            opacity: 0.8;
+            
+        } 
+        .dropdown-menuu{
+            border-radius: 10px;
+            padding: 18px 4px;
+            background: #FFFFFF;
+            box-shadow: 0px 9px 20px rgba(75, 90, 104, 0.35);
+        }
+        .dropdown-itemm{
+            font-family: $Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.1px;
+            color: #000000;
+            
+            &:hover{
+                background-color: #fff;
+                color: $base-color-blue-dark;
+            }
+        }
+    }
+}
