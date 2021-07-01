@@ -13,14 +13,10 @@ import PrefTests from "./pages/PrefTests";
 import TestsNew from "./pages/TestsNew";
 import TrainingP from "./pages/TrainingP";
 import RezumeCreatPage from "./pages/RezumeCreatPage";
-<<<<<<< HEAD
-import TestResultP from './pages/TestResultP';
-import TrainingElementsP from './pages/TrainingElementsP';
 import CalcJobsP from './pages/CalcJobsP';
-=======
 import TestResultP from "./pages/TestResultP";
 import TrainingElementsP from "./pages/TrainingElementsP";
->>>>>>> f00016b7e8d0e405d9b86134028598f334083e9f
+import MyResumeP from './pages/MyResumeP';
 function App() {
 
     const routes = [
@@ -59,6 +55,9 @@ function App() {
         },
         {
             path:'/calcjobs', component:CalcJobsP
+        },
+        {
+            path:'/myresume', component:MyResumeP
         }
     ]
     return (
