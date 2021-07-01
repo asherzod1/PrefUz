@@ -3,7 +3,10 @@ import {TabContent, TabPane, Nav, NavItem, NavLink, Card, CardTitle, CardText, R
 import classnames from 'classnames';
 import {Form, Input, InputNumber, Button} from 'antd';
 import {Select} from 'antd';
-
+import { Tooltip} from 'antd';
+import {Table} from 'reactstrap'
+import TabBody from "./TabBody";
+import TabFooter from "./TabFooter";
 function ResumeTabCreatForm(props) {
     const {Option, OptGroup} = Select;
 
@@ -38,6 +41,7 @@ function ResumeTabCreatForm(props) {
     const onFinish = (values) => {
         console.log(values);
     };
+
     return (
         <div>
             <div className="container">
@@ -107,7 +111,7 @@ function ResumeTabCreatForm(props) {
                                                     <Form {...layout} name="nest-messages" onFinish={onFinish}
                                                           validateMessages={validateMessages}>
                                                         <div className="row">
-                                                            <div className="col-md-12 col-12 col-sm-12 ">
+                                                            <div className="col-md-12 col-lg-5 col-12 col-sm-12 ">
                                                                 <div className="name">
                                                                     Ismingiz
                                                                 </div>
@@ -123,7 +127,7 @@ function ResumeTabCreatForm(props) {
                                                                 </Form.Item>
 
                                                             </div>
-                                                            <div className="col-md-12 col-12 col-sm-12 ">
+                                                            <div className="col-md-12  col-lg-5  col-12 col-sm-12 ">
                                                                 <div className="name">
                                                                     Familyangizni kiriting
                                                                 </div>
@@ -138,7 +142,7 @@ function ResumeTabCreatForm(props) {
                                                                     <Input/>
                                                                 </Form.Item>
                                                             </div>
-                                                            <div className="col-md-12 col-12 col-sm-12">
+                                                            <div className="col-md-12 col-lg-5 col-12 col-sm-12">
                                                                 <div className="name">
                                                                     Viloyat
                                                                 </div>
@@ -164,7 +168,7 @@ function ResumeTabCreatForm(props) {
 
 
                                                             </div>
-                                                            <div className="col-md-12 col-12 col-sm-12">
+                                                            <div className="col-md-12 col-lg-5 col-12 col-sm-12">
                                                                 <div className="name">
                                                                     Tuman
                                                                 </div>
@@ -179,12 +183,13 @@ function ResumeTabCreatForm(props) {
                                                                     <Input/>
                                                                 </Form.Item>
                                                             </div>
-                                                            <div className="col-md-12 col-12 col-sm-12">
+                                                            <div className="col-md-12 col-lg-3 col-12 col-sm-12">
                                                                 <div className="name">
                                                                     Maktab
                                                                 </div>
                                                                 <div className="tab-select">
-                                                                    <Select defaultValue="20-maktab" style={{width: 160,}}
+                                                                    <Select defaultValue="20-maktab"
+                                                                            style={{width: 160,}}
                                                                             onChange={handleChange}>
                                                                         <Option value="Buxoro">Buxoro</Option>
                                                                         <Option value="Andijon">Andijon</Option>
@@ -205,12 +210,13 @@ function ResumeTabCreatForm(props) {
 
 
                                                             </div>
-                                                            <div className="col-md-12 col-12 col-sm-12">
+                                                            <div className="col-md-12 col-lg-3 col-12 col-sm-12">
                                                                 <div className="name">
                                                                     Sinf
                                                                 </div>
                                                                 <div className="tab-select">
-                                                                    <Select defaultValue="20-maktab" style={{width: 160,}}
+                                                                    <Select defaultValue="20-maktab"
+                                                                            style={{width: 160,}}
                                                                             onChange={handleChange}>
                                                                         <Option value="Buxoro">Buxoro</Option>
                                                                         <Option value="Andijon">Andijon</Option>
@@ -231,7 +237,7 @@ function ResumeTabCreatForm(props) {
 
 
                                                             </div>
-                                                            <div className="col-md-12 col-12 col-sm-12">
+                                                            <div className="col-md-12 col-lg-3 col-12 col-sm-12">
                                                                 <div className="name">
                                                                     Aa
                                                                 </div>
@@ -273,14 +279,15 @@ function ResumeTabCreatForm(props) {
                                                                 </Form.Item>
 
                                                             </div>
-                                                            <div className="col-md-12 col-12 col-sm-12">
-                                                                <Form.Item wrapperCol={{ ...layout.wrapperCol, offset: 8 }}>
-                                                                    <Button type="danger"  htmlType="submit">
+                                                            <div className="col-md-12 col-lg-4 col-12 col-sm-12">
+                                                                <Form.Item
+                                                                    wrapperCol={{...layout.wrapperCol, offset: 8}}>
+                                                                    <Button type="danger" htmlType="submit">
                                                                         Saqlash
                                                                     </Button>
                                                                 </Form.Item>
                                                             </div>
-                                                            <div className="col-md-12 col-12 col-sm-12">
+                                                            <div className="col-md-12 col-12 col-lg-12 col-sm-12">
                                                                 <div className="tab-password">
                                                                     <div className="tab-H-title">
                                                                         Parolni yangilash
@@ -316,9 +323,12 @@ function ResumeTabCreatForm(props) {
                                                                                 <Input/>
                                                                             </Form.Item>
                                                                         </div>
-                                                                        <div className="col-md-2">
-                                                                            <Form.Item wrapperCol={{ ...layout.wrapperCol, offset: 8 }}>
-                                                                                <Button type="danger"  htmlType="submit">
+                                                                        <div className="col-md-4">
+                                                                            <Form.Item wrapperCol={{
+                                                                                ...layout.wrapperCol,
+                                                                                offset: 8
+                                                                            }}>
+                                                                                <Button type="danger" htmlType="submit">
                                                                                     Saqlash
                                                                                 </Button>
                                                                             </Form.Item>
@@ -387,34 +397,21 @@ function ResumeTabCreatForm(props) {
                                         </div>
                                     </TabPane>
                                     <TabPane tabId="2">
-                                        <Row>
-                                            <Col sm="6">
-                                                <Card body>
-                                                    <CardTitle>Special Title Treatment</CardTitle>
-                                                    <CardText>With supporting text below as a natural lead-in to additional
-                                                        content.</CardText>
-                                                    <Button>Go somewhere</Button>
-                                                </Card>
-                                            </Col>
-                                            <Col sm="6">
-                                                <Card body>
-                                                    <CardTitle>Special Title Treatment</CardTitle>
-                                                    <CardText>With supporting text below as a natural lead-in to additional
-                                                        content.</CardText>
-                                                    <Button>Go somewhere</Button>
-                                                </Card>
-                                            </Col>
-                                        </Row>
+                                 <TabBody/>
+                                    </TabPane>
+                                    <TabPane tabId="4">
+
+                                    <TabFooter/>
+
                                     </TabPane>
                                 </TabContent>
 
                             </div>
+
                         </div>
 
                     </div>
                 </div>
-
-
 
 
             </div>
