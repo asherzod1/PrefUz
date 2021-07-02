@@ -1,7 +1,6 @@
 import './App.css';
 import HomeP from './pages/HomeP';
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
-import './styles/style.scss'
 import './styles/FooterPref.scss'
 import './styles/doctorpage.scss'
 import './styles/HomeC.scss'
@@ -18,6 +17,9 @@ import TestResultP from "./pages/TestResultP";
 import TappageForm from "./pages/TappageForm";
 import TrainingElementsP from "./pages/TrainingElementsP";
 import MyResumeP from './pages/MyResumeP';
+import SaytAbout from "./pages/SaytAbout";
+import SaytContentP from "./pages/SaytContentP";
+
 function App() {
 
     const routes = [
@@ -26,43 +28,51 @@ function App() {
 
         },
         {
-            path:'/alljobs', component: AllJobsPage,
+            path: '/alljobs', component: AllJobsPage,
         },
         {
-            path:'/doc', component:DoctorPage,
+            path: '/doc', component: DoctorPage,
         }
         ,
 
         {
-            path:'/test', component:PrefTests,
+            path: '/test', component: PrefTests,
         }
         ,
 
         {
-            path:'/tests', component:TestsNew,
+            path: '/tests', component: TestsNew,
         },
         {
-            path:'/training', component:TrainingP,
+            path: '/training', component: TrainingP,
         },
         {
-            path:'/testresult', component:TestResultP
+            path: '/testresult', component: TestResultP
         },
         {
-            path:'/trainingelement', component:TrainingElementsP
+            path: '/trainingelement', component: TrainingElementsP
         }
         ,
         {
-            path:'/rezume', component:RezumeCreatPage,
+            path: '/rezume', component: RezumeCreatPage,
 
-        } ,
-        {
-            path:'/tabrezum', component:TappageForm,
         },
         {
-            path:'/calcjobs', component:CalcJobsP
+            path: '/tabrezum', component: TappageForm,
         },
         {
-            path:'/myresume', component:MyResumeP
+            path: '/calcjobs', component: CalcJobsP
+        },
+        {
+            path: '/myresume', component: MyResumeP
+        }
+        ,
+        {
+            path: '/saytabout', component: SaytAbout
+        }
+        ,
+        {
+            path: '/saytcontent', component: SaytContentP
         }
     ]
     return (
@@ -73,6 +83,7 @@ function App() {
                         <Route exact path={item.path} component={item.component}/>
                     )}
 
+             <DoctorPage/>
                 </Switch>
             </BrowserRouter>
 

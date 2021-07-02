@@ -26,34 +26,66 @@ function PrefTests(props) {
                         <div className="P-test ">
 
                             <form action="">
-                                <div className="row d-flex">
-                                    <div className="col-md-3 col-12">
+                                <div className="row ">
+                                    <div className="col-md-3 mt-2">
                                         <div className="test-input d-flex">
-                                            <input type="radio" name='ss'/>
+                                            <input type="checkbox" name='ss'/>
                                             <div className="test-item">
                                                 Bazan
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 col-12">
+                                    <div className="col-md-3 mt-2">
                                         <div className="test-input d-flex">
-                                            <input type="radio" name='ss'/>
+                                            <input type="checkbox" name='ss'/>
                                             <div className="test-item">
                                                 Bazan
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 col-12">
+                                    <div className="col-md-3 mt-2">
                                         <div className="test-input d-flex">
-                                            <input type="radio" name='ss'/>
+                                            <input type="checkbox" name='ss'/>
                                             <div className="test-item">
                                                 Bazan
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 col-12">
+                                    <div className="col-md-3 mt-2">
                                         <div className="test-input d-flex">
-                                            <input type="radio" name='ss'/>
+                                            <input type="checkbox" name='ss'/>
+                                            <div className="test-item">
+                                                Bazan
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2">
+                                        <div className="test-input d-flex">
+                                            <input type="checkbox" name='ss'/>
+                                            <div className="test-item">
+                                                Bazan
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2">
+                                        <div className="test-input d-flex">
+                                            <input type="checkbox" name='ss'/>
+                                            <div className="test-item">
+                                                Bazan
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2">
+                                        <div className="test-input d-flex">
+                                            <input type="checkbox" name='ss'/>
+                                            <div className="test-item">
+                                                Bazan
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2">
+                                        <div className="test-input d-flex">
+                                            <input type="checkbox" name='ss'/>
                                             <div className="test-item">
                                                 Bazan
                                             </div>

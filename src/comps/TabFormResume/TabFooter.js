@@ -127,7 +127,7 @@ function TabFooter(props) {
 
                                 </div>
                             </div>
-                            <div className="col-md-4 col-sm-4 col-12 col-lg-2">
+                            <div className="col-md-4 col-sm-4 col-12 col-lg-3">
                                 <div className="rezum-button-dow">
                                     <img src="/image/pen.png" alt=""/>
                                     <p>
@@ -136,7 +136,7 @@ function TabFooter(props) {
                                     </p>
                                 </div>
                             </div>
-                            <div className="col-md-4 col-sm-4 col-12 col-lg-2">
+                            <div className="col-md-4 col-sm-4 col-12 col-lg-3">
                                 <div className="rezum-button-dow">
                                     <img src="/image/dow-1.png" alt=""/>
                                     <p>
@@ -144,7 +144,7 @@ function TabFooter(props) {
                                     </p>
                                 </div>
                             </div>
-                            <div className="col-md-4 col-sm-4 col-12 col-lg-2">
+                            <div className="col-md-4 col-sm-4 col-12 col-lg-3">
                                 <div className="rezum-button-dow">
                                     <img src="/image/tg.png" alt=""/>
                                     <p>

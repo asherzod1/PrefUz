@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 function RezumeCreat1(props) {
     return (
@@ -20,9 +21,12 @@ function RezumeCreat1(props) {
                                   enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                                   commodo consequat. Duis aute irure dolor in reprehenderit
                               </div>
-                              <div className="rezumecr-H-button">
-                                  Rezume yarat
-                              </div>
+                              <Link to='/myresume'>
+                                  <div className="rezumecr-H-button">
+                                      Rezume yarat
+                                  </div>
+                              </Link>
+
                               <div className="rezumecr-H-footer">
                                   <div className="rezumecr-H-footer-sec">
                                       <div className="rezumecr-H-footerimg">

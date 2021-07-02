@@ -1,12 +1,13 @@
 import React, {useState} from 'react';
 import {TabContent, TabPane, Nav, NavItem, NavLink, Card, CardTitle, CardText, Row, Col} from 'reactstrap';
 import classnames from 'classnames';
-import {Form, Input, InputNumber, Button} from 'antd';
+import {Form, Input, InputNumber, Button, Upload} from 'antd';
 import {Select} from 'antd';
-import { Tooltip} from 'antd';
+import {Tooltip} from 'antd';
 import {Table} from 'reactstrap'
 import TabBody from "./TabBody";
 import TabFooter from "./TabFooter";
+
 function ResumeTabCreatForm(props) {
     const {Option, OptGroup} = Select;
 
@@ -41,7 +42,13 @@ function ResumeTabCreatForm(props) {
     const onFinish = (values) => {
         console.log(values);
     };
-
+    const normFile = (e) => {
+        console.log('Upload event:', e);
+        if (Array.isArray(e)) {
+            return e;
+        }
+        return e && e.fileList;
+    };
     return (
         <div>
             <div className="container">
@@ -106,10 +113,12 @@ function ResumeTabCreatForm(props) {
                                             <div className="tab-H-title">
                                                 Shaxsiy malummotlarim
                                             </div>
-                                            <div className="row">
-                                                <div className="col-md-9">
-                                                    <Form {...layout} name="nest-messages" onFinish={onFinish}
-                                                          validateMessages={validateMessages}>
+
+                                            <Form {...layout} name="nest-messages" onFinish={onFinish}
+                                                  validateMessages={validateMessages}>
+                                                <div className="row">
+
+                                                    <div className="col-md-9 col-9 col-sm-9">
                                                         <div className="row">
                                                             <div className="col-md-12 col-lg-5 col-12 col-sm-12 ">
                                                                 <div className="name">
@@ -183,7 +192,7 @@ function ResumeTabCreatForm(props) {
                                                                     <Input/>
                                                                 </Form.Item>
                                                             </div>
-                                                            <div className="col-md-12 col-lg-3 col-12 col-sm-12">
+                                                            <div className="col-md-3 col-lg-3 col-12 col-sm-12">
                                                                 <div className="name">
                                                                     Maktab
                                                                 </div>
@@ -210,7 +219,7 @@ function ResumeTabCreatForm(props) {
 
 
                                                             </div>
-                                                            <div className="col-md-12 col-lg-3 col-12 col-sm-12">
+                                                            <div className="col-md-3 col-lg-3 col-12 col-sm-12">
                                                                 <div className="name">
                                                                     Sinf
                                                                 </div>
@@ -237,12 +246,12 @@ function ResumeTabCreatForm(props) {
 
 
                                                             </div>
-                                                            <div className="col-md-12 col-lg-3 col-12 col-sm-12">
+                                                            <div className="col-md-3 col-lg-3 col-12 col-sm-12">
                                                                 <div className="name">
                                                                     Aa
                                                                 </div>
                                                                 <div className="tab-select">
-                                                                    <Select style={{width: 160,}}
+                                                                    <Select  style={{width: 160,}}
                                                                             onChange={handleChange}>
                                                                         <Option value="Buxoro">Buxoro</Option>
                                                                         <Option value="Andijon">Andijon</Option>
@@ -331,77 +340,47 @@ function ResumeTabCreatForm(props) {
                                                                                 <Button type="danger" htmlType="submit">
                                                                                     Saqlash
                                                                                 </Button>
+
                                                                             </Form.Item>
                                                                         </div>
+
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        {/*<Form.Item*/}
-                                                        {/*    name={['user', 'name']}*/}
-                                                        {/*    label="address"*/}
-                                                        {/*    rules={[*/}
-                                                        {/*        {*/}
-                                                        {/*            required: true,*/}
-                                                        {/*        },*/}
-                                                        {/*    ]}*/}
-                                                        {/*>*/}
-                                                        {/*    <Input />*/}
-                                                        {/*</Form.Item>*/}
-                                                        {/*<Form.Item*/}
-                                                        {/*    name={['user', 'email']}*/}
-                                                        {/*    label="Email"*/}
-                                                        {/*    rules={[*/}
-                                                        {/*        {*/}
-                                                        {/*            type: 'email',*/}
-                                                        {/*        },*/}
-                                                        {/*    ]}*/}
-                                                        {/*>*/}
-                                                        {/*    <Input />*/}
-                                                        {/*</Form.Item>*/}
-                                                        {/*<Form.Item*/}
-                                                        {/*    name={['user', 'age']}*/}
-                                                        {/*    label="Age"*/}
-                                                        {/*    rules={[*/}
-                                                        {/*        {*/}
-                                                        {/*            type: 'number',*/}
-                                                        {/*            min: 0,*/}
-                                                        {/*            max: 99,*/}
-                                                        {/*        },*/}
-                                                        {/*    ]}*/}
-                                                        {/*>*/}
-                                                        {/*    <InputNumber />*/}
-                                                        {/*</Form.Item>*/}
-                                                        {/*<Form.Item name={['user', 'website']} label="Website">*/}
-                                                        {/*    <Input />*/}
-                                                        {/*</Form.Item>*/}
-                                                        {/*<Form.Item name={['user', 'introduction']} label="Introduction">*/}
-                                                        {/*    <Input.TextArea />*/}
-                                                        {/*</Form.Item>*/}
-                                                        {/*<Form.Item wrapperCol={{ ...layout.wrapperCol, offset: 8 }}>*/}
-                                                        {/*    <Button type="primary" htmlType="submit">*/}
-                                                        {/*        Submit*/}
-                                                        {/*    </Button>*/}
-                                                        {/*</Form.Item>*/}
-                                                    </Form>
-                                                </div>
-                                                <div className="col-md-3">
-                                                    <div className="user">
-                                                        <img src="/image/UserP.png" alt=""/>
                                                     </div>
-                                                    <div className="user-foto">
-                                                        <img src="/image/camera.png" alt=""/>
+                                                    <div className="col-md-3 col-3 col-lg-3 col-sm-3">
+                                                        <div className="user">
+                                                            <Form.Item
+                                                                name="upload"
+                                                                label=""
+                                                                valuePropName="fileList"
+                                                                getValueFromEvent={normFile}
+
+                                                            >
+                                                                <Upload name="userImage" action="/upload.do"
+                                                                        listType="picture">
+                                                                    <Button className='img-upload'>
+                                                                        <img src="/images/" alt=""/>
+                                                                    </Button>
+                                                                </Upload>
+                                                            </Form.Item>
+                                                        </div>
+                                                        <div className="user-foto">
+                                                            <img src="/image/camera.png" alt=""/>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </Form>
+
                                         </div>
                                     </TabPane>
                                     <TabPane tabId="2">
-                                 <TabBody/>
+                                        <TabBody/>
                                     </TabPane>
                                     <TabPane tabId="4">
 
-                                    <TabFooter/>
+                                        <TabFooter/>
 
                                     </TabPane>
                                 </TabContent>

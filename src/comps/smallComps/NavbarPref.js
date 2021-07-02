@@ -14,7 +14,7 @@ import {
 } from 'reactstrap';
 import Link from "react-router-dom/Link";
 import {NavLink} from 'react-router-dom'
-
+import '../../styles/style.scss'
 function NavbarPref(props) {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
@@ -110,11 +110,11 @@ function NavbarPref(props) {
 
                             </NavItem>
                             <NavItem>
-                                <NavLink activeClassName='active-navbar' to='/alljobs'>Broshyura</NavLink>
+                                <NavLink activeClassName='active-navbar' to='/trainingelement'>Broshyura</NavLink>
 
                             </NavItem>
                             <NavItem>
-                                <NavLink activeClassName='active-navbar' to='/test'>Biz haqimizda</NavLink>
+                                <NavLink activeClassName='active-navbar' to='/saytabout'>Biz haqimizda</NavLink>
 
                             </NavItem>
                             <UncontrolledDropdown nav inNavbar>
@@ -136,7 +136,7 @@ function NavbarPref(props) {
                                 <div className="navbar-end">
                                     <img src="/image/user.png" alt=""/>
                                 </div>
-                                <DropdownToggle nav caret>
+                                <DropdownToggle  nav caret>
                                     Kirish
                                 </DropdownToggle>
                                 <DropdownMenu right>

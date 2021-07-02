@@ -24,7 +24,7 @@ const TrainingElementsC = () => {
                                 <div className='c1-left-border'>
                                     
                                 </div>
-                                <Link className='c1-left-btn'>
+                                <Link to='/testresult' className='c1-left-btn'>
                                     Test savollari
                                     <img src="/images/TrainingElement/nextIcon.png" alt="icon" />
                                 </Link>

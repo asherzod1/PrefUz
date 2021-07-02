@@ -1,5 +1,7 @@
 import React from 'react';
 import Slider from "react-slick";
+import {Link} from "react-router-dom";
+
 function DoctorCarusel(props) {
     const settings = {
         dots: false,
@@ -155,9 +157,12 @@ function DoctorCarusel(props) {
                             </div>
                         </Slider>
                     </div>
-                    <div className="caruselbutton">
-                        Barcha kasblar
-                    </div>
+                    <Link to='/alljobs'>
+                        <div className="caruselbutton">
+                            Barcha kasblar
+                        </div>
+                    </Link>
+
                 </div>
             </div>
         </div>

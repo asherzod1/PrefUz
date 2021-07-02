@@ -2,7 +2,7 @@ import { Button, DatePicker, Form, Input, Radio, Select, Upload,  } from 'antd';
 import { Option } from 'antd/lib/mentions';
 import React, { useState } from 'react'
 import '../styles/MyResume.scss'
-
+import {Link} from 'react-router-dom'
 
 const MyResumeC = () => {
     const [componentSize, setComponentSize] = useState('default');
@@ -460,7 +460,11 @@ const MyResumeC = () => {
                                 </div>
                                 <div className='d-flex justify-content-end'>
                                     <Button className='MyResume-btn MyResume-btn-left'>Oldindan ko’rish</Button>
-                                    <Button className='MyResume-btn'>Rezume yaratish</Button>
+
+                                    <Link to='/tabrezum'>
+                                        <Button className='MyResume-btn'>Rezume yaratish</Button>
+                                    </Link>
+
                                 </div>
                                 </Form>
                             </div>

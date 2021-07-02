@@ -16,8 +16,8 @@ const HomeC = () => {
                                         </h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
                                         <div className="home-banner-buttons">
-                                            <Link className='home-banner-btn1'>Test topshir</Link>
-                                            <Link className='home-banner-btn2'>Kalkulyator</Link>
+                                            <Link to='/test' className='home-banner-btn1'>Test topshir</Link>
+                                            <Link to='/calcjobs' className='home-banner-btn2'>Kalkulyator</Link>
                                         </div>
                                     </div>
                                 </div>
