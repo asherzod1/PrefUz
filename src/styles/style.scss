@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@800;400;500;600;700&display=swap');
 $Nunito: 'Nunito', sans-serif;
 $Inter: 'Inter', sans-serif;
-
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body{
+  padding-right: 0!important;
+}
+.modal-open{
+  margin-right: 0!important;
+  padding-right: 0!important;
+}
 .navbar {
   height: 90px;
 
@@ -62,7 +73,6 @@ $Inter: 'Inter', sans-serif;
       width: 128px;
       height: 44px;
 
-
       .dropdown-toggle {
         padding: 0;
         float: right;
@@ -99,7 +109,6 @@ $Inter: 'Inter', sans-serif;
         box-shadow: 0px 9px 20px rgba(75, 90, 104, 0.35);
         border-radius: 10px;
         margin-top: 45px;
-        margin-right: 30px !important;
 
         .dropdown-item {
           font-style: normal;
@@ -130,7 +139,106 @@ $Inter: 'Inter', sans-serif;
     }
   }
 }
+.ModalClass{
+  width: 90%!important;
+  border:none;
+  box-sizing: border-box;
+  .modal{
+    width: 80%!important;
+    margin: 0 auto;
+  }
+  p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #A7AAAE;
+    display: block;
+  }
+  .border-div{
+    border: 1px solid #C7D2E7;
+  }
+  .modal-content{
+    border-radius: 10px;
+  }
+  .modal-footer{
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    .r-otish{
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      letter-spacing: -0.1px;
+      color: #00A3FF;
+    }
+  }
 
+  .close{
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    background-color: transparent;
+    border:none;
+  }
+  .Modal-form{
+    .ant-form-item-label{
+      font-family: $Inter;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: -0.2px;
+      color: #1C1C1C;
+      padding-bottom: 0;
+    }
+    .ant-select-selector{
+      border-radius: 6px;
+    }
+    .ant-input{
+      border-radius: 6px;
+    }
+    .ant-input-password{
+      border-radius: 6px;
+    }
+    .ant-form-item-label{
+      .ant-form-item-required{
+        &::before{
+          display: none;
+        }
+      }
+    }
+    .ant-form-item{
+      margin-bottom: 15px;
+    }
+    .kirish-btn{
+      width: 100%;
+      font-family: $Inter;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      letter-spacing: -0.1px;
+      color: #FFFFFF;
+      background: #FFA31A;
+      box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+      border-radius: 6px;
+      padding: 9px 0;
+      height: 40px;
+    }
+
+  }
+}
 @media screen and (max-width: 576px) {
   .navbar {
     height: 70px !important;
@@ -453,7 +561,6 @@ $Inter: 'Inter', sans-serif;
     }
   }
 }
-<<<<<<< HEAD
 
 @media (min-width: 991px) and (max-width: 1200px) {
   .navbar {
@@ -584,7 +691,6 @@ $Inter: 'Inter', sans-serif;
       }
     }
   }
-=======
 .ModalClass{
   border:none;
   p{
@@ -678,6 +784,5 @@ $Inter: 'Inter', sans-serif;
       }
 
     }
-    
->>>>>>> b8d8227a7d8072cb839f9c6071f1b7914e04ce9b
+}
 }
