@@ -180,16 +180,19 @@ $Inter: 'Inter', sans-serif;
     .form-group{
         margin-bottom: 10px;
     }
+    .card-textt{
+        margin-top: 40px;
+    }
 }
 @media only screen and(min-width:768px) and (max-width: 991px) {
-    .allJobs-content{
-        .select{
-            .dropdown-menu{
-                .dropdown-item{
-                    font-size: 12px;
-                }
+    .select{
+        .dropdown-menu{
+            .dropdown-item{
+                font-size: 12px;
             }
         }
+    }
+    .allJobs-content{
     }
 }
 @media only screen and(min-width:992px) and (max-width: 1200px) {
@@ -199,5 +202,8 @@ $Inter: 'Inter', sans-serif;
 
             }
         }
+    }
+    .card-textt{
+        
     }
 }

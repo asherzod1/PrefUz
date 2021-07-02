@@ -1,0 +1,143 @@
+$base-color-blue-dark: #00BBC7;
+$base-color-orange: #FFA31A;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@800;400;500;600;700&display=swap');
+$Nunito: 'Nunito', sans-serif;
+$Inter: 'Inter', sans-serif;
+
+
+.MyResume{
+
+    .MyResume-header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $base-color-blue-dark;
+        padding: 36px 0;
+        margin-bottom: 40px;
+        >h1{
+            font-family: $Nunito;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 44px;
+            text-align: center;
+            letter-spacing: -0.4px;
+            color: #FFFFFF;
+        }
+    }
+    .border-div{
+        border: 1px solid #C7D2E7;
+    }
+    .MyResume-content{
+        background-color: #F4F4F4;
+        padding: 30px 30px 40px 30px;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        h2{
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 26px;
+            letter-spacing: -0.2px;
+            color: #000000;
+        }
+        .ant-form-item{
+            margin-bottom: 10px;
+        }
+        .ant-form-item-label{
+            font-family: $Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: -0.2px;
+            color: #1C1C1C;
+            padding-bottom: 0;
+        }
+        .ant-input{
+            box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+            border-radius: 6px;
+            
+        }
+        .ant-input-group-addon{
+            box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+            border-radius: 6px 0 0 6px;
+            background-color: #fff;
+        }
+        .ant-picker-default{
+            border-radius: 6px;
+            width: 100%;
+        }
+        .radio-text{
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: #1C1C1C;
+        }
+        .ant-select-selector{
+            border-radius: 6px;
+        }
+        .shaxsiy{
+            padding-bottom: 30px;
+            .ant-form-item-required{
+                &::before{
+                    display: none;
+                }
+            }
+            .phoneNumberr{
+                .ant-input{
+                    box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+                    border-radius: 0px 6px 6px 0px;
+                    border-left: none;
+                }
+            }
+            .img-upload{
+                margin-top: 11px;
+                width: 124px;
+                height: 124px;
+                background-image: url('../comps/uploadImg.png');
+                background-color: transparent;
+                border: none;
+            }
+        }
+        .talim{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            .shablon-div{
+            
+            }
+            .shablon-radio{
+                position: absolute;
+                left: 13px;
+                bottom: 12px;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .MyResume-btn{
+            box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+            border-radius: 6px;
+            font-family: $Inter;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+            text-align: center;
+            letter-spacing: -0.1px;
+            color: #FFFFFF;
+            background: #EC5147;
+            padding: 9px 18px;
+            display: inline-block;
+            height: 40px;
+        }
+        .MyResume-btn-left{
+            color: #6E7381;
+            background-color: #fff;
+            margin-right: 10px;
+        }
+    }
+}

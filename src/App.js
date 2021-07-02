@@ -13,10 +13,11 @@ import PrefTests from "./pages/PrefTests";
 import TestsNew from "./pages/TestsNew";
 import TrainingP from "./pages/TrainingP";
 import RezumeCreatPage from "./pages/RezumeCreatPage";
+import CalcJobsP from './pages/CalcJobsP';
 import TestResultP from "./pages/TestResultP";
 import TappageForm from "./pages/TappageForm";
 import TrainingElementsP from "./pages/TrainingElementsP";
-import CalcJobsP from "./pages/CalcJobsP";
+import MyResumeP from './pages/MyResumeP';
 function App() {
 
     const routes = [
@@ -58,7 +59,10 @@ function App() {
             path:'/tabrezum', component:TappageForm,
         },
         {
-            path:'/calcjobs', component:CalcJobsP,
+            path:'/calcjobs', component:CalcJobsP
+        },
+        {
+            path:'/myresume', component:MyResumeP
         }
     ]
     return (
