@@ -6,7 +6,7 @@ const AllJobsCards = () => {
         <div className='allJobs-cards'>
             <div className="container">
                 <div className='row'>
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div className="allJobs-card">
                             <div className="row">
                                    <div className="col-4">
@@ -25,7 +25,7 @@ const AllJobsCards = () => {
                             </div>  
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div className="allJobs-card">
                             <div className="row">
                                 <div className="col-4">
@@ -44,7 +44,7 @@ const AllJobsCards = () => {
                             </div>  
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div className="allJobs-card">
                             <div className="row">
                                 <div className="col-4">
@@ -63,7 +63,7 @@ const AllJobsCards = () => {
                             </div>  
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div className="allJobs-card">
                             <div className="row">
                                 <div className="col-4">
@@ -82,7 +82,7 @@ const AllJobsCards = () => {
                             </div>  
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div className="allJobs-card">
                             <div className="row">
                                 <div className="col-4">
@@ -101,7 +101,7 @@ const AllJobsCards = () => {
                             </div>  
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div className="allJobs-card">
                             <div className="row">
                                 <div className="col-4">
@@ -120,7 +120,7 @@ const AllJobsCards = () => {
                             </div>  
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div className="allJobs-card">
                             <div className="row">
                                 <div className="col-4">
@@ -139,7 +139,7 @@ const AllJobsCards = () => {
                             </div>  
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div className="allJobs-card">
                             <div className="row">
                                 <div className="col-4">
@@ -158,7 +158,7 @@ const AllJobsCards = () => {
                             </div>  
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div className="allJobs-card">
                             <div className="row">
                                 <div className="col-4">
@@ -177,7 +177,7 @@ const AllJobsCards = () => {
                             </div>  
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div className="allJobs-card">
                             <div className="row">
                                 <div className="col-4">
@@ -196,7 +196,7 @@ const AllJobsCards = () => {
                             </div>  
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div className="allJobs-card">
                             <div className="row">
                                 <div className="col-4">
@@ -215,7 +215,7 @@ const AllJobsCards = () => {
                             </div>  
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div className="allJobs-card">
                             <div className="row">
                                 <div className="col-4">
@@ -234,7 +234,7 @@ const AllJobsCards = () => {
                             </div>  
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div className="allJobs-card">
                             <div className="row">
                                 <div className="col-4">
@@ -253,7 +253,7 @@ const AllJobsCards = () => {
                             </div>  
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div className="allJobs-card">
                             <div className="row">
                                 <div className="col-4">
@@ -272,7 +272,7 @@ const AllJobsCards = () => {
                             </div>  
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div className="allJobs-card">
                             <div className="row">
                                 <div className="col-4">

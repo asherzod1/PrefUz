@@ -17,14 +17,11 @@ import {
 } from 'reactstrap';
 import Link from "react-router-dom/Link";
 import {NavLink} from 'react-router-dom'
-<<<<<<< HEAD
-import '../../styles/style.scss'
-=======
 import { Button, Input, Form, Select } from 'antd';
 import { Option } from 'antd/lib/mentions';
+import '../../styles/style.scss'
 
 
->>>>>>> b8d8227a7d8072cb839f9c6071f1b7914e04ce9b
 function NavbarPref(props) {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
@@ -182,11 +179,7 @@ function NavbarPref(props) {
                                 <div className="navbar-end">
                                     <img src="/image/user.png" alt=""/>
                                 </div>
-<<<<<<< HEAD
-                                <DropdownToggle  nav caret>
-=======
                                 <DropdownToggle nav caret onClick={toggleModal}>
->>>>>>> b8d8227a7d8072cb839f9c6071f1b7914e04ce9b
                                     Kirish
                                 </DropdownToggle>
                                 <DropdownMenu right>
