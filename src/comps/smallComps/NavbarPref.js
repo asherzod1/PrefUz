@@ -94,11 +94,11 @@ function NavbarPref(props) {
                         <Nav className="mr-auto" navbar>
 
                             <NavItem>
-                                <NavLink to='/doc'>Kasp tanlash</NavLink>
+                                <NavLink activeClassName='active-navbar' to='/doc'>Kasp tanlash</NavLink>
 
                             </NavItem>
                             <NavItem>
-                                <NavLink to='/rezume'>
+                                <NavLink activeClassName='active-navbar' to='/rezume'>
 
                                     Rezume yarat
 
@@ -106,15 +106,15 @@ function NavbarPref(props) {
                             </NavItem>
 
                             <NavItem>
-                                <NavLink to='/training'>Treninglar</NavLink>
+                                <NavLink activeClassName='active-navbar' to='/training'>Treninglar</NavLink>
 
                             </NavItem>
                             <NavItem>
-                                <NavLink to='/alljobs'>Broshyura</NavLink>
+                                <NavLink activeClassName='active-navbar' to='/alljobs'>Broshyura</NavLink>
 
                             </NavItem>
                             <NavItem>
-                                <NavLink to='/test'>Biz haqimizda</NavLink>
+                                <NavLink activeClassName='active-navbar' to='/test'>Biz haqimizda</NavLink>
 
                             </NavItem>
                             <UncontrolledDropdown nav inNavbar>

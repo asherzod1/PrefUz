@@ -154,7 +154,6 @@ display: none;
 
     .collapse-footer {
       display: block;
-
       .footer-section1 {
         font-family: Inter;
         font-style: normal;
@@ -188,8 +187,11 @@ display: none;
         height: 40px;
         border-radius: 5px;
         margin-left: 2%;
+        margin-right: 2%;
+        padding-left: 20px;
         border: 1px solid #F4F4F4;
         margin-top: 20px;
+        padding-right: 20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -201,6 +203,18 @@ display: none;
         }
 
 
+      }
+      .collapse{
+        .card{
+          width:96%!important;
+          margin-left: 2%;
+          border-radius: 10px;
+          margin-top: 10px;
+          .card-body{
+
+
+          }
+        }
       }
     }
   }
@@ -285,8 +299,11 @@ display: none;
         height: 40px;
         border-radius: 5px;
         margin-left: 2%;
+        margin-right: 2%;
+        padding-left: 20px;
         border: 1px solid #F4F4F4;
         margin-top: 20px;
+        padding-right: 20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -298,6 +315,18 @@ display: none;
         }
 
 
+      }
+      .collapse{
+        .card{
+          width:96%!important;
+          margin-left: 2%;
+          border-radius: 10px;
+          margin-top: 10px;
+          .card-body{
+
+
+          }
+        }
       }
     }
   }
