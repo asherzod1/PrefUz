@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@800;400;500;600;700&display=swap');
+$Nunito: 'Nunito', sans-serif;
+$Inter: 'Inter', sans-serif;
+
 .navbar {
   height: 90px;
 
@@ -449,6 +453,7 @@
     }
   }
 }
+<<<<<<< HEAD
 
 @media (min-width: 991px) and (max-width: 1200px) {
   .navbar {
@@ -579,4 +584,100 @@
       }
     }
   }
+=======
+.ModalClass{
+  border:none;
+  p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #A7AAAE;
+    display: block;
+  }
+  .border-div{
+    border: 1px solid #C7D2E7;
+  }
+  .modal-content{
+    border-radius: 10px;
+  }
+  .modal-footer{
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    .r-otish{
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      letter-spacing: -0.1px;
+      color: #00A3FF;
+    }
+  }
+  
+  .close{
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    background-color: transparent;
+    border:none;
+  }
+    .Modal-form{
+      .ant-form-item-label{
+        font-family: $Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: -0.2px;
+        color: #1C1C1C;
+        padding-bottom: 0;
+      }
+      .ant-select-selector{
+        border-radius: 6px;
+      }
+      .ant-input{
+        border-radius: 6px;      
+      }
+      .ant-input-password{
+        border-radius: 6px;
+      }
+      .ant-form-item-label{
+        .ant-form-item-required{
+          &::before{
+              display: none;
+          }
+        }
+      }
+      .ant-form-item{
+        margin-bottom: 15px;
+      }
+      .kirish-btn{
+        width: 100%;
+        font-family: $Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: -0.1px;
+        color: #FFFFFF;
+        background: #FFA31A;
+        box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+        border-radius: 6px;
+        padding: 9px 0;
+        height: 40px;
+      }
+
+    }
+    
+>>>>>>> b8d8227a7d8072cb839f9c6071f1b7914e04ce9b
 }
