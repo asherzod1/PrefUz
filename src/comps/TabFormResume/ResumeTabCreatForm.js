@@ -117,10 +117,57 @@ function ResumeTabCreatForm(props) {
                                             <Form {...layout} name="nest-messages" onFinish={onFinish}
                                                   validateMessages={validateMessages}>
                                                 <div className="row">
+                                                    <div className="col-12 col-lg-4 col-md-4 col-sm-4">
+                                                        <div className="name">
+                                                            Ismingiz
+                                                        </div>
+                                                        <Form.Item
+                                                            name={['user', 'name']}
+                                                            rules={[
+                                                                {
+                                                                    required: true,
+                                                                },
+                                                            ]}
+                                                        >
+                                                            <Input/>
+                                                        </Form.Item>
+                                                    </div>
+                                                    <div className="col-12 col-lg-4 col-md-4 col-sm-4">
+                                                        <div className="name">
+                                                            Ismingiz
+                                                        </div>
+                                                        <Form.Item
+                                                            name={['user', 'name']}
+                                                            rules={[
+                                                                {
+                                                                    required: true,
+                                                                },
+                                                            ]}
+                                                        >
+                                                            <Input/>
+                                                        </Form.Item>
+                                                    </div>
+                                                    <div className="col-12 col-lg-4 col-md-4 col-sm-4">
+                                                        <div className="user">
+                                                            <Form.Item
+                                                                name="upload"
+                                                                label=""
+                                                                valuePropName="fileList"
+                                                                getValueFromEvent={normFile}
 
-                                                    <div className="col-md-9 col-9 col-sm-9">
+                                                            >
+                                                                <Upload name="userImage" action="/upload.do"
+                                                                        listType="picture">
+                                                                    <Button className='img-upload'>
+                                                                        <img src="/images/" alt=""/>
+                                                                    </Button>
+                                                                </Upload>
+                                                            </Form.Item>
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-md-12 col-12 col-sm-12 col-lg-12">
                                                         <div className="row">
-                                                            <div className="col-md-12 col-lg-5 col-12 col-sm-12 ">
+                                                            <div className="col-md-4 col-lg-4 col-12 col-sm-4 ">
                                                                 <div className="name">
                                                                     Ismingiz
                                                                 </div>
@@ -136,7 +183,7 @@ function ResumeTabCreatForm(props) {
                                                                 </Form.Item>
 
                                                             </div>
-                                                            <div className="col-md-12  col-lg-5  col-12 col-sm-12 ">
+                                                            <div className="col-md-4  col-lg-4  col-12 col-sm-4 ">
                                                                 <div className="name">
                                                                     Familyangizni kiriting
                                                                 </div>
@@ -151,7 +198,8 @@ function ResumeTabCreatForm(props) {
                                                                     <Input/>
                                                                 </Form.Item>
                                                             </div>
-                                                            <div className="col-md-12 col-lg-5 col-12 col-sm-12">
+                                                            <div className="col-2"></div>
+                                                            <div className="col-md-4 col-lg-4 col-12 col-sm-4">
                                                                 <div className="name">
                                                                     Viloyat
                                                                 </div>
@@ -177,7 +225,7 @@ function ResumeTabCreatForm(props) {
 
 
                                                             </div>
-                                                            <div className="col-md-12 col-lg-5 col-12 col-sm-12">
+                                                            <div className="col-md-4 col-lg-4 col-12 col-sm-4">
                                                                 <div className="name">
                                                                     Tuman
                                                                 </div>
@@ -192,6 +240,7 @@ function ResumeTabCreatForm(props) {
                                                                     <Input/>
                                                                 </Form.Item>
                                                             </div>
+                                                            <div className="col-2"></div>
                                                             <div className="col-md-3 col-lg-3 col-12 col-sm-12">
                                                                 <div className="name">
                                                                     Maktab
@@ -347,27 +396,6 @@ function ResumeTabCreatForm(props) {
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-md-3 col-3 col-lg-3 col-sm-3">
-                                                        <div className="user">
-                                                            <Form.Item
-                                                                name="upload"
-                                                                label=""
-                                                                valuePropName="fileList"
-                                                                getValueFromEvent={normFile}
-
-                                                            >
-                                                                <Upload name="userImage" action="/upload.do"
-                                                                        listType="picture">
-                                                                    <Button className='img-upload'>
-                                                                        <img src="/images/" alt=""/>
-                                                                    </Button>
-                                                                </Upload>
-                                                            </Form.Item>
-                                                        </div>
-                                                        <div className="user-foto">
-                                                            <img src="/image/camera.png" alt=""/>
                                                         </div>
                                                     </div>
                                                 </div>

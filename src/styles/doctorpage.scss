@@ -1124,10 +1124,6 @@
       }
     }
   }
-  .col-md-4 {
-    offset: none;
-    margin: 0;
-
     .cards1 {
       width: 96%;
       height: 285px;
@@ -1161,7 +1157,7 @@
         }
       }
     }
-  }
+
   .profesion {
     margin-top: 60px;
     width: 100%;
@@ -2183,14 +2179,8 @@
     margin: 0 auto;
     color: #1C1C1C;
   }
-  .col-md-4 {
-    offset: none;
-    margin: 0;
-    width: 100%;
 
-    .offset-2 {
-      display: none;
-    }
+
 
     .cards1 {
       margin-top: 34px;
@@ -2226,7 +2216,6 @@
         }
       }
     }
-  }
   .cards {
     margin-left: 0;
     margin-top: 34px;
@@ -2861,20 +2850,11 @@
     margin: 0 auto;
     color: #1C1C1C;
   }
-  .col-md-4 {
-    offset: none;
-    margin: 0;
-    width: 100%;
-
-    .offset-2 {
-      display: none;
-    }
-
     .cards1 {
       margin-top: 34px;
       width: 100%;
       height: 285px;
-      margin-left: 0;
+      margin-left: 10px;
 
       background: #FFFFFF;
       border: 3px solid #74D272;
@@ -2904,14 +2884,12 @@
         }
       }
     }
-  }
+
   .cards {
     margin-left: 0;
     margin-top: 34px;
     width: 100%;
     height: 285px;
-    left: 337px;
-    top: 1934px;
     background: #FFFFFF;
     border: 3px solid #FFA31A;
     box-sizing: border-box;
@@ -2944,15 +2922,15 @@
     margin-top: 130px;
 img{
 
-  margin-left: 0;
+ margin-left: 20%!important;
 }
     .doc-button {
       display: flex;
       justify-content: center;
       align-items: center;
       cursor: pointer;
-      margin-left: 100px;
-      width: 151px;
+      margin-left: 10%;
+      width: 80%;
       height: 32px;
       font-family: Inter;
       font-style: normal;

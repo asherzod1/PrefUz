@@ -7,7 +7,7 @@
   .tab-H-page{
     margin-top: 40px;
     width: 100%;
-    height: 721px;
+    height: 801px;
     .nav-tabs{
       width: 285px;
       height: 246px;
@@ -68,16 +68,18 @@
   }
   .tab-H-sec{
     width: 834px;
-    height: 677px;
+    height: 767px;
+    margin-bottom: 30px;
     background: #F4F4F4;
     border-radius: 10px;
     margin-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 30px;
     .user{
-
-      width: 176px;
-      margin-left: -90px;
-      margin-top: 101px;
-      height: 176px;
+      width: 136px;
+      margin-top: -20px;
+      margin-left: 30px;
+      height: 136px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -117,9 +119,6 @@
       margin-top: 16px;
       margin-bottom: 2px;
       color: #1C1C1C;
-    }
-    .ant-select-selector{
-
     }
     .tab-password{
       margin-left: 30px;
@@ -511,7 +510,7 @@
      width: 100%;
      margin-left: 0;
      display: block;
-     height: 1127px!important;
+     height: 1487px!important;
      background: #F4F4F4;
      margin-top: 30px;
      border-radius: 10px;
@@ -526,7 +525,7 @@
        justify-content: center;
        align-items: center;
        background-color: transparent;
-       margin-left: -32%;
+       margin-left: 35%;
        border: none;
        background-image:url("../comps/uploadImg.png");
        background-size: 100%;
@@ -605,8 +604,11 @@
      .tab-select{
        border-radius: 6px;
        margin-left: 30px!important;
+       width: 160px!important;
        .ant-select-selector{
          border-radius: 6px!important;
+         width: 120%!important;
+         margin-left: 0!important;
        }
      }
 
@@ -924,12 +926,12 @@
 
 
     }
-    height: 1750px;
+    height: 1550px;
     width: 100%;
     .tab-H-page{
       margin-top: 40px;
       width: 100%;
-      height: 1221px;
+      height: 921px!important;
       .nav-tabs{
         width: 100%;
         height: 246px;
@@ -995,21 +997,20 @@
       width: 100%;
       margin-left: 0;
       display: block;
-      height: 1270px!important;
+      height: 900px!important;
       background: #F4F4F4;
       margin-top: 40px;
       border-radius: 10px;
       margin-bottom: 400px!important;
       .user{
 
-        width: 140px;
-        margin-top: 21px;
-        height: 140px;
+        width: 120px;
+        margin-top: -30px;
+        height: 120px;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: transparent;
-        margin-left: -40%;
         border: none;
         background-image:url("../comps/uploadImg.png");
         background-size: 100%;
@@ -1058,11 +1059,38 @@
         margin-top: 0;
         width: 96%;
         margin-left: 2%;
-        height: 344px;
+        height: 204px;
         margin-bottom: 300px!important;
         border: 3px solid #E7E7E7;
         box-sizing: border-box;
         border-radius: 8px;
+        .ant-row{
+
+
+          .ant-col{
+            .ant-btn:nth-child(1){
+              background: #A7AAAE;
+              width: 102px;
+              height: 30px;
+              border: none;
+              margin-top: 35px;
+              margin-left: 40px!important;
+              box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+              border-radius: 6px;
+            }
+            input {
+              background: #FFFFFF;
+              border: 1px solid #E4E4E4;
+              box-sizing: border-box;
+              box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
+              border-radius: 6px;
+              margin-left: 30px;
+              width: 120px;
+            }
+
+
+          }
+        }
         .ant-row{
 
 
@@ -1074,7 +1102,7 @@
               box-sizing: border-box;
               box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.07);
               border-radius: 6px;
-              width: 82%;
+              width: 120px!important;
             }
 
 
@@ -1089,6 +1117,8 @@
         border-radius: 6px;
         .ant-select-selector{
           border-radius: 6px!important;
+          width: 160px!important;
+          margin-left: 0!important;
         }
       }
 
@@ -1113,7 +1143,7 @@
           }
 
           input {
-            width: 82%!important;
+            width: 160px!important;
             background: #FFFFFF;
             border: 1px solid #E4E4E4;
             box-sizing: border-box;
@@ -1427,13 +1457,12 @@
       .user{
 
         width: 140px;
-        margin-top: 21px;
+        margin-top:-30px;
         height: 140px;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: transparent;
-        margin-left: -40%;
         border: none;
         background-image:url("../comps/uploadImg.png");
         background-size: 100%;
@@ -1474,11 +1503,8 @@
         margin-bottom: 2px;
         color: #1C1C1C;
       }
-      .ant-select-selector{
-        width: 100%!important;
-        display:flex;
-        justify-content: center!important;
-        margin: 0 auto;
+      .ant-select-selector:nth-child(1){
+
       }
       .tab-password{
         margin-top: 0;
@@ -1510,7 +1536,7 @@
 
       .tab-select:nth-child(1){
         margin-left: -80px!important;
-        width: 170px!important;
+        width: 1200px!important;
       }
 
       .tab-select{

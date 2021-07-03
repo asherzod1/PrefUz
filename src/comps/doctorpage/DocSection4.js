@@ -13,7 +13,7 @@ function DocSection4(props) {
                     bu yo’ldan qaytarishi kerak emas.
                 </div>
                 <div className="row ">
-                    <div className="col-md-4 mt-3 p-0">
+                    <div className="col-md-6 col-lg-4 mt-3 p-0">
                         <div className="cards">
                             <div className="card-smile">
                                 <img src="/image/smile-y.png" alt=""/>
@@ -29,7 +29,7 @@ function DocSection4(props) {
                            </div>
                         </div>
                     </div>
-                    <div className="col-md-4 p-0  mt-3">
+                    <div className="col-md-6  col-lg-4 p-0  mt-3">
                         <div className="cards1">
                             <div className="card-smile">
                                 <img src="/image/smilie-g.png" alt=""/>

@@ -6,10 +6,10 @@ function Doctorbody3(props) {
             <div className="container">
                 <div className="doc-SectionC">
                     <div className="row">
-                        <div className="col-md-5 p-0 com-12">
+                        <div className="col-md-12 col-lg-5 p-0 com-12">
                             <img src="/image/bola.png" alt=""/>
                         </div>
-                        <div className="col-md-7 p-0">
+                        <div className="col-md-12 col-lg-7 p-0">
                             <div className="doc-button">
                                 Shifokor uchun
                             </div>
