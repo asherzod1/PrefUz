@@ -1335,6 +1335,8 @@
     }
   }
   .spetP {
+    margin-right: 0;
+    margin-left: 0;
     .spetP-title {
       font-style: normal;
       font-weight: 800;
@@ -1350,15 +1352,17 @@
     .spetP-card {
       height: 1000px;
       margin-top: 25px;
-
+     margin-left: 0;
+      margin-right: 0;
 
       .cardP {
         margin-top: 12px;
         background: #FFFFFF;
         border: 1px solid #E7E7E7;
-        width: 94%;
-        margin-left: 3%!important;
+        width: 92%;
+       margin-left: 4%;
         height: 220px;
+        padding-left: 0;
         box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
         border-radius: 10px;
 
