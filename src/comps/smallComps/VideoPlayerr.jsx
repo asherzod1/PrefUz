@@ -1,6 +1,6 @@
 import React from 'react'
 import './scss/VideoPlayerr.scss'
-import { Player, BigPlayButton, LoadingSpinner, ControlBar, VolumeMenuButton } from 'video-react';
+import { Player, BigPlayButton, LoadingSpinner, ControlBar } from 'video-react';
 const VideoPlayerr = (props) => {
     return (
         <div>
