@@ -20,15 +20,7 @@ import {
     ModalFooter,
     Modal
 } from 'reactstrap';
-<<<<<<< HEAD
-=======
-import Link from "react-router-dom/Link";
-import {NavLink} from 'react-router-dom'
-import { Button, Input, Form, Select } from 'antd';
-import { Option } from 'antd/lib/mentions';
-import '../../styles/style.scss'
 
->>>>>>> 0147beb7f48a46d567573855f6cc710f64b9f4ed
 
 function NavbarPref(props) {
     const [isOpen, setIsOpen] = useState(false);
