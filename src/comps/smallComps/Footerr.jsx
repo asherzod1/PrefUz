@@ -1,7 +1,6 @@
 
 import React,{useState} from 'react'
-import {NavbarBrand} from "reactstrap";
-import { Collapse, Button, CardBody, Card } from 'reactstrap';
+import { Collapse, CardBody, Card } from 'reactstrap';
 
 const Footer = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -128,22 +127,22 @@ const Footer = () => {
                                     <Card>
                                         <CardBody>
                                             <div className="footer-section1">
-                                                <a href="">
+                                                <a href="https://xtv.uz">
                                                     xtv.uz
                                                 </a>
                                             </div>
                                             <div className="footer-section1">
-                                                <a href="">
+                                                <a href="https://kitob.uz">
                                                     kitob.uz
                                                 </a>
                                             </div>
                                             <div className="footer-section1">
-                                                <a href="">
+                                                <a href="https://ziyouz.com">
                                                     ziyouz.com
                                                 </a>
                                             </div>
                                             <div className="footer-section1">
-                                                <a href="">
+                                                <a href="https://ziyonet.com">
                                                     ziyonet.com
                                                 </a>
                                             </div>
@@ -152,22 +151,22 @@ const Footer = () => {
                                 </Collapse>
                             </div>
                             <div className="footer-section">
-                                <a href="">
+                                <a href="https://xtv.uz">
                                     xtv.uz
                                 </a>
                             </div>
                             <div className="footer-section">
-                                <a href="">
+                                <a href="https://kitob.uz">
                                     kitob.uz
                                 </a>
                             </div>
                             <div className="footer-section">
-                                <a href="">
+                                <a href="https://ziyo.uz">
                                     ziyouz.com
                                 </a>
                             </div>
                             <div className="footer-section">
-                                <a href="">
+                                <a href="https://ziyonet.com">
                                     ziyonet.com
                                 </a>
                             </div>
@@ -190,7 +189,7 @@ const Footer = () => {
                                                     <img src="/image/youtube.png" alt=""/>
                                                 </div>
                                                 <div className="network-title">
-                                                    <a href="">/youtube</a>
+                                                    <a href="https://youtube.com">/youtube</a>
                                                 </div>
                                             </div>
                                             <div className="network1">
@@ -198,7 +197,7 @@ const Footer = () => {
                                                     <img src="/image/facebook.png" alt=""/>
                                                 </div>
                                                 <div className="network-title">
-                                                    <a href="">
+                                                    <a href="https://facebook.com">
                                                         /facebook
                                                     </a>
                                                 </div>
@@ -208,7 +207,7 @@ const Footer = () => {
                                                     <img src="/image/instagram.png" alt=""/>
                                                 </div>
                                                 <div className="network-title">
-                                                    <a href="">
+                                                    <a href="https://instagram.com">
                                                         /instagram
                                                     </a>
                                                 </div>
@@ -222,7 +221,7 @@ const Footer = () => {
                                     <img src="/image/youtube.png" alt=""/>
                                 </div>
                                 <div className="network-title">
-                                    <a href="">/youtube</a>
+                                    <a href="https://youtube.com">/youtube</a>
                                 </div>
                             </div>
                             <div className="network">
@@ -230,7 +229,7 @@ const Footer = () => {
                                     <img src="/image/facebook.png" alt=""/>
                                 </div>
                                 <div className="network-title">
-                                    <a href="">
+                                    <a href="https://youtube.com">
                                         /facebook
                                     </a>
                                 </div>
@@ -240,7 +239,7 @@ const Footer = () => {
                                     <img src="/image/instagram.png" alt=""/>
                                 </div>
                                 <div className="network-title">
-                                    <a href="">
+                                    <a href="https://instagram.com">
                                         /instagram
                                     </a>
                                 </div>

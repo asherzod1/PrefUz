@@ -1,5 +1,5 @@
 import React from 'react';
-import {Table, TabPane} from "reactstrap";
+import {Table} from "reactstrap";
 
 function TabBody(props) {
     return (

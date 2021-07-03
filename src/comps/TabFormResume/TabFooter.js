@@ -1,5 +1,4 @@
 import React from 'react';
-import {TabPane} from "reactstrap";
 
 function TabFooter(props) {
     return (
