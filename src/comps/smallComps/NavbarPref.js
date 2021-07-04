@@ -20,11 +20,6 @@ import {
     ModalFooter,
     Modal
 } from 'reactstrap';
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 1ebf65fc642f3b171fe74f6072c8c15178bcf76e
 function NavbarPref(props) {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
@@ -64,6 +59,13 @@ function NavbarPref(props) {
         toggleModal();
         toggleModal2();
     }
+    const [til,setTil]=useState('Uzb')
+    function add() {
+      setTil("Uzb")
+    }
+    function addd() {
+        setTil("Rus")
+    }
     return (
         <div>
 
@@ -81,18 +83,24 @@ function NavbarPref(props) {
                     </Link>
                     <div className="til">
                         <UncontrolledDropdown nav inNavbar>
-                            <DropdownToggle nav caret>
-                                Uzb
+                            <DropdownToggle nav caret className="menu-til">
+                                {
+                                    til
+                                }
                             </DropdownToggle>
                             <DropdownMenu right>
                                 <DropdownItem>
-                                    Uzb
-                                </DropdownItem>
-                                <DropdownItem>
-                                    Rus
-                                </DropdownItem>
-                                <DropdownItem  />
+                                    <div onClick={add}>
+                                        Uzb
+                                    </div>
 
+                                </DropdownItem>
+                                <DropdownItem className='ru'>
+                                    <div onClick={addd}>
+                                        Rus
+                                    </div>
+
+                                </DropdownItem>
                             </DropdownMenu>
                         </UncontrolledDropdown>
                     </div>
@@ -165,16 +173,21 @@ function NavbarPref(props) {
                             </NavItem>
                             <UncontrolledDropdown nav inNavbar>
                                 <DropdownToggle nav caret>
-                                    Uzb
+                                    {
+                                        til
+                                    }
                                 </DropdownToggle>
                                 <DropdownMenu right>
                                     <DropdownItem>
-                                        Uzb
+                                        <div onClick={add}>
+                                            Uzb
+                                        </div>
                                     </DropdownItem>
                                     <DropdownItem>
-                                        Rus
+                                        <div onClick={addd}>
+                                            Rus
+                                        </div>
                                     </DropdownItem>
-                                    <DropdownItem  />
 
                                 </DropdownMenu>
                             </UncontrolledDropdown>
