@@ -111,7 +111,7 @@
     .testp-button:hover {
       background-color: white;
       color: #FFA31A;
-      border-radius: 2px solid #FFA31A;
+      border: 2px solid #FFA31A;
     }
   }
 
@@ -235,11 +235,22 @@
 
       .input-chekbox {
         position: relative;
-
         input {
-          position: absolute;
           top: -100px;
           left: 22px;
+          position: absolute;
+          display: block;
+        }
+        .jobs-checkbox{
+          top: -100px;
+          left: 22px;
+          box-sizing: border-box;
+          position: absolute;
+          width: 0;
+          height: 0!important;
+          display: block;
+          padding: 2px 130px 90px 2px;
+
         }
       }
 

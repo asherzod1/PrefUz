@@ -1,4 +1,5 @@
 import React from 'react';
+import {Checkbox} from "antd";
 
 function PrefTests(props) {
     return (
@@ -245,7 +246,8 @@ function PrefTests(props) {
                                     <div className="col-md-3 col-6 mt-2 p-0">
                                         <img src="/image/baby-1.png" alt=""/>
                                         <div className="input-chekbox">
-                                            <input type="checkbox"/>
+                                            <Checkbox className='jobs-checkbox' >
+                                            </Checkbox>
                                         </div>
                                     </div>
                                     <div className="col-md-3 col-6 mt-2 p-0">

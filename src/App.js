@@ -19,6 +19,7 @@ import TrainingElementsP from "./pages/TrainingElementsP";
 import MyResumeP from './pages/MyResumeP';
 import SaytAbout from "./pages/SaytAbout";
 import SaytContentP from "./pages/SaytContentP";
+import Pagenation from "./comps/smallComps/Pagenation";
 
 function App() {
 
@@ -74,6 +75,10 @@ function App() {
         {
             path: '/saytcontent', component: SaytContentP
         }
+        ,
+        {
+            path: '/page', component: Pagenation
+        }
     ]
     return (
         <div className="App">
@@ -82,10 +87,9 @@ function App() {
                     {routes.map(item =>
                         <Route exact path={item.path} component={item.component}/>
                     )}
-
-             <DoctorPage/>
                 </Switch>
             </BrowserRouter>
+
 
         </div>
     );
