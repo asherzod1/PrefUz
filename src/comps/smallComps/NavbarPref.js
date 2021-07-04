@@ -20,6 +20,11 @@ import {
     ModalFooter,
     Modal
 } from 'reactstrap';
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 1ebf65fc642f3b171fe74f6072c8c15178bcf76e
 function NavbarPref(props) {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
