@@ -196,7 +196,6 @@
 .tests {
 
   margin-top: 24px;
-
   .testP {
     margin-top: 24px;
     padding-bottom: 20px;
@@ -264,7 +263,9 @@
         input {
           margin-left: 12px;
         }
-
+         .jobs-checkbox{
+           padding: 5px 140px 7px 10px;
+         }
         .test-item {
           font-style: normal;
           font-weight: normal;
@@ -305,6 +306,30 @@
           }
         }
       }
+    }
+  }
+  .button-test-center{
+    display: flex;
+    justify-content: center;
+    .button-test-end{
+      margin-top: 20px;
+      width: 240px;
+      height: 50px;
+      border-radius: 10px;
+
+      cursor: pointer;
+      background-color: #FFA31A;
+      color: white;
+      font-size: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .button-test-end:hover{
+      border: 2px solid  #FFA31A;
+      color: #FFA31A;
+      background-color: white;
+
     }
   }
 }
@@ -452,7 +477,15 @@
   .tests {
 
     margin-top: 24px;
-
+    .button-test-center{
+      display: flex;
+      justify-content: center;
+      .button-test-end{
+        margin-top: 20px;
+        width: 240px;
+        height: 50px;
+      }
+    }
     .testP {
       margin-top: 24px;
       padding-right: 20px;
@@ -484,13 +517,13 @@
       .P-test {
         display: flex;
         justify-content: center;
-        margin-left: 10%;
+          margin:  0 auto;
         img {
 
 
-
+      margin: 0 auto;
           transform: scale(0.8);
-
+      margin-left: 6%;
         }
 
         .input-chekbox {
@@ -504,7 +537,7 @@
           .jobs-checkbox{
             position: absolute;
             top: -100px;
-            left: 27px;
+            left: 54px;
             color: transparent;
             padding: 2px 130px 90px 2px;
           }
@@ -513,7 +546,7 @@
         .test-input {
           margin-top: 10px;
           width: 100%;
-          margin-left: 2%;
+          margin-left: 0%;
           background: #ECECEC;
           border-radius: 4px;
           display: flex;
@@ -521,6 +554,9 @@
 
           input {
             margin-left: 12px;
+          }
+          .jobs-checkbox{
+            padding: 5px 60% 10px 7px;
           }
 
           .test-item {
@@ -715,7 +751,7 @@
     .testP {
       margin-top: 24px;
       padding-right: 20px;
-      padding-left: 60px;
+      padding-left: 20px;
       padding-top: 20px;
       padding-bottom: 20px;
       margin-left: 2%;
@@ -749,7 +785,8 @@
 
         img {
           margin-left: 18%;
-          transform: scale(0.8);
+          transform: scale(1.2);
+          margin-top: 20px;
 
         }
 
@@ -763,8 +800,8 @@
           }
       .jobs-checkbox{
         position: absolute;
-        top: -100px;
-        left: 30%;
+        top: -120px;
+        left: 20%;
       }
         }
 

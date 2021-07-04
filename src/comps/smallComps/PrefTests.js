@@ -28,78 +28,44 @@ function PrefTests(props) {
 
                             <form action="">
                                 <div className="row ">
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="item-button">
-                                    <div type='submit' className="button-item-1">
-                                        <div className="titletest">
-                                            Keyingisi
-                                        </div>
-                                        <div className="testsimg">
-                                            <img src="/image/on.png" alt=""/>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
                                 </div>
@@ -117,78 +83,44 @@ function PrefTests(props) {
 
                             <form action="">
                                 <div className="row ">
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="item-button">
-                                    <div type='submit' className="button-item-1">
-                                        <div className="titletest">
-                                            Keyingisi
-                                        </div>
-                                        <div className="testsimg">
-                                            <img src="/image/on.png" alt=""/>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
                                 </div>
@@ -206,78 +138,44 @@ function PrefTests(props) {
 
                             <form action="">
                                 <div className="row ">
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 mt-2">
+                                    <div className="col-md-3 mt-2 col-sm-6">
                                         <div className="test-input d-flex">
-                                            <input type="checkbox" name='ss'/>
-                                            <div className="test-item">
-                                                Bazan
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="item-button">
-                                    <div type='submit' className="button-item-1">
-                                        <div className="titletest">
-                                            Keyingisi
-                                        </div>
-                                        <div className="testsimg">
-                                            <img src="/image/on.png" alt=""/>
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
                                         </div>
                                     </div>
                                 </div>
@@ -295,7 +193,7 @@ function PrefTests(props) {
 
                             <form action="">
                                 <div className="row p-0">
-                                    <div className="col-md-3 col-6 mt-2 p-0">
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
                                         <img src="/image/baby-1.png" alt=""/>
                                         <div className="input-chekbox">
                                             <Checkbox className='jobs-checkbox w-0 h-0'>
@@ -303,7 +201,7 @@ function PrefTests(props) {
                                             </Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 col-6 mt-2 p-0">
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
                                         <img src="/image/baby-1.png" alt=""/>
                                         <div className="input-chekbox">
                                             <Checkbox className='jobs-checkbox w-0 h-0'>
@@ -311,7 +209,7 @@ function PrefTests(props) {
                                             </Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 col-6 mt-2 p-0">
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
                                         <img src="/image/baby-1.png" alt=""/>
                                         <div className="input-chekbox">
                                             <Checkbox className='jobs-checkbox w-0 h-0'>
@@ -319,7 +217,7 @@ function PrefTests(props) {
                                             </Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 col-6 mt-2 p-0">
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
                                         <img src="/image/baby-1.png" alt=""/>
                                         <div className="input-chekbox">
                                             <Checkbox className='jobs-checkbox w-0 h-0'>
@@ -327,7 +225,7 @@ function PrefTests(props) {
                                             </Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 col-6 mt-2 p-0">
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
                                         <img src="/image/baby-1.png" alt=""/>
                                         <div className="input-chekbox">
                                             <Checkbox className='jobs-checkbox w-0 h-0'>
@@ -335,7 +233,7 @@ function PrefTests(props) {
                                             </Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 col-6 mt-2 p-0">
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
                                         <img src="/image/baby-1.png" alt=""/>
                                         <div className="input-chekbox">
                                             <Checkbox className='jobs-checkbox w-0 h-0'>
@@ -343,15 +241,7 @@ function PrefTests(props) {
                                             </Checkbox>
                                         </div>
                                     </div>
-                                    <div className="col-md-3 col-6 mt-2 p-0">
-                                        <img src="/image/baby-1.png" alt=""/>
-                                        <div className="input-chekbox">
-                                            <Checkbox className='jobs-checkbox w-0 h-0'>
-                                              Salom
-                                            </Checkbox>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-3 col-6 mt-2 p-0">
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
                                         <img src="/image/baby-1.png" alt=""/>
                                         <div className="input-chekbox">
                                             <Checkbox className='jobs-checkbox w-0 h-0'>
@@ -359,15 +249,12 @@ function PrefTests(props) {
                                             </Checkbox>
                                         </div>
                                     </div>
-                                </div>
-
-                                <div className="item-button">
-                                    <div type='submit' className="button-item-1">
-                                        <div className="titletest">
-                                            Keyingisi
-                                        </div>
-                                        <div className="testsimg">
-                                            <img src="/image/on.png" alt=""/>
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
                                         </div>
                                     </div>
                                 </div>
@@ -376,6 +263,413 @@ function PrefTests(props) {
 
                         </div>
                     </div>
+                    <div className="testP">
+                        <div className="test-sec-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur debitis deserunt
+                            doloremque eum, laborum vel? Asperiores laboriosam omnis quas ratione.
+                        </div>
+                        <div className="P-test ">
+
+                            <form action="">
+                                <div className="row p-0">
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+
+                        </div>
+                    </div>
+                    <div className="testP">
+                        <div className="test-sec-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur debitis deserunt
+                            doloremque eum, laborum vel? Asperiores laboriosam omnis quas ratione.
+                        </div>
+                        <div className="P-test ">
+
+                            <form action="">
+                                <div className="row p-0">
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+
+                        </div>
+                    </div>
+                    <div className="testP">
+                        <div className="test-sec-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur debitis deserunt
+                            doloremque eum, laborum vel? Asperiores laboriosam omnis quas ratione.
+                        </div>
+                        <div className="P-test ">
+
+                            <form action="">
+                                <div className="row p-0">
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-3 col-6 mt-2 p-0">
+                                        <img src="/image/baby-1.png" alt=""/>
+                                        <div className="input-chekbox">
+                                            <Checkbox className='jobs-checkbox w-0 h-0'>
+                                                Salom
+                                            </Checkbox>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+
+                        </div>
+                    </div>
+                    <div className="testP">
+                        <div className="test-sec-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur debitis deserunt
+                            doloremque eum, laborum vel? Asperiores laboriosam omnis quas ratione.
+                        </div>
+                        <div className="P-test ">
+
+                            <form action="">
+                                <div className="row ">
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+
+                        </div>
+                    </div>
+                    <div className="testP">
+                        <div className="test-sec-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur debitis deserunt
+                            doloremque eum, laborum vel? Asperiores laboriosam omnis quas ratione.
+                        </div>
+                        <div className="P-test ">
+
+                            <form action="">
+                                <div className="row ">
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+
+                        </div>
+                    </div>
+                    <div className="testP">
+                        <div className="test-sec-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur debitis deserunt
+                            doloremque eum, laborum vel? Asperiores laboriosam omnis quas ratione.
+                        </div>
+                        <div className="P-test ">
+
+                            <form action="">
+                                <div className="row ">
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3 mt-2 col-sm-6">
+                                        <div className="test-input d-flex">
+                                            <Checkbox className='jobs-checkbox' >Checkbox</Checkbox>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+
+                        </div>
+                    </div>
+                   <div className="button-test-center">
+                       <div className="button-test-end">
+                           Testni tugatish
+                       </div>
+                   </div>
                 </div>
             </dic>
         </div>
