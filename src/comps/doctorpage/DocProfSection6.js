@@ -1,6 +1,14 @@
-import React from 'react';
-
+import React,{useEffect, useState} from 'react';
+import axios from "axios";
 function DocProfSection6(props) {
+    const [state, usState]=useState([])
+    useEffect(()=>{
+       axios.get("https://nimadir.herokuapp.com/api/employee")
+           .then((res)=>{
+                 console.log(res)
+           })
+
+    },[])
     return (
         <div>
             <div className="container">
