@@ -23,7 +23,7 @@ const HomeC = () => {
                                 </div>
                                 <div className="col-md-4 col-lg-5 col-sm-0 home-banner-r">
                                     <div className="home-banner-right">
-                                        <img src="/images/Home/image.png" alt="" />
+                                        <img src="/images/Home/image.png" alt="rasm" />
                                         <img src="/images/Home/word.png" alt="" />
                                         <img src="/images/Home/word4.png" alt="" />
                                         <img src="/images/Home/word3.png" alt="" />

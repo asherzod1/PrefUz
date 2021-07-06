@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import { getText } from '../../locales';
 
 function RezumeCreat1(props) {
     return (
@@ -13,7 +14,7 @@ function RezumeCreat1(props) {
                       <div className="row">
                           <div className="col-md-6 col-12 col-sm-12">
                               <div className="rezumecr-H-title">
-                                  Rezume yaratish
+                                  {getText('rezume_create')}
                               </div>
                               <div className="rezumecr-H-text">
                                   Online konstruktor orqali rezume yarating. Lorem ipsum dolor sit amet, consectetur

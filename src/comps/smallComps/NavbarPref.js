@@ -20,6 +20,7 @@ import {
     ModalFooter,
     Modal
 } from 'reactstrap';
+import { SITE_LANG } from '../../tools/constants';
 
 function NavbarPref(props) {
     const [isOpen, setIsOpen] = useState(false);
@@ -61,16 +62,10 @@ function NavbarPref(props) {
     }
     const [til, setTil] = useState('Uzb')
 
-    function add() {
-        setTil("Uzb")
-        localStorage.setItem("lang", "Uz");
+    const setLang = (lang) => {
+        localStorage.setItem(SITE_LANG, lang);
+        window.location.reload();
     }
-
-    function addd() {
-        localStorage.setItem("lang", "Ru");
-        setTil("Rus")
-    }
-
     return (
         <div>
 
@@ -95,14 +90,20 @@ function NavbarPref(props) {
                             </DropdownToggle>
                             <DropdownMenu right>
                                 <DropdownItem>
-                                    <div onClick={add}>
-                                        Uzb
+                                    <div onClick={() => setLang('uz')}>
+                                        Uz
                                     </div>
 
                                 </DropdownItem>
                                 <DropdownItem className='ru'>
-                                    <div onClick={addd}>
-                                        Rus
+                                    <div onClick={() => setLang('ru')}>
+                                        Ru
+                                    </div>
+
+                                </DropdownItem>
+                                <DropdownItem className='ru'>
+                                    <div onClick={() => setLang('en')}>
+                                        En
                                     </div>
 
                                 </DropdownItem>
@@ -184,16 +185,20 @@ function NavbarPref(props) {
                                 </DropdownToggle>
                                 <DropdownMenu right>
                                     <DropdownItem>
-                                        <div onClick={add}>
-                                            Uzb
+                                        <div onClick={() => setLang('uz')}>
+                                            Uz
                                         </div>
                                     </DropdownItem>
                                     <DropdownItem>
-                                        <div onClick={addd}>
-                                            Rus
+                                        <div onClick={() => setLang('ru')}>
+                                            Ru
                                         </div>
                                     </DropdownItem>
-
+                                    <DropdownItem>
+                                        <div onClick={() => setLang('en')}>
+                                            En
+                                        </div>
+                                    </DropdownItem>
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                             <UncontrolledDropdown nav inNavbar>
