@@ -86,6 +86,7 @@ $Inter: 'Inter', sans-serif;
                 padding: 22px 42px 38px 42px;
                 h3{
                     margin-bottom: 36px;
+                    color: #1C1C1C;
                 }
                 p{
                     text-align: left;
@@ -118,7 +119,8 @@ $Inter: 'Inter', sans-serif;
                 border-radius: 16px;
                 padding: 22px 16px 27px 30px;
                 h3{
-                    margin-bottom: 340px;
+                    margin-bottom: 30px;
+                    color: #1C1C1C;
                 }
             }
         }
@@ -217,7 +219,9 @@ $Inter: 'Inter', sans-serif;
     }
 }
 
-
+.recharts-polar-angle-axis-tick{
+    width: 50px;
+}
 
 
 

@@ -90,19 +90,19 @@ function NavbarPref(props) {
                             </DropdownToggle>
                             <DropdownMenu right>
                                 <DropdownItem>
-                                    <div onClick={() => setLang('uz')}>
+                                    <div onClick={() => setLang('Uz')}>
                                         Uz
                                     </div>
 
                                 </DropdownItem>
                                 <DropdownItem className='ru'>
-                                    <div onClick={() => setLang('ru')}>
+                                    <div onClick={() => setLang('Ru')}>
                                         Ru
                                     </div>
 
                                 </DropdownItem>
                                 <DropdownItem className='ru'>
-                                    <div onClick={() => setLang('en')}>
+                                    <div onClick={() => setLang('En')}>
                                         En
                                     </div>
 
@@ -185,17 +185,17 @@ function NavbarPref(props) {
                                 </DropdownToggle>
                                 <DropdownMenu right>
                                     <DropdownItem>
-                                        <div onClick={() => setLang('uz')}>
+                                        <div onClick={() => setLang('Uz')}>
                                             Uz
                                         </div>
                                     </DropdownItem>
                                     <DropdownItem>
-                                        <div onClick={() => setLang('ru')}>
+                                        <div onClick={() => setLang('Ru')}>
                                             Ru
                                         </div>
                                     </DropdownItem>
                                     <DropdownItem>
-                                        <div onClick={() => setLang('en')}>
+                                        <div onClick={() => setLang('En')}>
                                             En
                                         </div>
                                     </DropdownItem>
