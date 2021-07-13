@@ -60,11 +60,20 @@ function NavbarPref(props) {
         toggleModal();
         toggleModal2();
     }
-    const [til, setTil] = useState('Uzb')
+    const [til, setTil] = useState('Uz')
 
     const setLang = (lang) => {
         localStorage.setItem(SITE_LANG, lang);
         window.location.reload();
+    }
+    function addd() {
+        setTil("En")
+    }
+    function add() {
+        setTil("Uz")
+    }
+    function ad() {
+        setTil("Ru")
     }
     return (
         <div>
@@ -73,7 +82,7 @@ function NavbarPref(props) {
                 <div className="container">
                     <Link to='/'>
                         <NavbarBrand className='d-flex align-items-center' href="/">
-                            <div className="brand-nav d-flex ">
+                               <div className="brand-nav d-flex ">
                                 <img src="/image/Prof.png" alt=""/>
                             </div>
                             <div className="brand-body mt-1">
@@ -90,19 +99,19 @@ function NavbarPref(props) {
                             </DropdownToggle>
                             <DropdownMenu right>
                                 <DropdownItem>
-                                    <div onClick={() => setLang('uz')}>
+                                    <div onClick={() => {setLang('uz') ; add()}}>
                                         Uz
                                     </div>
 
                                 </DropdownItem>
                                 <DropdownItem className='ru'>
-                                    <div onClick={() => setLang('ru')}>
+                                    <div onClick={() => { setLang('ru') ; ad()}}>
                                         Ru
                                     </div>
 
                                 </DropdownItem>
                                 <DropdownItem className='ru'>
-                                    <div onClick={() => setLang('en')}>
+                                    <div onClick={() =>{ setLang('en') ; addd()}}>
                                         En
                                     </div>
 
@@ -185,17 +194,17 @@ function NavbarPref(props) {
                                 </DropdownToggle>
                                 <DropdownMenu right>
                                     <DropdownItem>
-                                        <div onClick={() => setLang('uz')}>
+                                        <div onClick={() => {setLang('uz');add()}}>
                                             Uz
                                         </div>
                                     </DropdownItem>
                                     <DropdownItem>
-                                        <div onClick={() => setLang('ru')}>
+                                        <div onClick={() => {setLang('ru'); ad()}}>
                                             Ru
                                         </div>
                                     </DropdownItem>
                                     <DropdownItem>
-                                        <div onClick={() => setLang('en')}>
+                                        <div onClick={() => {setLang('en');addd()}}>
                                             En
                                         </div>
                                     </DropdownItem>

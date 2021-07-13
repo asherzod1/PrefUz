@@ -117,88 +117,97 @@ function ResumeTabCreatForm(props) {
                                             <Form {...layout} name="nest-messages" onFinish={onFinish}
                                                   validateMessages={validateMessages}>
                                                 <div className="row">
-                                                    <div className="col-12 col-lg-4 col-md-4 col-sm-4">
-                                                        <div className="name">
-                                                            Ismingiz
-                                                        </div>
-                                                        <Form.Item
-                                                            name={['user', 'name']}
-                                                            rules={[
-                                                                {
-                                                                    required: true,
-                                                                },
-                                                            ]}
-                                                        >
-                                                            <Input/>
-                                                        </Form.Item>
-                                                    </div>
-                                                    <div className="col-12 col-lg-4 col-md-4 col-sm-4">
-                                                        <div className="name">
-                                                            Ismingiz
-                                                        </div>
-                                                        <Form.Item
-                                                            name={['user', 'name']}
-                                                            rules={[
-                                                                {
-                                                                    required: true,
-                                                                },
-                                                            ]}
-                                                        >
-                                                            <Input/>
-                                                        </Form.Item>
-                                                    </div>
-                                                    <div className="col-12 col-lg-4 col-md-4 col-sm-4">
-                                                        <div className="user">
-                                                            <Form.Item
-                                                                name="upload"
-                                                                label=""
-                                                                valuePropName="fileList"
-                                                                getValueFromEvent={normFile}
+                                                    <div className="col-md-8 col-8 col-sm-8 col-lg-8">
+                                                       <div className="row">
+                                                           <div className="col-12 col-lg-6 col-md-6 col-sm-12">
+                                                               <div className="name">
+                                                                   Ismingiz
+                                                               </div>
+                                                               <Form.Item
+                                                                   name={['user', 'name']}
+                                                                   rules={[
+                                                                       {
+                                                                           required: true,
+                                                                       },
+                                                                   ]}
+                                                               >
+                                                                   <Input/>
+                                                               </Form.Item>
+                                                           </div>
+                                                           <div className="col-12 col-lg-6 col-md-6 col-sm-12">
+                                                               <div className="name">
+                                                                   Ismingiz
+                                                               </div>
+                                                               <Form.Item
+                                                                   name={['user', 'name']}
+                                                                   rules={[
+                                                                       {
+                                                                           required: true,
+                                                                       },
+                                                                   ]}
+                                                               >
+                                                                   <Input/>
+                                                               </Form.Item>
+                                                           </div>
+                                                           <div className="col-md-6 col-lg-6 col-12 col-sm-12 ">
+                                                               <div className="name">
+                                                                   Ismingiz
+                                                               </div>
+                                                               <Form.Item
+                                                                   name={['user', 'name']}
+                                                                   rules={[
+                                                                       {
+                                                                           required: true,
+                                                                       },
+                                                                   ]}
+                                                               >
+                                                                   <Input/>
+                                                               </Form.Item>
 
-                                                            >
-                                                                <Upload name="userImage" action="/upload.do"
-                                                                        listType="picture">
-                                                                    <Button className='img-upload'>
-                                                                        <img src="/images/" alt=""/>
-                                                                    </Button>
-                                                                </Upload>
-                                                            </Form.Item>
-                                                        </div>
+                                                           </div>
+                                                           <div className="col-md-6  col-lg-6  col-12 col-sm-12 ">
+                                                               <div className="name">
+                                                                   Familyangizni kiriting
+                                                               </div>
+                                                               <Form.Item
+                                                                   name={['user', 'name']}
+                                                                   rules={[
+                                                                       {
+                                                                           required: true,
+                                                                       },
+                                                                   ]}
+                                                               >
+                                                                   <Input/>
+                                                               </Form.Item>
+                                                           </div>
+                                                       </div>
                                                     </div>
-                                                    <div className="col-md-12 col-12 col-sm-12 col-lg-12">
+                                                    <div className="col-lg-4 col sm-4 col-md-4 col-4">
                                                         <div className="row">
-                                                            <div className="col-md-4 col-lg-4 col-12 col-sm-4 ">
-                                                                <div className="name">
-                                                                    Ismingiz
-                                                                </div>
-                                                                <Form.Item
-                                                                    name={['user', 'name']}
-                                                                    rules={[
-                                                                        {
-                                                                            required: true,
-                                                                        },
-                                                                    ]}
-                                                                >
-                                                                    <Input/>
-                                                                </Form.Item>
+                                                            <div className="col-12 col-lg-12 col-md-12 col-sm-12">
+                                                                <div className="user">
+                                                                    <Form.Item
+                                                                        name="upload"
+                                                                        label=""
+                                                                        valuePropName="fileList"
+                                                                        getValueFromEvent={normFile}
 
-                                                            </div>
-                                                            <div className="col-md-4  col-lg-4  col-12 col-sm-4 ">
-                                                                <div className="name">
-                                                                    Familyangizni kiriting
+                                                                    >
+                                                                        <Upload name="userImage" action="/upload.do"
+                                                                                listType="picture">
+                                                                            <Button className='img-upload'>
+                                                                                <img src="/images/" alt=""/>
+                                                                            </Button>
+                                                                        </Upload>
+                                                                    </Form.Item>
                                                                 </div>
-                                                                <Form.Item
-                                                                    name={['user', 'name']}
-                                                                    rules={[
-                                                                        {
-                                                                            required: true,
-                                                                        },
-                                                                    ]}
-                                                                >
-                                                                    <Input/>
-                                                                </Form.Item>
                                                             </div>
-                                                            <div className="col-2"></div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                                        <div className="row">
                                                             <div className="col-md-4 col-lg-4 col-12 col-sm-4">
                                                                 <div className="name">
                                                                     Viloyat
@@ -300,7 +309,7 @@ function ResumeTabCreatForm(props) {
                                                                     Aa
                                                                 </div>
                                                                 <div className="tab-select">
-                                                                    <Select  style={{width: 160,}}
+                                                                    <Select style={{width: 160,}}
                                                                             onChange={handleChange}>
                                                                         <Option value="Buxoro">Buxoro</Option>
                                                                         <Option value="Andijon">Andijon</Option>
@@ -397,8 +406,8 @@ function ResumeTabCreatForm(props) {
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                </div>
+
+
                                             </Form>
 
                                         </div>

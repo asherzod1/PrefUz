@@ -1,6 +1,13 @@
-import React from 'react';
+import React,{useEffect,useState} from 'react';
+import axios from "axios";
 
 function DoctorPageSection2(props) {
+    useEffect(()=> {
+        axios.get('http://195.158.24.249:2030/api/auth/trainings')
+            .then(res=>{
+                console.log(res)
+            })
+    },[])
     return (
         <div>
              <div className="container">

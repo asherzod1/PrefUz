@@ -3,7 +3,7 @@ import axios from "axios";
 function DocProfSection6(props) {
     const [state, usState]=useState([])
     useEffect(()=>{
-       axios.get("https://nimadir.herokuapp.com/api/employee")
+       axios.get("http://195.158.24.249:2030/api/auth/professions")
            .then((res)=>{
                  console.log(res)
            })

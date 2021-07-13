@@ -20,7 +20,7 @@ import MyResumeP from './pages/MyResumeP';
 import SaytAbout from "./pages/SaytAbout";
 import SaytContentP from "./pages/SaytContentP";
 import Pagenation from "./comps/smallComps/Pagenation";
-
+import Test from "./Test";
 function App() {
 
     const routes = [
@@ -88,6 +88,7 @@ function App() {
                         <Route exact path={item.path} component={item.component}/>
                     )}
                 </Switch>
+
             </BrowserRouter>
 
 
