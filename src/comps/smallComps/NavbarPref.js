@@ -65,6 +65,7 @@ function NavbarPref(props) {
     const setLang = (lang) => {
         localStorage.setItem(SITE_LANG, lang);
         window.location.reload();
+        setTil(lang)
     }
     function addd() {
         setTil("En")
@@ -99,31 +100,19 @@ function NavbarPref(props) {
                             </DropdownToggle>
                             <DropdownMenu right>
                                 <DropdownItem>
-<<<<<<< HEAD
-                                    <div onClick={() => {setLang('uz') ; add()}}>
-=======
                                     <div onClick={() => setLang('Uz')}>
->>>>>>> 260b5f231fe9d30e0fb00b7d24f278cca74b6140
                                         Uz
                                     </div>
 
                                 </DropdownItem>
                                 <DropdownItem className='ru'>
-<<<<<<< HEAD
-                                    <div onClick={() => { setLang('ru') ; ad()}}>
-=======
                                     <div onClick={() => setLang('Ru')}>
->>>>>>> 260b5f231fe9d30e0fb00b7d24f278cca74b6140
                                         Ru
                                     </div>
 
                                 </DropdownItem>
                                 <DropdownItem className='ru'>
-<<<<<<< HEAD
-                                    <div onClick={() =>{ setLang('en') ; addd()}}>
-=======
                                     <div onClick={() => setLang('En')}>
->>>>>>> 260b5f231fe9d30e0fb00b7d24f278cca74b6140
                                         En
                                     </div>
 
@@ -206,29 +195,17 @@ function NavbarPref(props) {
                                 </DropdownToggle>
                                 <DropdownMenu right>
                                     <DropdownItem>
-<<<<<<< HEAD
-                                        <div onClick={() => {setLang('uz');add()}}>
-=======
                                         <div onClick={() => setLang('Uz')}>
->>>>>>> 260b5f231fe9d30e0fb00b7d24f278cca74b6140
                                             Uz
                                         </div>
                                     </DropdownItem>
                                     <DropdownItem>
-<<<<<<< HEAD
-                                        <div onClick={() => {setLang('ru'); ad()}}>
-=======
                                         <div onClick={() => setLang('Ru')}>
->>>>>>> 260b5f231fe9d30e0fb00b7d24f278cca74b6140
                                             Ru
                                         </div>
                                     </DropdownItem>
                                     <DropdownItem>
-<<<<<<< HEAD
-                                        <div onClick={() => {setLang('en');addd()}}>
-=======
                                         <div onClick={() => setLang('En')}>
->>>>>>> 260b5f231fe9d30e0fb00b7d24f278cca74b6140
                                             En
                                         </div>
                                     </DropdownItem>
