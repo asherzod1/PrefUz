@@ -1,9 +1,52 @@
 import React from 'react'
 import Link from 'react-router-dom/Link'
 import { Progress } from 'reactstrap'
+import  { PureComponent } from 'react';
+import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer } from 'recharts';
+
 import '../styles/HomeC.scss'
 import '../styles/TestResult.scss'
+
 const TestResultC = () => {
+
+    const data = [
+    {
+        A: 20,
+        subject:  `Odamlar bilan muloqot`,
+        B: 120,
+        fullMark: 150,
+    },
+    {
+        subject: 'Fikrlash, tahlil',
+        A: 98,
+        B: 130,
+        fullMark: 150,
+    },
+    {
+        subject: 'Ijodkorlik',
+        A: 86,
+        B: 130,
+        fullMark: 150,
+    },
+    {
+        subject: 'Muammoga yechim topish',
+        A: 99,
+        B: 100,
+        fullMark: 150,
+    },
+    {
+        subject: 'Aniq fanlar',
+        A: 85,
+        B: 90,
+        fullMark: 150,
+    },
+    {
+        subject: 'Jismoniy quvvat',
+        A: 65,
+        B: 85,
+        fullMark: 150,
+    },
+    ];    
     return (
         <div>
             <div className="testResult">
@@ -107,6 +150,16 @@ const TestResultC = () => {
                                     <div className="col-sm-12 col-md-12 col-lg-6">
                                         <div className="c2-right">
                                             <h3>Sizdagi qobilyatlar</h3>
+                                            <div style={{width:'200opx', height:'307px'}}>
+                                                <ResponsiveContainer width="100%" height="100%">
+                                                    <RadarChart cx="50%" cy="50%" outerRadius="80%" data={data}>
+                                                    <PolarGrid />
+                                                    <PolarAngleAxis dataKey="subject" />
+                                                    <PolarRadiusAxis />
+                                                    <Radar name="Mike" dataKey="A" stroke="#8884d8" fill="#8884d8" fillOpacity={0.6} />
+                                                    </RadarChart>
+                                                </ResponsiveContainer>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

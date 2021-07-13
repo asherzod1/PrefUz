@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {Link} from "react-router-dom";
-import { getText } from '../../locales';
+import { getLang, getText, Lang } from '../../locales';
 
 function RezumeCreat1(props) {
     return (
         <div>
             <div className="docP-header">
-
+            {console.log(Lang)}
             </div>
           <div className="rezumeCr-header">
               <div className="rezumecr-H">
@@ -17,7 +17,7 @@ function RezumeCreat1(props) {
                                   {getText('rezume_create')}
                               </div>
                               <div className="rezumecr-H-text">
-                                  Online konstruktor orqali rezume yarating. Lorem ipsum dolor sit amet, consectetur
+                                  Online{Lang} konstruktor orqali rezume yarating. Lorem ipsum dolor sit amet, consectetur
                                   adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                                   enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                                   commodo consequat. Duis aute irure dolor in reprehenderit
